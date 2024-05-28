@@ -19,25 +19,13 @@ def buscar_documentos():
 
     allDocsUrl = f"https://api.elsevier.com/content/search/scopus?query={afidQuery}&count=100&APIKey={API_KEY}"
 
-    response = requests.get(allDocsUrl, verify=False)
+    response = requests.get(allDocsUrl, verify=True)
     allDocsResult = response.json()
 
     if allDocsResult["search-results"] and allDocsResult["search-results"]["entry"]:
-        totalAllDocs = int(allDocsResult["search-results"]["opensearch:totalResults"])
-        return totalAllDocs
+        allDocs = allDocsResult["search-results"]["entry"]
+        return allDocs
     else:
         return jsonify({"error": "No se pudieron obtener los documentos correctamente"})
 
-def buscar_documentos_afiliacion():
-    affiliationAFID = "60110778"  # AF-ID de la Universidad de Ciencias y Humanidades
 
-    affiliationDocsUrl = f"https://api.elsevier.com/content/search/scopus?query=AF-ID({affiliationAFID})&affiliation={affiliationAFID}&count=0&APIKey={API_KEY}"
-
-    response = requests.get(affiliationDocsUrl, verify=False)
-    affiliationDocsResult = response.json()
-
-    if affiliationDocsResult["search-results"]:
-        totalAffiliationDocs = int(affiliationDocsResult["search-results"]["opensearch:totalResults"])
-        return totalAffiliationDocs
-    else:
-        return jsonify({"error": "No se pudo obtener el total de documentos de afiliación"})
