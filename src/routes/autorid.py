@@ -13,7 +13,6 @@ def buscar_autores_por_ids(author_ids):
         if response.status_code != 200:
             autores[author_id] = {"error": f"La API devolvió un error con el código de estado {response.status_code}"}
             continue
-        
         try:
             data = xmltodict.parse(response.content)
             given_name = data['author-retrieval-response']['author-profile']['preferred-name']['given-name']
