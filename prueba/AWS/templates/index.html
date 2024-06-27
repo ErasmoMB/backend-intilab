@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subida y Visualización de Imágenes desde S3</title>
+  </head>
+  <body>
+    <h1>Subida y Visualización de Imágenes desde S3</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+      <input type="submit" value="Subir" />
+    </form>
+
+    <h2>Imágenes Subidas:</h2>
+    <ul>
+      {% for image in images %}
+      <li>
+        <img src="{{ image }}" alt="Imagen" />
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

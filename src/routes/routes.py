@@ -3,7 +3,6 @@ from .autores import buscar_autores
 from .documentos import buscar_documentos
 from .documentos_afiliados import buscar_documentos_afiliacion
 from .autorid import buscar_autores_por_ids
-from ..database import create_author, get_authors, get_author, delete_author, update_author
 
 bp = Blueprint('routes', __name__)
 
@@ -55,28 +54,3 @@ def get_inti_lab_documents():
         return jsonify({"documentos": documentos})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-@bp.route("/authors", methods=["POST"])
-def create_author_route():
-    id = request.form.get("id")
-    image = request.files.get("image")  # La imagen es un archivo
-    academic_degrees = request.form.getlist("academic_degrees")  # Los grados académicos son opcionales y pueden ser múltiples
-    return create_author(id, image, academic_degrees)
-
-@bp.route("/authors", methods=["GET"])
-def get_authors_route():
-    return get_authors()
-
-@bp.route("/authors/<id>", methods=["GET"])
-def get_author_route(id):
-    return get_author(id)
-
-@bp.route("/authors/<id>", methods=["DELETE"])
-def delete_author_route(id):
-    return delete_author(id)
-
-@bp.route("/authors/<id>", methods=["PUT"])
-def update_author_route(id):
-    image = request.files.get("image", None)  # La imagen es un archivo
-    academic_degrees = request.form.getlist("academic_degrees")  # Los grados académicos son opcionales y pueden ser múltiples
-    return update_author(id, image, academic_degrees)

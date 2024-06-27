@@ -1,0 +1,156 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Investigadores</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Gestión de Investigadores</h1>
+
+      <h2>Lista de Investigadores</h2>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Grado Académico</th>
+              <!-- Nueva columna -->
+              <th>Imagen</th>
+            </tr>
+          </thead>
+          <tbody id="investigadores-list">
+            <!-- Aquí se mostrarán los investigadores -->
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Agregar Nuevo Investigador</h2>
+      <form id="nuevo-investigador-form">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            name="nombre"
+            required
+          />
+        </div>
+        <!-- Actualización del formulario para incluir grado académico -->
+        <div class="form-group">
+          <label for="grado_academico">Grado Académico:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="grado_academico"
+            name="grado_academico"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="imagen">Imagen:</label>
+          <input
+            type="file"
+            class="form-control"
+            id="imagen"
+            name="imagen"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Agregar Investigador
+        </button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      // Script para interactuar con la API Flask
+      $(document).ready(function () {
+        // Obtener la lista de investigadores al cargar la página
+        $.get("/investigadores", function (data) {
+          data.forEach(function (investigador) {
+            var imagenUrl = "/uploads/" + investigador.ruta_imagen;
+            var gradoAcademico = investigador.grado_academico; // Usa directamente el grado académico sin intentar unir
+            $("#investigadores-list").append(
+              "<tr><td>" +
+                investigador.nombre +
+                "</td><td>" +
+                gradoAcademico +
+                '</td><td><img src="' +
+                imagenUrl +
+                '" width="100"></td></tr>'
+            );
+          });
+        });
+
+        // Manejar el envío del formulario para agregar un nuevo investigador
+        $("#nuevo-investigador-form").submit(function (event) {
+          event.preventDefault();
+          var formData = new FormData(this);
+          $.ajax({
+            type: "POST",
+            url: "/investigadores",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+              // Asegúrate de que la respuesta incluya todos los datos necesarios
+              var imagenUrl = "/uploads/" + response.result.ruta_imagen; // Ajusta según la estructura de la respuesta
+              $("#investigadores-list").append(
+                "<tr><td>" +
+                  response.result.nombre + // Asegúrate de que 'response.result' tenga los datos correctos
+                  "</td><td>" +
+                  response.result.grado_academico + // Usa 'response.result.grado_academico'
+                  '</td><td><img src="' +
+                  imagenUrl +
+                  '" width="100"></td></tr>'
+              );
+              $("#nuevo-investigador-form").trigger("reset"); // Limpia el formulario después de la inserción
+            },
+            error: function (error) {
+              console.error(
+                "Error al agregar investigador:",
+                error.responseJSON.error
+              );
+            },
+          });
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        cargarInvestigadores();
+      });
+
+      function cargarInvestigadores() {
+        fetch("/investigadores")
+          .then((response) => response.json())
+          .then((data) => {
+            const tbody = document.getElementById("investigadores-list");
+            tbody.innerHTML = ""; // Limpiar la lista actual
+            data.forEach((investigador) => {
+              const gradosAcademicos =
+                investigador.grados_academicos.join(", "); // Une los grados académicos con coma
+              const tr = document.createElement("tr");
+              tr.innerHTML = `
+                    <td>${investigador.nombre}</td>
+                    <td>${gradosAcademicos}</td> <!-- Agrega la columna de grados académicos -->
+                    <td><img src="/uploads/${investigador.ruta_imagen}" alt="Imagen de ${investigador.nombre}" width="50"></td>
+                `;
+              tbody.appendChild(tr);
+            });
+          })
+          .catch((error) =>
+            console.error("Error al cargar los investigadores:", error)
+          );
+      }
+    </script>
+  </body>
+</html>
