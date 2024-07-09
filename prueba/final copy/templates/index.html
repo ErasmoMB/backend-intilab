@@ -11,45 +11,20 @@
   </head>
   <body>
     <div class="container mt-4">
-      <h1>Gestión de Investigadores</h1>
-
-      <h2>Lista de Investigadores</h2>
-      <div class="table-responsive">
-        <table class="table table-dark">
-          <thead>
-            <tr>
-              <th>Nombre</th>
-              <th>Grado Académico</th>
-              <th>Imagen</th>
-            </tr>
-          </thead>
-          <tbody id="investigadores-list">
-            <!-- Aquí se mostrarán los investigadores -->
-            {% for investigador in investigadores %}
-            <tr>
-              <td>{{ investigador.nombre }}</td>
-              <td>
-                {% for grado in investigador.grado_academico %} {{ grado }} {%
-                if not loop.last %}{% endif %} {% endfor %}
-                <br />
-              </td>
-              <td><img src="{{ investigador.ruta_imagen }}" width="100" /></td>
-            </tr>
-            {% endfor %}
-          </tbody>
-        </table>
-      </div>
-
-      <h2>Seleccionar Autor</h2>
-      <select class="form-control" id="autores">
-        <option value="" selected disabled>Seleccione un autor</option>
-        {% for id, autor in autores.items() %}
-        <option value="{{ id }}">{{ autor.name }}</option>
-        {% endfor %}
-      </select>
+      <h1 class="mb-4">Gestión de Investigadores</h1>
 
       <h2>Agregar Nuevo Investigador</h2>
       <form id="nuevo-investigador-form" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            name="nombre"
+            required
+          />
+        </div>
         <div class="form-group">
           <label for="grado_academico">Grados Académicos:</label>
           <div id="grados_academicos_container">
@@ -67,10 +42,15 @@
           >
             Agregar otro grado académico
           </button>
+          <button
+            type="button"
+            id="remove-grado-academico"
+            class="btn btn-secondary mt-2"
+          >
+            Eliminar último grado académico
+          </button>
         </div>
         <div class="form-group">
-          <!-- Campo oculto para almacenar el ID del autor seleccionado -->
-          <input type="hidden" id="autor_id" name="autor_id" />
           <label for="imagen">Imagen:</label>
           <input
             type="file"
@@ -81,74 +61,135 @@
             required
           />
         </div>
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" class="btn btn-primary" id="submit-btn">
           Agregar Investigador
         </button>
+        <input type="hidden" id="investigador-id" name="investigador_id" />
       </form>
+
+      <h2 class="mt-5">Lista de Investigadores</h2>
+      <div class="table-responsive">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Grado Académico</th>
+              <th>Imagen</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="investigadores-list">
+            <!-- Aquí se mostrarán los investigadores -->
+            {% for investigador in investigadores %}
+            <tr data-id="{{ investigador._id }}">
+              <td>{{ investigador.nombre }}</td>
+              <td>{{ investigador.grado_academico | join(', ') }}</td>
+              <td><img src="{{ investigador.ruta_imagen }}" width="100" /></td>
+              <td>
+                <button class="btn btn-warning btn-sm editar-investigador">
+                  Editar
+                </button>
+                <button class="btn btn-danger btn-sm eliminar-investigador">
+                  Eliminar
+                </button>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
       $(document).ready(function () {
-        // Cargar lista de autores al inicio
-        $.getJSON("http://localhost:5000/autor", function (data) {
-          var select = $("#autores");
-          $.each(data.autores, function (id, author) {
-            select.append(
-              '<option value="' + id + '">' + author.name + "</option>"
-            );
-          });
-        });
-
-        // Función para agregar otro campo de grado académico
+        // Añadir un nuevo campo de grado académico
         $("#add-grado-academico").click(function () {
           $("#grados_academicos_container").append(
             '<input type="text" class="form-control grado_academico mt-2" name="grado_academico" required />'
           );
         });
 
-        // Manejar cambio en la selección del autor
-        $("#autores").change(function () {
-          var selectedId = $(this).val();
-          $("#autor_id").val(selectedId); // Asignar el ID del autor al campo oculto
+        // Eliminar el último campo de grado académico
+        $("#remove-grado-academico").click(function () {
+          if ($(".grado_academico").length > 1) {
+            $(".grado_academico").last().remove();
+          }
         });
 
-        // Manejo del formulario para agregar un nuevo investigador
-        $("#nuevo-investigador-form").submit(function (event) {
-          event.preventDefault();
+        // Función para manejar la sumisión del formulario de nuevo investigador
+        $("#nuevo-investigador-form").submit(function (e) {
+          e.preventDefault();
+
           var formData = new FormData(this);
+          var investigadorId = $("#investigador-id").val();
+
+          var url = "/investigadores";
+          var method = "POST";
+          if (investigadorId) {
+            url = "/investigadores/" + investigadorId;
+            method = "PUT";
+          }
+
           $.ajax({
-            type: "POST",
-            url: "/investigadores",
+            type: method,
+            url: url,
             data: formData,
-            contentType: false,
             processData: false,
+            contentType: false,
             success: function (response) {
-              var imagenUrl = response.result.ruta_imagen;
-              var gradosAcademicos =
-                response.result.grado_academico.join("<br>");
-              $("#investigadores-list").append(
-                "<tr><td>" +
-                  response.result.nombre +
-                  "</td><td>" +
-                  gradosAcademicos +
-                  "</td><td><img src='" +
-                  imagenUrl +
-                  "' width='100'></td></tr>"
-              );
-              $("#nuevo-investigador-form").trigger("reset");
-              $("#grados_academicos_container")
-                .empty()
-                .append(
-                  '<input type="text" class="form-control grado_academico" name="grado_academico" required />'
-                );
+              location.reload(); // Recargar la página al éxito
             },
             error: function (error) {
-              console.error(
-                "Error al agregar investigador:",
-                error.responseJSON.error
-              );
+              console.error("Error:", error);
             },
+          });
+        });
+
+        // Manejar la eliminación de un investigador
+        $(document).on("click", ".eliminar-investigador", function () {
+          var investigadorId = $(this).closest("tr").data("id");
+
+          $.ajax({
+            type: "DELETE",
+            url: "/investigadores/" + investigadorId,
+            success: function (response) {
+              location.reload(); // Recargar la página al éxito
+            },
+            error: function (error) {
+              console.error("Error:", error);
+            },
+          });
+        });
+
+        // Manejar la edición de un investigador
+        $(document).on("click", ".editar-investigador", function () {
+          var investigadorId = $(this).closest("tr").data("id");
+
+          // Obtener los datos del investigador
+          $.getJSON("/investigadores/" + investigadorId, function (data) {
+            $("#nombre").val(data.nombre);
+
+            // Limpiar los campos de grado académico existentes
+            $("#grados_academicos_container").empty();
+
+            // Llenar los campos de grado académico
+            data.grado_academico.forEach(function (grado) {
+              $("#grados_academicos_container").append(
+                '<input type="text" class="form-control grado_academico mt-2" name="grado_academico" value="' +
+                  grado +
+                  '" required />'
+              );
+            });
+
+            // Cambiar el texto del botón y configurar el método del formulario
+            $("#submit-btn").text("Actualizar");
+            $("#nuevo-investigador-form")
+              .attr("action", "/investigadores/" + investigadorId)
+              .attr("method", "PUT");
+
+            // Establecer el valor del campo de ID oculto
+            $("#investigador-id").val(investigadorId);
           });
         });
       });

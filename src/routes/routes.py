@@ -3,6 +3,8 @@ from .autores import buscar_autores
 from .documentos import buscar_documentos
 from .documentos_afiliados import buscar_documentos_afiliacion
 from .autorid import buscar_autores_por_ids
+from ..database.database import obtener_investigadores
+from pymongo import MongoClient
 
 bp = Blueprint('routes', __name__)
 
@@ -54,3 +56,4 @@ def get_inti_lab_documents():
         return jsonify({"documentos": documentos})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
