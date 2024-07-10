@@ -1,0 +1,138 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:18:11] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:30:14] "[31m[1mGET /autores HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:30:24] "[31m[1mGET /autores HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:30:25] "[31m[1mGET /autores HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:30:46] "[31m[1mGET /autores HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:35:02] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:36:29] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:36:44] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:41:45] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:18] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:20] "GET /documentos?dc:identifier=AUTHOR_ID:56741286500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:20] "GET /documentos?dc:identifier=AUTHOR_ID:57207915215 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:20] "GET /documentos?dc:identifier=AUTHOR_ID:57209658640 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:20] "GET /documentos?dc:identifier=AUTHOR_ID:36659719000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:21] "GET /documentos?dc:identifier=AUTHOR_ID:57016156500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:22] "GET /documentos?dc:identifier=AUTHOR_ID:57210377414 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:22] "GET /documentos?dc:identifier=AUTHOR_ID:58562875900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:22] "GET /documentos?dc:identifier=AUTHOR_ID:57205765369 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:22] "GET /documentos?dc:identifier=AUTHOR_ID:57215218631 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:23] "GET /documentos?dc:identifier=AUTHOR_ID:57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:23] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:23] "GET /documentos?dc:identifier=AUTHOR_ID:57225097710 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:24] "GET /documentos?dc:identifier=AUTHOR_ID:57211666738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:24] "GET /documentos?dc:identifier=AUTHOR_ID:57215928001 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:24] "GET /documentos?dc:identifier=AUTHOR_ID:58127854500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:24] "GET /documentos?dc:identifier=AUTHOR_ID:57203357446 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:25] "GET /documentos?dc:identifier=AUTHOR_ID:57364197600 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:25] "GET /documentos?dc:identifier=AUTHOR_ID:58077315000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:25] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:25] "GET /documentos?dc:identifier=AUTHOR_ID:15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:26] "GET /documentos?dc:identifier=AUTHOR_ID:57223372908 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:26] "GET /documentos?dc:identifier=AUTHOR_ID:58886913200 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:26] "GET /documentos?dc:identifier=AUTHOR_ID:36659719000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:26] "GET /documentos?dc:identifier=AUTHOR_ID:57016156500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:27] "GET /documentos?dc:identifier=AUTHOR_ID:56741286500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:27] "GET /documentos?dc:identifier=AUTHOR_ID:57207915215 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:27] "GET /documentos?dc:identifier=AUTHOR_ID:57210377414 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:28] "GET /documentos?dc:identifier=AUTHOR_ID:57215218631 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:28] "GET /documentos?dc:identifier=AUTHOR_ID:57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:28] "GET /documentos?dc:identifier=AUTHOR_ID:57209658640 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:28] "GET /documentos?dc:identifier=AUTHOR_ID:58562875900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:29] "GET /documentos?dc:identifier=AUTHOR_ID:57225097710 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:29] "GET /documentos?dc:identifier=AUTHOR_ID:57205765369 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:29] "GET /documentos?dc:identifier=AUTHOR_ID:57211666738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:29] "GET /documentos?dc:identifier=AUTHOR_ID:57215928001 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:29] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /documentos?dc:identifier=AUTHOR_ID:58127854500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /documentos?dc:identifier=AUTHOR_ID:57203357446 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /documentos?dc:identifier=AUTHOR_ID:57364197600 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /documentos?dc:identifier=AUTHOR_ID:58077315000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:30] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /documentos?dc:identifier=AUTHOR_ID:57223372908 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /documentos?dc:identifier=AUTHOR_ID:15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /documentos?dc:identifier=AUTHOR_ID:58886913200 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:31] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:32] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:33] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:34] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:36] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:37] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:38] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:40] "GET /documentos?dc:identifier=36659719000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:40] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:40] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:41] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:42] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:43] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:43] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:44] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:44] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:45] "GET /documentos?dc:identifier=15750919900 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:45] "GET /documentos?dc:identifier=57205596738 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:46] "GET /documentos?dc:identifier=56741286500 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:46] "GET /documentos?dc:identifier=36659719000 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2024 00:43:46] "GET /documentos?dc:identifier=36659719000 HTTP/1.1" 200 -

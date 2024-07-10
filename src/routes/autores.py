@@ -1,10 +1,10 @@
 import requests
 from config import API_KEY
 
-
-def buscar_autores():
+def buscar_autores(author_ids):
     url = "https://api.elsevier.com/content/search/author"
-    params = {"apiKey": API_KEY, "query": "AF-ID(60110778) OR AF-ID(60001865) OR AF-ID(60112566)"}
+    query_ids = " OR ".join([f"au-id({id})" for id in author_ids])
+    params = {"apiKey": API_KEY, "query": query_ids}
 
     response = requests.get(url, params=params, verify=True)
     data = response.json()
