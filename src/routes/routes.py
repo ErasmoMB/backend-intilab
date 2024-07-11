@@ -27,8 +27,18 @@ def autor_route():
 
 @bp.route('/documentos', methods=['GET'])
 def get_documentos():
+    author_ids = [
+        "57210377414", "57225097710", "57203357446", "58562875900", "57205596738",
+        "56741286500", "57211666738", "57207915215", "57215928001", "57215218631",
+        "58127854500", "57223372908", "15750919900", "57209658640", "57205765369",
+        "57364197600", "57016156500", "58077315000", "36659719000", "58886913200"
+    ]
+
     try:
-        documentos = buscar_documentos()
+        documentos = {}
+        for au_id in author_ids:
+            documentos[au_id] = buscar_documentos(au_id)
+
         return jsonify({'documentos': documentos})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
