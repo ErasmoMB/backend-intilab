@@ -17,9 +17,16 @@ Esta guía proporciona los pasos necesarios para ejecutar tu aplicación backend
 
 2. **Instalar Dependencias:**
    Crea y activa un entorno virtual (recomendado) y luego instala las dependencias del proyecto:
+
    ```bash
-   python -m venv env       # Crea un entorno virtual (opcional)
+   python -m venv env
+   virtualenv env
+
+     # Crea un entorno virtual (opcional)
    source env/bin/activate  # Activa el entorno virtual (si lo creaste)
+
+   Antes de instalar los requirements debes quitarle las versiones a ese archivo
+
    pip install -r requirements.txt  # Instala las dependencias
    ```
 
