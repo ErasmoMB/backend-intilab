@@ -1,4 +1,4 @@
-API_KEY = '70c3c7f627b46b8e8d0e843c93ea15b6'
+API_KEY = '586c26d9a0fc3f6ab3e9a9f3b0e68eb0'
 # config.py
 import os
 import logging

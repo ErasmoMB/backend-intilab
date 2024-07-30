@@ -1,227 +1,49 @@
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57225097710: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57225097710
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57223372908: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57223372908
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205596738: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205596738
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57209658640
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205765369: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205765369
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57207915215: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57207915215
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215218631: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215218631
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 58127854500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58127854500
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57209658640
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:34:36] "GET /autor HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_autores_por_ids para el autor 57364197600: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57364197600
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:34:38] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:36:59] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:37:09] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:07] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:39] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:39] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:40] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:40] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:54] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:38:58] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:39:16] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:43:59] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:43:59] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:44:00] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:44:00] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:44:17] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:44:34] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:47:51] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:47:52] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:47:52] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:47:52] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:48:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:48:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:51:40] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:51:40] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:51:41] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:51:41] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:51:58] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:52:15] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:56:47] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:56:47] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:56:48] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:56:48] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:57:06] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 14:57:24] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 15:35:16] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:08] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:08] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:09] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:09] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:44] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:46] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:03:47] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:04:04] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:09:58] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:09:58] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:09:59] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:09:59] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:10:18] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:10:35] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:14:13] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:14:13] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:14:30] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:05] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:06] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:21] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:21] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:23] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:16:41] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:09] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:09] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:16] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:16] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:43] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:51] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:51] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:56] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:17:57] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:18:11] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:18:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:19:09] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:19:09] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:19:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:20:27] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:20:28] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:20:51] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:24:04] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:24:05] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:24:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:25:24] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:25:24] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:25:42] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:27:10] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:27:10] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:27:28] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:27:43] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:27:43] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:28:00] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:28:05] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:28:06] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:28:23] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:32:47] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:32:48] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:33:05] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:42:44] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:42:44] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:42:44] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:42:45] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:43:00] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:43:17] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:45:58] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:45:59] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:46:12] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:46:13] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:46:15] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:46:31] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:47:15] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:47:16] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:47:31] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:22] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:23] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:29] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:29] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:40] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 16:55:57] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:10:35] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:10:35] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:10:38] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:10:40] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:10:57] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:11:06] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:11:08] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:11:13] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:11:30] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:12:18] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:12:18] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:12:35] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:14:26] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:14:27] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:14:43] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:18:20] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:18:21] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:18:37] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:20:32] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:20:33] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:20:49] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:23:50] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:23:51] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:07] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:10] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:11] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:28] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:28] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:24:44] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:30:33] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:30:34] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:30:49] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:30:50] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(15750919900)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 57016156500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57016156500)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:08] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:10] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57209658640)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(15750919900)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:24] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:25] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:26] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 57210377414: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57210377414)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 58562875900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(58562875900)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57209658640)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 57205765369: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57205765369)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57209658640)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:39] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:40] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:40] "GET /inti-lab HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:41] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:41] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:41] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:31:41] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.16.8.12:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:32:02] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:32:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:33:27] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:34:23] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:13] "GET /autor HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:17] "GET /datos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:18] "GET /autores HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:35] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:52] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:54] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:54] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 57210377414: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57210377414)&count=100
-ERROR:root:RequestException en buscar_documentos para AU-ID 57225097710: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57225097710)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:56] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:57] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:44:57] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:08] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:09] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:10] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:12] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:13] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:14] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 57207915215: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57207915215)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:24] "GET /documentos HTTP/1.1" 200 -
-ERROR:root:RequestException en buscar_documentos para AU-ID 57210377414: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57210377414)&count=100
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:26] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:28] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:29] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:30] "GET /documentos HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [15/Jul/2024 17:45:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 00:51:02] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 00:51:52] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 00:52:09] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:00:58] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:00:58] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:00:58] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:00:59] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:19] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:20] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:20] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:21] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:22] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:22] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:23] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:23] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:24] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:24] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:25] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:26] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:26] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:27] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:27] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:28] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:29] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:29] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:30] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:31] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:31] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:32] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:33] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:33] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:34] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:34] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:35] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:35] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:36] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:36] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:37] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:37] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:38] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:38] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:39] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:39] "[35m[1mGET /autores HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:39] "[35m[1mGET /autores HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:40] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:40] "[35m[1mGET /autores HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:40] "[35m[1mGET /autores HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2024 01:01:40] "GET /autores HTTP/1.1" 200 -
