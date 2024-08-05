@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lista de Autores</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lista de Autores</h1>
+
+    <table id="tablaAutores">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+        </tr>
+      </thead>
+      <tbody id="tbodyAutores">
+        <!-- Aquí se insertarán los datos de los autores -->
+      </tbody>
+    </table>
+
+    <script>
+      // Función para cargar los datos de autores desde la URL
+      async function cargarAutores() {
+        try {
+          const response = await fetch("http://127.0.0.1:5000/autor");
+          const data = await response.json();
+          return data.autores; // Acceder al objeto de autores dentro de los datos
+        } catch (error) {
+          console.error("Error al cargar los autores:", error);
+          return {}; // Devolver un objeto vacío en caso de error
+        }
+      }
+
+      // Función para mostrar los autores en la tabla
+      async function mostrarAutores() {
+        const autores = await cargarAutores();
+        const tbody = document.getElementById("tbodyAutores");
+        tbody.innerHTML = "";
+
+        for (const id in autores) {
+          const autor = autores[id];
+          const row = `<tr>
+                                <td>${id}</td>
+                                <td>${autor.name}</td>
+                            </tr>`;
+          tbody.innerHTML += row;
+        }
+      }
+
+      // Cargar y mostrar los autores al cargar la página
+      window.onload = function () {
+        mostrarAutores();
+      };
+    </script>
+  </body>
+</html>
