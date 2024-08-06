@@ -1,0 +1,1354 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:56:22] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:56:23] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:56:24] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:56:24] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:14] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:22] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:25] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:25] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:36] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 07:57:48] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:04:19] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:04:19] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:04:33] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:29:39] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:29:39] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:29:39] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:29:40] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:29:55] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:30:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:30:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 08:31:06] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:12:15] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:12:19] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:23:53] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:23:53] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:23:53] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:23:54] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:24:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:24:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:24:41] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:24:56] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:25:10] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:52:39] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:52:39] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:52:40] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:52:41] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:52:55] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:53:10] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:53:23] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:57:55] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:57:55] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:57:56] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:57:56] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:58:41] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:58:49] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:58:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:59:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 09:59:12] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:17:25] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:17:25] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:17:26] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:17:26] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:17:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:18:03] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:18:16] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:32:40] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:32:41] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:32:41] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:32:41] "GET /autores HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_documentos para AU-ID 57203357446: 502 Server Error: Bad Gateway for url: https://api.elsevier.com/content/search/scopus?query=AU-ID(57203357446)&count=100
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:33:30] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:33:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:33:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:33:46] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 10:33:58] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:18:49] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:18:50] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:18:52] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:18:52] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:19:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:19:22] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:20:10] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:20:16] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:21:51] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:21:51] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:22:04] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:16] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:17] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:17] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:17] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:30] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:25:43] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:29:51] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:29:51] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:29:51] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:29:56] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:30:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:30:23] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:30:36] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:36:48] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:36:48] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:36:48] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:36:49] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:37:02] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:37:15] "GET /documentos HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205596738: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205596738
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215928001: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215928001
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57016156500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57016156500
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58077315000: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58077315000
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:41:40] "GET /autor HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58562875900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58562875900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57207915215: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57207915215
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57223372908: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57223372908
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57364197600: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57364197600
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57016156500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57016156500
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:45:59] "GET /autor HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57225097710: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57225097710
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57203357446: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57203357446
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58562875900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58562875900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57209658640
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58077315000: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58077315000
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 36659719000: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/36659719000
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:04] "GET /autor HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:20] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:20] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:20] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:21] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:46:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:47:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:47:20] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:47:20] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:47:34] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:55:55] "[33mGET /uch HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:55:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:56:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:57:03] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 11:59:32] "GET /uch HTTP/1.1" 200 -
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:00:26] "GET /uch HTTP/1.1" 200 -
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:05:26] "GET /uch HTTP/1.1" 200 -
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:05:29] "GET /uch HTTP/1.1" 200 -
+ERROR:root:Error inesperado en obtener_informacion_afiliaciones: list indices must be integers or slices, not str
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:06:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:07:58] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:09:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:12:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:13:18] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:14:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:14:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:20:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:20:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:20:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:24:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:29:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:29:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:33:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:35:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:44:37] "GET /uch HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57223372908: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57223372908
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57016156500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57016156500
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58886913200: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/59164833900
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:46:54] "GET /autor HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 56741286500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/56741286500
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215928001: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215928001
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57203357446: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57203357446
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215218631: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215218631
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58562875900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58562875900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58127854500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58127854500
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205596738: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205596738
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57209658640
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57207915215: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57207915215
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205765369: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205765369
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215928001: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215928001
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57364197600: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57364197600
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57215218631: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57215218631
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57016156500: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57016156500
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 36659719000: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/36659719000
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58886913200: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58886913200
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:47:36] "GET /autor HTTP/1.1" 200 -
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 15750919900: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/15750919900
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57209658640: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57209658640
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57205765369: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57205765369
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 57364197600: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/57364197600
+ERROR:root:RequestException en buscar_autores_por_ids para el autor 58886913200: 429 Client Error: Too Many Requests for url: https://api.elsevier.com/content/author/author_id/58886913200
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:47:38] "GET /autor HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:49:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:52:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:57:33] "[33mGET /autores-uch HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:59:10] "[33mGET /autores-uch HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 12:59:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:01:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:03:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:04:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:04:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:04:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:05:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:05:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:05:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:05:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:06:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:07:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:08:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:08:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:08:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:09:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:10:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:11:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:11:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:13:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:14:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:15:44] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:15:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:16:58] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:17:13] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:22:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:23:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:23:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:23:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:24:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:29:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:29:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:30:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:31:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:32:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:32:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:32:30] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:38:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:38:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:39:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:40:10] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:52:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:54:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 13:57:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:10:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:10:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:11:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:13:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:13:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:14:48] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:15:54] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.8.12:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:17:48] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:18:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:18:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:20:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:20:33] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:21:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:21:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:21:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:21:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:40:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:40:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:40:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:40:41] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:40:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:42:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:42:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:42:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:43:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:43:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:43:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:44:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:44:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:44:39] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:46:29] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:47:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:55:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 14:57:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:13:59] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:16:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:17:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:17:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:17:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:21:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:21:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:21:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:23:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:23:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:23:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:24:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:24:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:24:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:24:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:26:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:26:30] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:26:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:26:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:27:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:28:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:28:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:28:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:28:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:28:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:29:34] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:31:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:31:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:31:48] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:33:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:34:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:34:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:34:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:35:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:35:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:35:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:28] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:37:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:38:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:38:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:38:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:39:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:39:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:40:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:40:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:40:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:41:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:41:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:41:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:42:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:42:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:42:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:42:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:42:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:44:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:46:34] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:46:34] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:47:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:47:10] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:48:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:48:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:48:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:49:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:49:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:50:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:50:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:51:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:53:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:53:48] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:53:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:55:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 15:55:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:00:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:00:23] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:00:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:00:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:02:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:02:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:04:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:04:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:06:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:06:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:10:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:10:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:12:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:12:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:12:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:12:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:13:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:13:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:15:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:15:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:15:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:15:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:16:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:16:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:16:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:16:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:19:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:19:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:21:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:21:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:26:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:26:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:29:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:29:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:30:48] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:30:49] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:31:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:31:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:31:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:31:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:33:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:33:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:33:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:33:43] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:35:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:35:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:36:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:36:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:36:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:36:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:42:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:42:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:42:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:42:43] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:43:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:43:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:44:18] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:44:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:46:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:46:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:49:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:49:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:50:50] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:50:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:55:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:56:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:56:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 16:56:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:30:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:30:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:32:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:33:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:33:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:35:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:35:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:40:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:40:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:41:18] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:41:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:13] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:30] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:54] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:43:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:48:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:54:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:57:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:57:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:57:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:57:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:58:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 17:58:12] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:02:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:02:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:03:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:03:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:05:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:05:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:12:50] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:12:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:12:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:12:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:12:58] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:13:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:18] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:18] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:54] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:54] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:14:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:14] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:18] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:15:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:44] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:44] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:16:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:17:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:44] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:58] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:19:59] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:07] "GET /autores-uch HTTP/1.1" 200 -
+ERROR:index:Exception on /autores-uch [GET]
+Traceback (most recent call last):
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\env\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\env\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\env\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\env\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\env\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\src\routes\routes.py", line 107, in obtener_autores_uch
+    resultados = buscar_autores_uch()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\UsuarioUCH\Desktop\Scopus\backend\src\routes\autores_uch.py", line 11, in buscar_autores_uch
+    total_resultados = int(data["search-results"]["opensearch:totalResults"])
+                           ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'search-results'
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:08] "[35m[1mGET /autores-uch HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:09] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:09] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:12] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:20:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:09] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:18] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:21:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:22:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:22:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:23:39] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:25:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:26:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:26:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:26:12] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:26:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:27:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:27:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:27:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:27:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:09] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:23] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:29:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:33:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:33:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:33:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:33:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:34:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:34:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:34:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:34:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:37:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:37:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:37:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:37:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:13] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:39:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:41:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:41:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:41:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:41:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:44:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:44:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:44:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:44:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:46:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:46:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:46:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:46:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:49] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:50:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:51:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:51:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:52:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:52:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:10] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:54:41] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:12] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:56:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:55] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 18:59:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:39] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:01:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:02:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:02:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:08:16] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:08:22] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:08:45] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:08:51] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:08:56] "GET /autores HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:09:15] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:12:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:12:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:12:44] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:12:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:26:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:26:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:26:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:26:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:27:58] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:27:59] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:27:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:10] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:11] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:12] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:21] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:28] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:29] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:30] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:39] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:28:41] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:30] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:29:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:44] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:48] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:49] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:50] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:50] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:30:56] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:31:11] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:31:59] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:04] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:19] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:25] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:33:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:36:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:36:21] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:36:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:36:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:38:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:39:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:18] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:19] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:21] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:36] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:50] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:40:59] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:07] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:11] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:21] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:34] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:41:56] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:42:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:42:43] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:42:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:38] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:44:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:19] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:38] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:39] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:58] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:45:58] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:46:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:46:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:46:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:10] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:48:11] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:23] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:29] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:30] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:43] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:49:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:50:12] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:18] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:32] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:50] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:51:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:52:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:52:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:52:36] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:52:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:53:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:53:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:53:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:53:31] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:54:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:15] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:55:37] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:56:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:09] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:33] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:57:58] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:27] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:30] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:43] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:58:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:59:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:59:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:59:27] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 19:59:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:00:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:00:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:00:45] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:01:53] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:02:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:02:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:02:16] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:02:41] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:34] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:49] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:54] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:03:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:14] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:32] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:35] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:50] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:52] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:04:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:05:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:06:30] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:06:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:06:48] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:17] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:18] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:34] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:07:53] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:17] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:21] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:44] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:08:58] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:09:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:09:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:09:20] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:11:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:11:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:11:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:11:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:09] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:24] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:12:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:13:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:13:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:13:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:13:18] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:14:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:14:34] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:14:48] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:15:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:15:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:15:42] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:24] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:52] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:52] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:16:54] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:06] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:20] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:28] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:17:33] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:33] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:21:54] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:32] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:38] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:52] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:56] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:22:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:23:11] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:24:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:24:28] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:24:42] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:03] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:19] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:28] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:29] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:43] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:25:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:01] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:04] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:05] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:19] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:21] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:26:44] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:29:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:29:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:30:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:30:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:31:01] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:31:15] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:31:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:31:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:32:06] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:34:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:34:15] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:34:31] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:34:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:34:34] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:35:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:36:46] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:36:48] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:13] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:18] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:28] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:29] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:44] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:37:47] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:01] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:10] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:24] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:38:45] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:39:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:39:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:39:46] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:39:50] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:39:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:40:06] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:41:37] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:41:44] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:41:51] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:41:52] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:41:59] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:06] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:22] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:42:38] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:44:41] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:44:42] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:44:56] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:47:16] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:47:17] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:47:32] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:48:01] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:48:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:48:16] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:48:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:06] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:18] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:26] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:37] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:53] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:49:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:50:05] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:50:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:50:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:51:04] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:51:44] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:51:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:51:59] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:52:25] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:52:26] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:52:44] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:52:47] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:52:48] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:53:05] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:53:12] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:53:13] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:53:28] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:00] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:02] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:20] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:34] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:56:49] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:57:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:57:57] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:58:12] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:58:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:58:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:02] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:03] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:17] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:19] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:33] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:36] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:37] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 20:59:58] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:00:27] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:00:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:00:46] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:00:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:00:50] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:01:05] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:23] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:42] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:43] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:57] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:04:59] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:05:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:05:15] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:05:53] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:05:53] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:29] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:44] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:55] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:06:56] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:07:10] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:07:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:07:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:14:44] "[33mGET /citas-uch HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:14:45] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:14:45] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:14:46] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:03] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:20] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:22] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:24] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:24] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:36] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:49] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:50] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:15:51] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:04] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:06] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:16:21] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:18:39] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:18:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:18:40] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:18:41] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:00] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:05] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:07] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:07] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:08] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:21] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:33] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:34] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:35] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:53] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:57] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:58] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:19:58] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:00] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:15] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:23] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:25] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:43] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:20:44] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:21:08] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:06] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:07] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:08] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:09] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:24] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:31] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:31] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:32] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:32] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:39] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:50] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:50:50] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:51:03] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:51:11] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:51:14] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:51:15] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:51:27] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:14] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:14] "GET /datos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:14] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:20] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:21] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:21] "GET /uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:22] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:35] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:40] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:40] "GET /autores-uch HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:52:52] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:53:04] "GET /documentos HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Aug/2024 21:53:04] "GET /autores-uch HTTP/1.1" 200 -

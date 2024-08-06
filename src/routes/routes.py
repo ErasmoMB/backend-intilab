@@ -3,6 +3,8 @@ from .autores import buscar_autores
 from .documentos import buscar_documentos
 from .documentos_afiliados import buscar_documentos_afiliacion
 from .autorid import buscar_autores_por_ids
+from .uch import obtener_informacion_afiliaciones
+from .autores_uch import buscar_autores_uch
 from config import usuarios_collection
 
 bp = Blueprint('routes', __name__)
@@ -76,3 +78,31 @@ def datos_investigadores():
         return jsonify(investigadores), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+@bp.route('/uch', methods=['GET'])
+def get_uch_information():
+    institucion_ids = [
+        "60110778",  # Universidad de Ciencias y Humanidades
+        "60171637",  # Centro de Investigación E-Health
+        "60171638",  # Centro de Investigación Interdisciplinar Ciencia y Sociedad
+        "60171647",  # Estudios Generales
+        "60171644",  # Facultad de Ciencias Contables Económicas y Financieras
+        "60171645",  # Facultad de Ciencias de la Salud
+        "60171646",  # Facultad de Humanidades y Ciencias Sociales
+        "60171643"   # Image Processing Research Laboratory
+    ]
+
+    try:
+        # Obtén la información utilizando los IDs predefinidos
+        informacion = obtener_informacion_afiliaciones(institucion_ids)
+        
+        return jsonify({
+            "informacion_afiliaciones": informacion  # Incluye la información adicional si es necesario
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+@bp.route('/autores-uch', methods=['GET'])
+def obtener_autores_uch():
+    resultados = buscar_autores_uch()
+    return jsonify(resultados)
