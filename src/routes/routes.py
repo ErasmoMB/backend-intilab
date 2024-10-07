@@ -2,6 +2,8 @@ from flask import Blueprint, jsonify, request
 import os
 import json
 from config import usuarios_collection
+from src.routes.autores import buscar_autores 
+from config import usuarios_collection
 
 bp = Blueprint('routes', __name__)
 
@@ -61,10 +63,12 @@ def get_inti_lab_documents():
 @bp.route('/datos', methods=['GET'])
 def datos_investigadores():
     try:
-        investigadores = cargar_datos_localmente('datos_investigadores.json')
+        investigadores = list(usuarios_collection.find())
+        for investigador in investigadores:
+            investigador['_id'] = str(investigador['_id'])
         return jsonify(investigadores), 200
-    except Exception as file_error:
-        return jsonify({'error': str(file_error)}), 500
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @bp.route('/uch', methods=['GET'])
 def get_uch_information():

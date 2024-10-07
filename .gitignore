@@ -1,5 +1,19 @@
-./
-env
-env/
+# Ignorar archivos de caché de Python
 __pycache__/
 *.pyc
+
+# Ignorar archivos de log
+app.log
+
+# Ignorar archivos JSON generados
+src/routes/*.json
+
+# Ignorar archivos de requisitos
+src/mongo-crud/requirements.txt
+
+# Ignorar otros archivos específicos
+src/routes/routes-descarga.py
+src/routes/routes-json.py
+src/routes/routes-local.py
+
+/env
