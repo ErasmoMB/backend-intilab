@@ -1,19 +1,19 @@
 [
     {
-        "_id": "668c8b9dd991553708713429",
+        "_id": "67040aec6ec8f25958820d47",
         "autor_id": "57205596738",
         "nombre": "Alicia Alva-Mantari",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Alicia_Alva_Mantari.JPG",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/image.png",
         "grado_academico": [
             "MAGISTER  EN INFORM\u00c1TICA BIOM\u00c9DICA EN SALUD GLOBAL CON MENCI\u00d3N EN INFORM\u00c1TICA EN SALUD",
             "BACHILLER EN CIENCIAS CON MENCION EN MATEMATICAS"
         ]
     },
     {
-        "_id": "668c8c57d99155370871342a",
+        "_id": "67040b096ec8f25958820d48",
         "autor_id": "15750919900",
-        "nombre": "Telmo A. Mej\u00eda-Garc\u00eda",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Telmo-A-Mejia.jpg",
+        "nombre": "Telmo A. Mej\u00c3\u00ada-Garc\u00c3\u00ada",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/image_3.png",
         "grado_academico": [
             "DOCTOR EN NEUROINMUNOLOG\u00cdA",
             "MAG\u00cdSTER EN NEUROINMUNOLOG\u00cdA",
@@ -21,10 +21,10 @@
         ]
     },
     {
-        "_id": "668c8decd99155370871342b",
+        "_id": "67040b256ec8f25958820d49",
         "autor_id": "36659719000",
         "nombre": "Avid Roman-Gonzalez",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Avid-Roman-G.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Avid-Roman-G-removebg-preview.png",
         "grado_academico": [
             "DOCTOR DE T\u00c9L\u00c9COM PARISTECH, ESPECIALIDAD SE\u00d1AL E IM\u00c1GENES",
             "MAGISTER EN CIENCIAS Y TECNOLOG\u00cdAS, CON FINALIDAD INVESTIGACI\u00d3N, MENCI\u00d3N ELECTR\u00d3NICA",
@@ -35,20 +35,20 @@
         ]
     },
     {
-        "_id": "668c8eb8d99155370871342c",
+        "_id": "67040b3a6ec8f25958820d4a",
         "autor_id": "56741286500",
         "nombre": "Natalia I. Vargas-Cuentas",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Natalia_Vargas_Cuentas.JPG",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/0a098683-37f5-4f5a-a32a-64eaf3ad150a.png",
         "grado_academico": [
             "MAGISTER EN INGENIER\u00cdA, ESPECIALIDAD DE CIENCIA Y TECNOLOG\u00cdA AEROESPACIAL - APLICACI\u00d3N DE TECNOLOG\u00cdAS ESPACIALES",
             "LICENCIADO EN INGENIERIA DE SISTEMAS ELECTR\u00d3NICOS"
         ]
     },
     {
-        "_id": "668c9040d99155370871342d",
+        "_id": "67040b946ec8f25958820d4b",
         "autor_id": "57016156500",
         "nombre": "Alexi Delgado",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Alexi-Delgado.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Alexi-Delgado-removebg-preview.png",
         "grado_academico": [
             " DOCTOR DENTRO DEL PROGRAMA DE DOCTORADO EN INGENIER\u00cdA DEL AGUA Y MEDIOAMBIENTAL",
             "DOCTOR EN MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE",
@@ -58,32 +58,20 @@
         ]
     },
     {
-        "_id": "668c917ed99155370871342e",
+        "_id": "67040ba86ec8f25958820d4c",
         "autor_id": "57203357446",
         "nombre": "Victor Romero-Alva",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Victor_Romero_Alva.JPG",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Victor_Romero_Alva-removebg-preview.jpg",
         "grado_academico": [
             "MAGISTER EN EL \u00c1REA DE SISTEMA DE MISILES Y COSMON\u00c1UTICA",
             "BACHILLER EN INGENIER\u00cdA ELECTR\u00d3NICA CON MENCI\u00d3N EN TELECOMUNICACIONES"
         ]
     },
     {
-        "_id": "668c91e8d99155370871342f",
-        "autor_id": "57205765369",
-        "nombre": "Milton Alexis Gonzales-Macavilca",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/gonzales-macavilca.jpg",
-        "grado_academico": [
-            "MAGISTER UNIVERSITARIO EN INVESTIGACI\u00d3N EN EDUCACI\u00d3N",
-            "MAGISTER UNIVERSITARIO EN INVESTIGACI\u00d3N EN HUMANIDADES CON ESPECIALIDAD EN ESTUDIOS FILOL\u00d3GICOS CL\u00c1SICOS E HISP\u00c1NICOS",
-            "LICENCIADO EN LITERATURA",
-            "BACHILLER EN LITERATURA"
-        ]
-    },
-    {
-        "_id": "668c9258d991553708713430",
+        "_id": "67040be76ec8f25958820d4e",
         "autor_id": "57207915215",
         "nombre": "Laberiano Andrade-Arenas",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Laberiano_Andrade_Arenas.JPG",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/85378406-3a25-4fdc-8f3c-1ed2b91f8fb3.png",
         "grado_academico": [
             "DOCTOR EN INGENIER\u00cdA DE SISTEMAS",
             "MAGISTER EN INGENIERIA DE SISTEMAS, ESPECIALIDAD: CON MENCION EN GESTION DE TECNOLOGIAS DE LA INFORMACION",
@@ -92,10 +80,10 @@
         ]
     },
     {
-        "_id": "668c92a8d991553708713431",
+        "_id": "67040bf36ec8f25958820d4f",
         "autor_id": "57209658640",
         "nombre": "Ivan Iraola-Real",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/ivan-iraola.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/pixelcut-export_1.png",
         "grado_academico": [
             "MAGISTER EN EDUCACION, ESPECIALIDAD: CON MENCION EN CURRICULO",
             "LICENCIADO EN EDUCACION, ESPECIALIDAD: ESPECIALIDAD: PSICOLOGIA - CIENCIAS SOCIALES",
@@ -103,23 +91,10 @@
         ]
     },
     {
-        "_id": "668c9349d991553708713433",
-        "autor_id": "57211666738",
-        "nombre": "Beatriz Bayl\u00f3n-Gonzales",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/baylon-gonzales.jpg",
-        "grado_academico": [
-            "MAGISTER EN ADMINISTRACI\u00d3N CON MENCI\u00d3N EN GESTI\u00d3N P\u00daBLICA",
-            "LICENCIADA EN EDUCACION SECUNDARIA",
-            "LICENCIADA EN CONTADURIA PUBLICA",
-            "BACHILLER EN EDUCACION",
-            "BACHILLER EN CONTABILIDAD"
-        ]
-    },
-    {
-        "_id": "668c93b3d991553708713434",
+        "_id": "67040c1e6ec8f25958820d51",
         "autor_id": "57215218631",
         "nombre": "Celia Bertha Vargas-De-La-Cruz",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/celia-bertha.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/celia-bertha-removebg-preview.png",
         "grado_academico": [
             "MAGISTER EN BIOTECNOLOG\u00cdAS FARMAC\u00c9UTICAS",
             "LICENCIADA EN QUIMICA FARMACEUTICA",
@@ -127,10 +102,10 @@
         ]
     },
     {
-        "_id": "668c94e1d991553708713435",
+        "_id": "67040c2f6ec8f25958820d52",
         "autor_id": "57215928001",
         "nombre": "Juan Morales",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/morales-quispe.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/image_2.png",
         "grado_academico": [
             "DOCTOR EN MEDICINA",
             "SEGUNDA ESPECIALIDAD PROFESIONAL EN MEDICINA FAMILIAR Y COMUNITARIA",
@@ -141,10 +116,10 @@
         ]
     },
     {
-        "_id": "668c952ad991553708713436",
+        "_id": "67040c3e6ec8f25958820d53",
         "autor_id": "57223372908",
         "nombre": "Tania Arauco-Lozada",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/arauco-lozada.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/pixelcut-export_2.png",
         "grado_academico": [
             "MAGISTER EN GESTI\u00d3N Y DOCENCIA EN ALIMENTACI\u00d3N Y NUTRICI\u00d3N",
             "MAGISTER UNIVERSITARIO EN NUTRICI\u00d3N Y METABOLISMO EN LA ESPECIALIDAD EN NUTRICI\u00d3N CL\u00cdNICA",
@@ -153,19 +128,19 @@
         ]
     },
     {
-        "_id": "668c9566d991553708713437",
+        "_id": "67040c576ec8f25958820d54",
         "autor_id": "57225097710",
         "nombre": "Sebastian J. Ramos-Cosi",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Sebastian_Ramos_Cosi.JPG",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/a1b733c1-3d20-4a67-b123-d7e9ed78a4cd.png",
         "grado_academico": [
             "BACHILLER EN INGENIER\u00cdA ELECTR\u00d3NICA CON MENCI\u00d3N EN TELECOMUNICACIONES"
         ]
     },
     {
-        "_id": "668c9599d991553708713438",
+        "_id": "67040e946ec8f25958820d55",
         "autor_id": "57364197600",
-        "nombre": "Zulema Daria Leiva-Baz\u00e1n",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/leiva-bazan.jpg",
+        "nombre": "Zulema Daria Leiva-Baz\u00c3\u00a1n",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/leiva-bazan.png",
         "grado_academico": [
             "DOCTOR EN CIENCIAS DE LA EDUCACION",
             "MAGISTER EN EDUCACION, ESPECIALIDAD: MENCION: GESTION EDUCACIONAL",
@@ -174,10 +149,10 @@
         ]
     },
     {
-        "_id": "668c9641d99155370871343a",
+        "_id": "67040ea76ec8f25958820d56",
         "autor_id": "58127854500",
         "nombre": "Daniel E. Yupanqui-Lorenzo",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/yupanqui-lorenzo.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/cbd61782-bc08-463a-ab49-518fd43465a1.png",
         "grado_academico": [
             "MAGISTER EN DOCENCIA UNIVERSITARIA",
             "LICENCIADO EN PSICOLOG\u00cdA",
@@ -185,30 +160,19 @@
         ]
     },
     {
-        "_id": "668c968ad99155370871343b",
-        "autor_id": "58562875900",
-        "nombre": "Guillermo Segundo Mi\u00f1an-Olivos",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/minan-olivos.jpg",
-        "grado_academico": [
-            "MAG\u00cdSTER EN GESTI\u00d3N P\u00daBLICA",
-            "LICENCIADO EN INGENIERIA INDUSTRIAL",
-            "BACHILLER EN INGENIERIA INDUSTRIAL"
-        ]
-    },
-    {
-        "_id": "668d54a9b4253d956f02e568",
+        "_id": "67040ec66ec8f25958820d58",
         "autor_id": "58077315000",
         "nombre": "Meyluz Paico-Campos",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/paico-campos.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/paico-campos-removebg-preview.png",
         "grado_academico": [
             "BACHILLER EN INGENIERIA DE SISTEMAS"
         ]
     },
     {
-        "_id": "66957a95d64c07c0440afe90",
+        "_id": "67040ed26ec8f25958820d59",
         "autor_id": "58886913200",
-        "nombre": "Julio M\u00e9ndez-Nina",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/julio-mendez.jpg",
+        "nombre": "Julio M\u00c3\u00a9ndez-Nina",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/image_1.png",
         "grado_academico": [
             "MAGISTER EN DOCENCIA E INVESTIGACI\u00d3N SUPERIOR",
             "LICENCIADO TECN\u00d3LOGO M\u00c9DICO",
@@ -216,10 +180,10 @@
         ]
     },
     {
-        "_id": "66b110333dfd0d348432a154",
+        "_id": "67040ede6ec8f25958820d5a",
         "autor_id": "57210377414",
-        "nombre": "Enrique Lee Huaman\u00ed",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Enrique_Lee_Huamani_Uriarte.JPG",
+        "nombre": "Enrique Lee Huaman\u00c3\u00ad",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/Enrique_Lee_Huamani_Uriarte-removebg-preview.png",
         "grado_academico": [
             "MAGISTER EN GESTI\u00d3N DE TECNOLOG\u00cdAS DE LA INFORMACI\u00d3N",
             "ESPECIALIZACI\u00d3N EN BIG DATA",
@@ -230,26 +194,63 @@
         ]
     },
     {
-        "_id": "66ba3a8f2673d2c95679bfbc",
+        "_id": "67043ef8f1d83220b25139cc",
         "autor_id": "57204841219",
-        "nombre": "David Llulluy-Nu\u00f1ez",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/llulluy-nunez-david.jpg",
+        "nombre": "David Llulluy-Nu\u00c3\u00b1ez",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/pixelcut-export.png",
         "grado_academico": [
-            "MAGISTER EN CIENCIAS DE LA ELECTR\u00d3NICA CON MENCI\u00d3N EN CONTROL Y AUTOMATIZACI\u00d3N",
+            "MAGISTER EN CIENCIAS DE LA ELECTRONICA CON MENCION EN CONTROL Y AUTOMATIZACION",
             "LICENCIADO EN INGENIERIA ELECTRONICA",
             "BACHILLER EN CIENCIAS"
         ]
     },
     {
-        "_id": "66ba4a422673d2c95679bfbd",
+        "_id": "67043f75f1d83220b25139cd",
         "autor_id": "57930813500",
         "nombre": "Linett Velasquez-Jimenez",
-        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/linett-angelica-velasquez.jpg",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/e8c1e3a4-de66-4df6-b451-72940641d9c6.png",
         "grado_academico": [
             "MAGISTER EN GERENCIA DE CALIDAD Y PRODUCTIVIDAD",
             "LICENCIADA EN INGENIERIA INDUSTRIAL",
             "BACHILLER EN INGENIERIA INDUSTRIAL",
             "DIPLOMADO EN SEGURIDAD Y SALUD"
+        ]
+    },
+    {
+        "_id": "670453b4f1d83220b25139cf",
+        "autor_id": "57211666738",
+        "nombre": "Beatriz Bayl\u00c3\u00b3n-Gonzales",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/beatriz.png",
+        "grado_academico": [
+            "MAGISTER EN ADMINISTRACI\u00d3N CON MENCI\u00d3N EN GESTI\u00d3N P\u00daBLICA",
+            "LICENCIADA EN EDUCACION SECUNDARIA",
+            "LICENCIADA EN CONTADURIA PUBLICA",
+            "BACHILLER EN EDUCACION",
+            "BACHILLER EN CONTABILIDAD"
+        ]
+    },
+    {
+        "_id": "670453c9f1d83220b25139d0",
+        "autor_id": "58562875900",
+        "nombre": "Guillermo Segundo Mi\u00c3\u00b1an-Olivos",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/guillermo.png",
+        "grado_academico": [
+            "MAG\u00cdSTER EN GESTI\u00d3N P\u00daBLICA",
+            "LICENCIADO EN INGENIERIA INDUSTRIAL",
+            "BACHILLER EN INGENIERIA INDUSTRIAL"
+        ]
+    },
+    {
+        "_id": "67045479f1d83220b25139d1",
+        "autor_id": "57205765369",
+        "nombre": "Milton Alexis Gonzales-Macavilca",
+        "ruta_imagen": "https://se-autores.s3.us-east-1.amazonaws.com/bryan.png",
+        "grado_academico": [
+            "MAGISTER EN ADMINISTRACI\u00d3N CON MENCI\u00d3N EN GESTI\u00d3N P\u00daBLICA",
+            "LICENCIADA EN EDUCACION SECUNDARIA",
+            "LICENCIADA EN CONTADURIA PUBLICA",
+            "BACHILLER EN EDUCACION",
+            "BACHILLER EN CONTABILIDAD"
         ]
     }
 ]

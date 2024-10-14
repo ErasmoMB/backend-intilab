@@ -2,7 +2,6 @@ from flask import Blueprint, jsonify, request
 import os
 import json
 from config import usuarios_collection
-from src.routes.autores import buscar_autores
 
 bp = Blueprint('routes', __name__)
 
@@ -11,51 +10,52 @@ def cargar_datos_localmente(nombre_archivo):
     with open(file_path, 'r') as file:
         return json.load(file)
 
-def cargar_y_devolver_datos(nombre_archivo):
+@bp.route('/autores', methods=['GET'])
+def autores_route():
     try:
-        datos = cargar_datos_localmente(nombre_archivo)
-        return jsonify(datos)
+        autores = cargar_datos_localmente('autores.json')
+        return jsonify({"autores": autores})
     except Exception as file_error:
         return jsonify({"error": str(file_error)}), 500
 
-@bp.route('/autores', methods=['GET'])
-def autores_route():
-    return cargar_y_devolver_datos('autores.json')
-
 @bp.route('/autor', methods=['GET'])
 def autor_route():
-    return cargar_y_devolver_datos('autor.json')
+    try:
+        autores = cargar_datos_localmente('autores.json')
+        return jsonify({"autores": autores})
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
 
 @bp.route('/documentos', methods=['GET'])
 def get_documentos():
-    return cargar_y_devolver_datos('documentos.json')
-
-@bp.route('/e-health', methods=['GET'])
-def get_e_health_documents():
-    return cargar_y_devolver_datos('e_health.json')
-
-@bp.route('/ciics', methods=['GET'])
-def get_ciics_documents():
-    return cargar_y_devolver_datos('ciics.json')
-
-@bp.route('/inti-lab', methods=['GET'])
-def get_inti_lab_documents():
-    return cargar_y_devolver_datos('inti_lab.json')
+    try:
+        documentos = cargar_datos_localmente('documentos.json')
+        return jsonify({'documentos': documentos})
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
 
 @bp.route('/datos', methods=['GET'])
 def datos_investigadores():
     try:
-        investigadores = list(usuarios_collection.find())
-        for investigador in investigadores:
-            investigador['_id'] = str(investigador['_id'])
+        investigadores = cargar_datos_localmente('datos_investigadores.json')
         return jsonify(investigadores), 200
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+    except Exception as file_error:
+        return jsonify({'error': str(file_error)}), 500
 
 @bp.route('/uch', methods=['GET'])
 def get_uch_information():
-    return cargar_y_devolver_datos('informacion_uch.json')
+    try:
+        informacion = cargar_datos_localmente('informacion_uch.json')
+        return jsonify({
+            "informacion_afiliaciones": informacion
+        })
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
 
 @bp.route('/autores-uch', methods=['GET'])
 def obtener_autores_uch():
-    return cargar_y_devolver_datos('autores_uch.json')
+    try:
+        resultados = cargar_datos_localmente('autores_uch.json')
+        return jsonify(resultados)
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
