@@ -1,5 +1,5 @@
 {
-    "total_autores_uch": 429,
+    "total_autores_uch": 430,
     "autores": [
         {
             "@_fa": "true",
@@ -110,16 +110,10 @@
             "orcid": "[0000-0001-7403-6717]",
             "preferred-name": {
                 "surname": "Matta-Solis",
-                "given-name": "Hernan Hugo",
-                "initials": "H.H."
+                "given-name": "Hernan",
+                "initials": "H."
             },
             "name-variant": [
-                {
-                    "@_fa": "true",
-                    "surname": "Matta-Solis",
-                    "given-name": "Hernan",
-                    "initials": "H."
-                },
                 {
                     "@_fa": "true",
                     "surname": "Solis-Matta",
@@ -131,9 +125,15 @@
                     "surname": "Solis",
                     "given-name": "Hernan Matta",
                     "initials": "H.M."
+                },
+                {
+                    "@_fa": "true",
+                    "surname": "Matta-Solis",
+                    "given-name": "H.",
+                    "initials": "H."
                 }
             ],
-            "document-count": "97",
+            "document-count": "96",
             "subject-area": [
                 {
                     "@abbrev": "COMP",
@@ -142,12 +142,12 @@
                 },
                 {
                     "@abbrev": "ENGI",
-                    "@frequency": "68",
+                    "@frequency": "67",
                     "$": "Engineering (all)"
                 },
                 {
                     "@abbrev": "MEDI",
-                    "@frequency": "29",
+                    "@frequency": "28",
                     "$": "Medicine (all)"
                 }
             ],
@@ -816,7 +816,7 @@
                     "initials": "D.E."
                 }
             ],
-            "document-count": "20",
+            "document-count": "19",
             "subject-area": [
                 {
                     "@abbrev": "SOCI",
@@ -830,67 +830,8 @@
                 },
                 {
                     "@abbrev": "MEDI",
-                    "@frequency": "8",
+                    "@frequency": "7",
                     "$": "Medicine (all)"
-                }
-            ],
-            "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
-                "affiliation-id": "60110778",
-                "affiliation-name": "Universidad de Ciencias y Humanidades",
-                "affiliation-city": "Los Olivos",
-                "affiliation-country": "Peru"
-            }
-        },
-        {
-            "@_fa": "true",
-            "link": [
-                {
-                    "@_fa": "true",
-                    "@ref": "self",
-                    "@href": "https://api.elsevier.com/content/author/author_id/57211341296"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "search",
-                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857211341296%29"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-citedby",
-                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57211341296&origin=inward"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-author",
-                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57211341296&origin=inward"
-                }
-            ],
-            "prism:url": "https://api.elsevier.com/content/author/author_id/57211341296",
-            "dc:identifier": "AUTHOR_ID:57211341296",
-            "eid": "9-s2.0-57211341296",
-            "orcid": "[0000-0001-5457-5131]",
-            "preferred-name": {
-                "surname": "Lara-Herrera",
-                "given-name": "Juan",
-                "initials": "J."
-            },
-            "document-count": "17",
-            "subject-area": [
-                {
-                    "@abbrev": "ENGI",
-                    "@frequency": "29",
-                    "$": "Engineering (all)"
-                },
-                {
-                    "@abbrev": "COMP",
-                    "@frequency": "22",
-                    "$": "Computer Science (all)"
-                },
-                {
-                    "@abbrev": "SOCI",
-                    "@frequency": "12",
-                    "$": "Social Sciences (all)"
                 }
             ],
             "affiliation-current": {
@@ -970,6 +911,65 @@
                     "@abbrev": "MATH",
                     "@frequency": "8",
                     "$": "Mathematics (all)"
+                }
+            ],
+            "affiliation-current": {
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
+                "affiliation-country": "Peru"
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/author/author_id/57211341296"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "search",
+                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857211341296%29"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57211341296&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-author",
+                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57211341296&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/author/author_id/57211341296",
+            "dc:identifier": "AUTHOR_ID:57211341296",
+            "eid": "9-s2.0-57211341296",
+            "orcid": "[0000-0001-5457-5131]",
+            "preferred-name": {
+                "surname": "Lara-Herrera",
+                "given-name": "Juan",
+                "initials": "J."
+            },
+            "document-count": "15",
+            "subject-area": [
+                {
+                    "@abbrev": "ENGI",
+                    "@frequency": "27",
+                    "$": "Engineering (all)"
+                },
+                {
+                    "@abbrev": "COMP",
+                    "@frequency": "22",
+                    "$": "Computer Science (all)"
+                },
+                {
+                    "@abbrev": "SOCI",
+                    "@frequency": "10",
+                    "$": "Social Sciences (all)"
                 }
             ],
             "affiliation-current": {
@@ -1407,16 +1407,10 @@
             "orcid": "[0000-0002-9839-6562]",
             "preferred-name": {
                 "surname": "Paico-Campos",
-                "given-name": "Meyluz Monica",
-                "initials": "M.M."
+                "given-name": "Meyluz",
+                "initials": "M."
             },
             "name-variant": [
-                {
-                    "@_fa": "true",
-                    "surname": "Paico-Campos",
-                    "given-name": "Meyluz",
-                    "initials": "M."
-                },
                 {
                     "@_fa": "true",
                     "surname": "Campos",
@@ -1428,6 +1422,12 @@
                     "surname": "Campos",
                     "given-name": "Meyluz Monica Paico",
                     "initials": "M.M.P."
+                },
+                {
+                    "@_fa": "true",
+                    "surname": "Paico-Campos",
+                    "given-name": "Meyluz Monica",
+                    "initials": "M.M."
                 }
             ],
             "document-count": "8",
@@ -1726,6 +1726,73 @@
                 {
                     "@_fa": "true",
                     "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/author/author_id/57447595200"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "search",
+                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857447595200%29"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57447595200&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-author",
+                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57447595200&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/author/author_id/57447595200",
+            "dc:identifier": "AUTHOR_ID:57447595200",
+            "eid": "9-s2.0-57447595200",
+            "orcid": "[0000-0002-1155-0249]",
+            "preferred-name": {
+                "surname": "Trelles",
+                "given-name": "Jos\u00e9 Enrique Sotomayor",
+                "initials": "J.E.S."
+            },
+            "name-variant": [
+                {
+                    "@_fa": "true",
+                    "surname": "Trelles",
+                    "given-name": "Jose Enrique Sotomayor",
+                    "initials": "J.E.S."
+                }
+            ],
+            "document-count": "7",
+            "subject-area": [
+                {
+                    "@abbrev": "SOCI",
+                    "@frequency": "6",
+                    "$": "Social Sciences (all)"
+                },
+                {
+                    "@abbrev": "ARTS",
+                    "@frequency": "4",
+                    "$": "Arts and Humanities (all)"
+                },
+                {
+                    "@abbrev": "COMP",
+                    "@frequency": "2",
+                    "$": "Computer Science (all)"
+                }
+            ],
+            "affiliation-current": {
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
+                "affiliation-country": "Peru"
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
                     "@href": "https://api.elsevier.com/content/author/author_id/57373131700"
                 },
                 {
@@ -1840,65 +1907,6 @@
                     "@abbrev": "ENER",
                     "@frequency": "5",
                     "$": "Energy (all)"
-                }
-            ],
-            "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
-                "affiliation-id": "60110778",
-                "affiliation-name": "Universidad de Ciencias y Humanidades",
-                "affiliation-city": "Los Olivos",
-                "affiliation-country": "Peru"
-            }
-        },
-        {
-            "@_fa": "true",
-            "link": [
-                {
-                    "@_fa": "true",
-                    "@ref": "self",
-                    "@href": "https://api.elsevier.com/content/author/author_id/58514437800"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "search",
-                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2858514437800%29"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-citedby",
-                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=58514437800&origin=inward"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-author",
-                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=58514437800&origin=inward"
-                }
-            ],
-            "prism:url": "https://api.elsevier.com/content/author/author_id/58514437800",
-            "dc:identifier": "AUTHOR_ID:58514437800",
-            "eid": "9-s2.0-58514437800",
-            "orcid": "[0000-0001-7050-5328]",
-            "preferred-name": {
-                "surname": "Romero-Untiveros",
-                "given-name": "Luis",
-                "initials": "L."
-            },
-            "document-count": "6",
-            "subject-area": [
-                {
-                    "@abbrev": "ENGI",
-                    "@frequency": "6",
-                    "$": "Engineering (all)"
-                },
-                {
-                    "@abbrev": "COMP",
-                    "@frequency": "6",
-                    "$": "Computer Science (all)"
-                },
-                {
-                    "@abbrev": "SOCI",
-                    "@frequency": "6",
-                    "$": "Social Sciences (all)"
                 }
             ],
             "affiliation-current": {
@@ -2895,6 +2903,65 @@
                 {
                     "@_fa": "true",
                     "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/author/author_id/58514437800"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "search",
+                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2858514437800%29"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=58514437800&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-author",
+                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=58514437800&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/author/author_id/58514437800",
+            "dc:identifier": "AUTHOR_ID:58514437800",
+            "eid": "9-s2.0-58514437800",
+            "orcid": "[0000-0001-7050-5328]",
+            "preferred-name": {
+                "surname": "Romero-Untiveros",
+                "given-name": "Luis",
+                "initials": "L."
+            },
+            "document-count": "4",
+            "subject-area": [
+                {
+                    "@abbrev": "COMP",
+                    "@frequency": "6",
+                    "$": "Computer Science (all)"
+                },
+                {
+                    "@abbrev": "ENGI",
+                    "@frequency": "4",
+                    "$": "Engineering (all)"
+                },
+                {
+                    "@abbrev": "SOCI",
+                    "@frequency": "4",
+                    "$": "Social Sciences (all)"
+                }
+            ],
+            "affiliation-current": {
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
+                "affiliation-country": "Peru"
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
                     "@href": "https://api.elsevier.com/content/author/author_id/57655976600"
                 },
                 {
@@ -3115,37 +3182,29 @@
                 "given-name": "Roberto Yon",
                 "initials": "R.Y."
             },
-            "name-variant": [
-                {
-                    "@_fa": "true",
-                    "surname": "Yon-Alv",
-                    "given-name": "Roberto",
-                    "initials": "R."
-                }
-            ],
             "document-count": "4",
             "subject-area": [
-                {
-                    "@abbrev": "ENGI",
-                    "@frequency": "2",
-                    "$": "Engineering (all)"
-                },
                 {
                     "@abbrev": "COMP",
                     "@frequency": "2",
                     "$": "Computer Science (all)"
                 },
                 {
+                    "@abbrev": "ENGI",
+                    "@frequency": "1",
+                    "$": "Engineering (all)"
+                },
+                {
                     "@abbrev": "SOCI",
-                    "@frequency": "2",
+                    "@frequency": "1",
                     "$": "Social Sciences (all)"
                 }
             ],
             "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60071254",
-                "affiliation-id": "60071254",
-                "affiliation-name": "Universidad Nacional Agraria La Molina",
-                "affiliation-city": "Lima",
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
                 "affiliation-country": "Peru"
             }
         },
@@ -3184,11 +3243,6 @@
             "document-count": "4",
             "subject-area": [
                 {
-                    "@abbrev": "COMP",
-                    "@frequency": "2",
-                    "$": "Computer Science (all)"
-                },
-                {
                     "@abbrev": "SOCI",
                     "@frequency": "2",
                     "$": "Social Sciences (all)"
@@ -3197,13 +3251,18 @@
                     "@abbrev": "ENGI",
                     "@frequency": "2",
                     "$": "Engineering (all)"
+                },
+                {
+                    "@abbrev": "COMP",
+                    "@frequency": "2",
+                    "$": "Computer Science (all)"
                 }
             ],
             "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60071254",
-                "affiliation-id": "60071254",
-                "affiliation-name": "Universidad Nacional Agraria La Molina",
-                "affiliation-city": "Lima",
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
                 "affiliation-country": "Peru"
             }
         },
@@ -3396,6 +3455,64 @@
                     "@abbrev": "ENGI",
                     "@frequency": "1",
                     "$": "Engineering (all)"
+                }
+            ],
+            "affiliation-current": {
+                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
+                "affiliation-id": "60110778",
+                "affiliation-name": "Universidad de Ciencias y Humanidades",
+                "affiliation-city": "Los Olivos",
+                "affiliation-country": "Peru"
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/author/author_id/57219023987"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "search",
+                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857219023987%29"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57219023987&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-author",
+                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57219023987&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/author/author_id/57219023987",
+            "dc:identifier": "AUTHOR_ID:57219023987",
+            "eid": "9-s2.0-57219023987",
+            "preferred-name": {
+                "surname": "Zavaleta",
+                "given-name": "Janet Corzo",
+                "initials": "J.C."
+            },
+            "document-count": "4",
+            "subject-area": [
+                {
+                    "@abbrev": "COMP",
+                    "@frequency": "2",
+                    "$": "Computer Science (all)"
+                },
+                {
+                    "@abbrev": "ENGI",
+                    "@frequency": "1",
+                    "$": "Engineering (all)"
+                },
+                {
+                    "@abbrev": "SOCI",
+                    "@frequency": "1",
+                    "$": "Social Sciences (all)"
                 }
             ],
             "affiliation-current": {
@@ -4841,59 +4958,6 @@
                 {
                     "@_fa": "true",
                     "@ref": "self",
-                    "@href": "https://api.elsevier.com/content/author/author_id/59326016800"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "search",
-                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2859326016800%29"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-citedby",
-                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=59326016800&origin=inward"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-author",
-                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=59326016800&origin=inward"
-                }
-            ],
-            "prism:url": "https://api.elsevier.com/content/author/author_id/59326016800",
-            "dc:identifier": "AUTHOR_ID:59326016800",
-            "eid": "9-s2.0-59326016800",
-            "preferred-name": {
-                "surname": "Ull\u00f3n-Ram\u00edrez",
-                "given-name": "Agust\u00edn",
-                "initials": "A."
-            },
-            "document-count": "2",
-            "subject-area": [
-                {
-                    "@abbrev": "ENGI",
-                    "@frequency": "2",
-                    "$": "Engineering (all)"
-                },
-                {
-                    "@abbrev": "SOCI",
-                    "@frequency": "2",
-                    "$": "Social Sciences (all)"
-                }
-            ],
-            "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
-                "affiliation-id": "60110778",
-                "affiliation-name": "Universidad de Ciencias y Humanidades",
-                "affiliation-city": "Los Olivos",
-                "affiliation-country": "Peru"
-            }
-        },
-        {
-            "@_fa": "true",
-            "link": [
-                {
-                    "@_fa": "true",
-                    "@ref": "self",
                     "@href": "https://api.elsevier.com/content/author/author_id/59164833900"
                 },
                 {
@@ -6279,72 +6343,6 @@
                     "@abbrev": "CENG",
                     "@frequency": "1",
                     "$": "Chemical Engineering (all)"
-                }
-            ],
-            "affiliation-current": {
-                "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60110778",
-                "affiliation-id": "60110778",
-                "affiliation-name": "Universidad de Ciencias y Humanidades",
-                "affiliation-city": "Los Olivos",
-                "affiliation-country": "Peru"
-            }
-        },
-        {
-            "@_fa": "true",
-            "link": [
-                {
-                    "@_fa": "true",
-                    "@ref": "self",
-                    "@href": "https://api.elsevier.com/content/author/author_id/57219029104"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "search",
-                    "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857219029104%29"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-citedby",
-                    "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57219029104&origin=inward"
-                },
-                {
-                    "@_fa": "true",
-                    "@ref": "scopus-author",
-                    "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57219029104&origin=inward"
-                }
-            ],
-            "prism:url": "https://api.elsevier.com/content/author/author_id/57219029104",
-            "dc:identifier": "AUTHOR_ID:57219029104",
-            "eid": "9-s2.0-57219029104",
-            "preferred-name": {
-                "surname": "Morales-Martines",
-                "given-name": "Judyth",
-                "initials": "J."
-            },
-            "name-variant": [
-                {
-                    "@_fa": "true",
-                    "surname": "Morales-Martinez",
-                    "given-name": "Judyth",
-                    "initials": "J."
-                }
-            ],
-            "document-count": "2",
-            "subject-area": [
-                {
-                    "@abbrev": "SOCI",
-                    "@frequency": "2",
-                    "$": "Social Sciences (all)"
-                },
-                {
-                    "@abbrev": "ENGI",
-                    "@frequency": "2",
-                    "$": "Engineering (all)"
-                },
-                {
-                    "@abbrev": "MATH",
-                    "@frequency": "2",
-                    "$": "Mathematics (all)"
                 }
             ],
             "affiliation-current": {

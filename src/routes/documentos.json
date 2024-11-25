@@ -16092,7 +16092,7 @@
             "prism:coverDate": "2021-03-01",
             "prism:coverDisplayDate": "March 2021",
             "prism:doi": "10.1007/s10803-021-04878-0",
-            "citedby-count": "8",
+            "citedby-count": "7",
             "affiliation": [
                 {
                     "@_fa": "true",
@@ -18815,7 +18815,7 @@
             "prism:coverDate": "2017-11-01",
             "prism:coverDisplayDate": "November 2017",
             "prism:doi": "10.1371/journal.pone.0188826",
-            "citedby-count": "48",
+            "citedby-count": "47",
             "affiliation": [
                 {
                     "@_fa": "true",
@@ -50772,7 +50772,7 @@
             "prism:coverDate": "2021-03-01",
             "prism:coverDisplayDate": "March 2021",
             "prism:doi": "10.1007/s10803-021-04878-0",
-            "citedby-count": "8",
+            "citedby-count": "7",
             "affiliation": [
                 {
                     "@_fa": "true",
@@ -54500,6 +54500,1408 @@
                     },
                     {
                         "$": "Gold"
+                    }
+                ]
+            }
+        }
+    ],
+    "57204841219": [
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85168299336"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85168299336?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85168299336&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85168299336&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85168299336",
+            "dc:identifier": "SCOPUS_ID:85168299336",
+            "eid": "2-s2.0-85168299336",
+            "dc:title": "Development of 3D Avatars for Inclusive Metaverse: Impact on Student Identity and Satisfaction using Agile Methodology, VRChat Platform, and Oculus Quest 2",
+            "dc:creator": "Ramos-Cosi S.",
+            "prism:publicationName": "International Journal of Engineering Trends and Technology",
+            "prism:issn": "23490918",
+            "prism:eIssn": "22315381",
+            "prism:volume": "71",
+            "prism:issueIdentifier": "7",
+            "prism:pageRange": "1-14",
+            "prism:coverDate": "2023-07-01",
+            "prism:coverDisplayDate": "July 2023",
+            "prism:doi": "10.14445/22315381/IJETT-V71I7P201",
+            "citedby-count": "2",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Image Processing Research Laboratory",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21101000284",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85166326924"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85166326924?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85166326924&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85166326924&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85166326924",
+            "dc:identifier": "SCOPUS_ID:85166326924",
+            "eid": "2-s2.0-85166326924",
+            "dc:title": "Innovative Proposed Model between Formative Research and Accreditation of Engineering Programs",
+            "dc:creator": "Andrade-Arenas L.",
+            "prism:publicationName": "International Journal of Engineering Pedagogy",
+            "prism:eIssn": "21924880",
+            "prism:volume": "13",
+            "prism:issueIdentifier": "4",
+            "prism:pageRange": "113-140",
+            "prism:coverDate": "2023-06-01",
+            "prism:coverDisplayDate": "June 2023",
+            "prism:doi": "10.3991/ijep.v13i4.37149",
+            "citedby-count": "1",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21100898957",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfullgold"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Gold"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85177091586"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85177091586?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177091586&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85177091586&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85177091586",
+            "dc:identifier": "SCOPUS_ID:85177091586",
+            "eid": "2-s2.0-85177091586",
+            "dc:title": "Systematic Review on Methods for Detection and Diagnosis of Diabetic Retinopathy from the Year 2013 to 2023",
+            "dc:creator": "Ramos-Cosi S.",
+            "prism:publicationName": "International Journal of Engineering Trends and Technology",
+            "prism:issn": "23490918",
+            "prism:eIssn": "22315381",
+            "prism:volume": "71",
+            "prism:issueIdentifier": "9",
+            "prism:pageRange": "104-115",
+            "prism:coverDate": "2023-01-01",
+            "prism:coverDisplayDate": "2023",
+            "prism:doi": "10.14445/22315381/IJETT-V71I9P210",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Image Processing Research Laboratory",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21101000284",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107078741"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107078741?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107078741&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107078741&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107078741",
+            "dc:identifier": "SCOPUS_ID:85107078741",
+            "eid": "2-s2.0-85107078741",
+            "dc:title": "Teaching management skills to first year engineering students",
+            "dc:creator": "Burgos-Vera O.",
+            "prism:publicationName": "EDUNINE 2021 - 5th IEEE World Engineering Education Conference: The Future of Engineering Education: Current Challenges and Opportunities, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781665403023]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2021-03-14",
+            "prism:coverDisplayDate": "14 March 2021",
+            "prism:doi": "10.1109/EDUNINE51952.2021.9429141",
+            "citedby-count": "1",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "9429141",
+            "source-id": "21101047138",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107078697"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107078697?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107078697&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107078697&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107078697",
+            "dc:identifier": "SCOPUS_ID:85107078697",
+            "eid": "2-s2.0-85107078697",
+            "dc:title": "Work in Progress: Flipped classroom as a pedagogical model in virtual education in networking courses with the Moodle Learning Management System against COVID 19",
+            "dc:creator": "Vilchez-Sandoval J.",
+            "prism:publicationName": "EDUNINE 2021 - 5th IEEE World Engineering Education Conference: The Future of Engineering Education: Current Challenges and Opportunities, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781665403023]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2021-03-14",
+            "prism:coverDisplayDate": "14 March 2021",
+            "prism:doi": "10.1109/EDUNINE51952.2021.9429101",
+            "citedby-count": "5",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "9429101",
+            "source-id": "21101047138",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107027122"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85107027122?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85107027122&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85107027122&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85107027122",
+            "dc:identifier": "SCOPUS_ID:85107027122",
+            "eid": "2-s2.0-85107027122",
+            "dc:title": "Use of Virtual Platforms for the Experiences of the Course of Applied Physics to Engineering II at the Universidad de Ciencias y Humanidades Lima - Peru",
+            "dc:creator": "Negliav. L.F.",
+            "prism:publicationName": "EDUNINE 2021 - 5th IEEE World Engineering Education Conference: The Future of Engineering Education: Current Challenges and Opportunities, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781665403023]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2021-03-14",
+            "prism:coverDisplayDate": "14 March 2021",
+            "prism:doi": "10.1109/EDUNINE51952.2021.9429136",
+            "citedby-count": "2",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "9429136",
+            "source-id": "21101047138",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85122025946"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85122025946?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85122025946&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85122025946&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85122025946",
+            "dc:identifier": "SCOPUS_ID:85122025946",
+            "eid": "2-s2.0-85122025946",
+            "dc:title": "The impact of the work of junior researchers and research professors on the improvement of the research competences of Engineering students at a University in North Lima",
+            "dc:creator": "Llulluy-Nu\u00f1ez D.",
+            "prism:publicationName": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+            "prism:eIssn": "24146390",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9789585207189]"
+                }
+            ],
+            "prism:volume": "2021-July",
+            "prism:pageRange": null,
+            "prism:coverDate": "2021-01-01",
+            "prism:coverDisplayDate": "2021",
+            "prism:doi": "10.18687/LACCEI2021.1.1.371",
+            "citedby-count": "2",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "source-id": "21100907750",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091070378"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091070378?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091070378&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85091070378&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85091070378",
+            "dc:identifier": "SCOPUS_ID:85091070378",
+            "eid": "2-s2.0-85091070378",
+            "dc:title": "On the of use agile methodologies to re-design a Networks and Data Communications course",
+            "dc:creator": "Vilchez-Sandoval J.",
+            "prism:publicationName": "EDUNINE 2020 - 4th IEEE World Engineering Education Conference: The Challenges of Education in Engineering, Computing and Technology without Exclusions: Innovation in the Era of the Industrial Revolution 4.0, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728166384]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2020-03-01",
+            "prism:coverDisplayDate": "March 2020",
+            "prism:doi": "10.1109/EDUNINE48860.2020.9149550",
+            "citedby-count": "2",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "9149550",
+            "source-id": "21101021743",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091068094"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85091068094?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85091068094&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85091068094&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85091068094",
+            "dc:identifier": "SCOPUS_ID:85091068094",
+            "eid": "2-s2.0-85091068094",
+            "dc:title": "On the impact of the insertion of international researchers on the investigative competences of the local engineering faculty staff and students",
+            "dc:creator": "Llulluy-Nunez D.",
+            "prism:publicationName": "EDUNINE 2020 - 4th IEEE World Engineering Education Conference: The Challenges of Education in Engineering, Computing and Technology without Exclusions: Innovation in the Era of the Industrial Revolution 4.0, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728166384]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2020-03-01",
+            "prism:coverDisplayDate": "March 2020",
+            "prism:doi": "10.1109/EDUNINE48860.2020.9149544",
+            "citedby-count": "1",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Image Processing Research Laboratory",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "9149544",
+            "source-id": "21101021743",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074801373"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074801373?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074801373&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074801373&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074801373",
+            "dc:identifier": "SCOPUS_ID:85074801373",
+            "eid": "2-s2.0-85074801373",
+            "dc:title": "Work-in-Progress: Application of academic strategies to strengthen intrinsic motivation and reduce the number of students who abandon engineering programs at universities in Lima-North",
+            "dc:creator": "Tirado-Mendoza G.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875844",
+            "citedby-count": "2",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875844",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074796318"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074796318?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074796318&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074796318&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074796318",
+            "dc:identifier": "SCOPUS_ID:85074796318",
+            "eid": "2-s2.0-85074796318",
+            "dc:title": "Relationship between research production and funding at the universidad de ciencias y humanidades",
+            "dc:creator": "Gonzales B.B.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875754",
+            "citedby-count": "3",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Facultad de Ciencias Contables, Econ\u00f3micas y Financieras",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875754",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074791804"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074791804?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074791804&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074791804&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074791804",
+            "dc:identifier": "SCOPUS_ID:85074791804",
+            "eid": "2-s2.0-85074791804",
+            "dc:title": "Facebook as a Didactic Instrument to Improve the Teaching-Learning Process in Programming Courses",
+            "dc:creator": "Paragulla J.V.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875812",
+            "citedby-count": "3",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Image Processing Research Laboratory",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875812",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074782774"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074782774?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074782774&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074782774&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074782774",
+            "dc:identifier": "SCOPUS_ID:85074782774",
+            "eid": "2-s2.0-85074782774",
+            "dc:title": "Impact of the Integral Evaluation on the Professional Training Process of the Students of the Technology Professional Programs",
+            "dc:creator": "Llulluy D.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875811",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Image Processing Research Laboratory",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875811",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074771622"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074771622?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074771622&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074771622&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074771622",
+            "dc:identifier": "SCOPUS_ID:85074771622",
+            "eid": "2-s2.0-85074771622",
+            "dc:title": "Influence of the Implementation of the Flipped Classroom Pedagogical Model in Networks and Data Communications Courses in First Generation University Students",
+            "dc:creator": "Vilchez-Sandoval J.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875817",
+            "citedby-count": "4",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875817",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074768841"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85074768841?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85074768841&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85074768841&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85074768841",
+            "dc:identifier": "SCOPUS_ID:85074768841",
+            "eid": "2-s2.0-85074768841",
+            "dc:title": "Are Really Young Universities in Disadvantage with Well-Established Institutions?: The Bridge of the Research to Minimize the Existent Gap in Peruvian Universities",
+            "dc:creator": "Nieto-Chaupis H.",
+            "prism:publicationName": "EDUNINE 2019 - 3rd IEEE World Engineering Education Conference: Modern Educational Paradigms for Computer and Engineering Career, Proceedings",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9781728116662]"
+                }
+            ],
+            "prism:pageRange": null,
+            "prism:coverDate": "2019-03-01",
+            "prism:coverDisplayDate": "March 2019",
+            "prism:doi": "10.1109/EDUNINE.2019.8875814",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Centro de Investigaci\u00f3n E-Health",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "article-number": "8875814",
+            "source-id": "21100935059",
+            "openaccess": "0",
+            "openaccessFlag": false
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85057447185"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85057447185?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85057447185&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85057447185&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85057447185",
+            "dc:identifier": "SCOPUS_ID:85057447185",
+            "eid": "2-s2.0-85057447185",
+            "dc:title": "Pedagogical methogolgies for teaching of signal path-loss models applied to power intensity analysis through the usage of Google-Sketchup",
+            "dc:creator": "Nieto-Chaupis H.",
+            "prism:publicationName": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+            "prism:eIssn": "24146390",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9780999344316]"
+                }
+            ],
+            "prism:volume": "2018-July",
+            "prism:pageRange": null,
+            "prism:coverDate": "2018-01-01",
+            "prism:coverDisplayDate": "2018",
+            "prism:doi": "10.18687/LACCEI2018.1.1.387",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad de Ciencias y Humanidades",
+                    "affiliation-city": "Los Olivos",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "source-id": "21100907750",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfree2read"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Bronze"
+                    }
+                ]
+            }
+        }
+    ],
+    "57930813500": [
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85190997928"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85190997928?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85190997928&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85190997928&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85190997928",
+            "dc:identifier": "SCOPUS_ID:85190997928",
+            "eid": "2-s2.0-85190997928",
+            "dc:title": "Medication dispenser with touch screen and consumption authenticator for monitoring adherence to medication in the elderly",
+            "dc:creator": "Jimenez S.L.R.",
+            "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+            "prism:issn": "20888708",
+            "prism:volume": "14",
+            "prism:issueIdentifier": "3",
+            "prism:pageRange": "2634-2646",
+            "prism:coverDate": "2024-06-01",
+            "prism:coverDisplayDate": "June 2024",
+            "prism:doi": "10.11591/ijece.v14i3.pp2634-2646",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21100373959",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfullgold"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Gold"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183851022"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183851022?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183851022&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183851022&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183851022",
+            "dc:identifier": "SCOPUS_ID:85183851022",
+            "eid": "2-s2.0-85183851022",
+            "dc:title": "Wearable with integrated piezoelectric energy harvester for geolocation of people with Alzheimer\u2019s",
+            "dc:creator": "Jimenez S.L.R.",
+            "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+            "prism:issn": "20888708",
+            "prism:volume": "14",
+            "prism:issueIdentifier": "1",
+            "prism:pageRange": "497-508",
+            "prism:coverDate": "2024-02-01",
+            "prism:coverDisplayDate": "February 2024",
+            "prism:doi": "10.11591/ijece.v14i1.pp497-508",
+            "citedby-count": "1",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21100373959",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfullgold"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Gold"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85184594189"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85184594189?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85184594189&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85184594189&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85184594189",
+            "dc:identifier": "SCOPUS_ID:85184594189",
+            "eid": "2-s2.0-85184594189",
+            "dc:title": "Application of remote monitoring of biosignals and geolocation with a wearable for patients with sequelae of the coronavirus",
+            "dc:creator": "Jimenez S.L.R.",
+            "prism:publicationName": "Indonesian Journal of Electrical Engineering and Computer Science",
+            "prism:issn": "25024752",
+            "prism:eIssn": "25024760",
+            "prism:volume": "33",
+            "prism:issueIdentifier": "1",
+            "prism:pageRange": "135-150",
+            "prism:coverDate": "2024-01-01",
+            "prism:coverDisplayDate": "January 2024",
+            "prism:doi": "10.11591/ijeecs.v33.i1.pp135-150",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Journal",
+            "subtype": "ar",
+            "subtypeDescription": "Article",
+            "source-id": "21100799500",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfullgold"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Gold"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140029748"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140029748?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140029748&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85140029748&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85140029748",
+            "dc:identifier": "SCOPUS_ID:85140029748",
+            "eid": "2-s2.0-85140029748",
+            "dc:title": "Prototype for the inspection of environmental variables in areas of natural disasters",
+            "dc:creator": "Rubi\u00f1os S.",
+            "prism:publicationName": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+            "prism:eIssn": "24146390",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9786289520705]"
+                }
+            ],
+            "prism:volume": "2022-July",
+            "prism:pageRange": null,
+            "prism:coverDate": "2022-01-01",
+            "prism:coverDisplayDate": "2022",
+            "prism:doi": "10.18687/LACCEI2022.1.1.439",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "source-id": "21100907750",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfree2read"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Bronze"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140027810"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140027810?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140027810&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85140027810&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85140027810",
+            "dc:identifier": "SCOPUS_ID:85140027810",
+            "eid": "2-s2.0-85140027810",
+            "dc:title": "Transcranial magnetic stimulation as elective technique to electroconvulsive therapy in the Peru",
+            "dc:creator": "Foronda J.",
+            "prism:publicationName": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+            "prism:eIssn": "24146390",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9786289520705]"
+                }
+            ],
+            "prism:volume": "2022-July",
+            "prism:pageRange": null,
+            "prism:coverDate": "2022-01-01",
+            "prism:coverDisplayDate": "2022",
+            "prism:doi": "10.18687/LACCEI2022.1.1.437",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "source-id": "21100907750",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfree2read"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Bronze"
+                    }
+                ]
+            }
+        },
+        {
+            "@_fa": "true",
+            "link": [
+                {
+                    "@_fa": "true",
+                    "@ref": "self",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85139982702"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "author-affiliation",
+                    "@href": "https://api.elsevier.com/content/abstract/scopus_id/85139982702?field=author,affiliation"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus",
+                    "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139982702&origin=inward"
+                },
+                {
+                    "@_fa": "true",
+                    "@ref": "scopus-citedby",
+                    "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85139982702&origin=inward"
+                }
+            ],
+            "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85139982702",
+            "dc:identifier": "SCOPUS_ID:85139982702",
+            "eid": "2-s2.0-85139982702",
+            "dc:title": "Non-invasive detection for the characterization of brain metabolism using spectroscopy magnetic resonance",
+            "dc:creator": "Coronado-Chavarria L.",
+            "prism:publicationName": "Proceedings of the LACCEI international Multi-conference for Engineering, Education and Technology",
+            "prism:eIssn": "24146390",
+            "prism:isbn": [
+                {
+                    "@_fa": "true",
+                    "$": "[9786289520705]"
+                }
+            ],
+            "prism:volume": "2022-July",
+            "prism:pageRange": null,
+            "prism:coverDate": "2022-01-01",
+            "prism:coverDisplayDate": "2022",
+            "prism:doi": "10.18687/LACCEI2022.1.1.438",
+            "citedby-count": "0",
+            "affiliation": [
+                {
+                    "@_fa": "true",
+                    "affilname": "Universidad Nacional del Callao",
+                    "affiliation-city": "Callao",
+                    "affiliation-country": "Peru"
+                }
+            ],
+            "prism:aggregationType": "Conference Proceeding",
+            "subtype": "cp",
+            "subtypeDescription": "Conference Paper",
+            "source-id": "21100907750",
+            "openaccess": "1",
+            "openaccessFlag": true,
+            "freetoread": {
+                "value": [
+                    {
+                        "$": "all"
+                    },
+                    {
+                        "$": "publisherfree2read"
+                    }
+                ]
+            },
+            "freetoreadLabel": {
+                "value": [
+                    {
+                        "$": "All Open Access"
+                    },
+                    {
+                        "$": "Bronze"
                     }
                 ]
             }

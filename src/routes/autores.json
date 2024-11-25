@@ -1066,6 +1066,78 @@
             {
                 "@_fa": "true",
                 "@ref": "self",
+                "@href": "https://api.elsevier.com/content/author/author_id/57204841219"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "search",
+                "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857204841219%29"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "scopus-citedby",
+                "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57204841219&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "scopus-author",
+                "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57204841219&origin=inward"
+            }
+        ],
+        "prism:url": "https://api.elsevier.com/content/author/author_id/57204841219",
+        "dc:identifier": "AUTHOR_ID:57204841219",
+        "eid": "9-s2.0-57204841219",
+        "preferred-name": {
+            "surname": "Llulluy-Nu\u00f1ez",
+            "given-name": "David",
+            "initials": "D."
+        },
+        "name-variant": [
+            {
+                "@_fa": "true",
+                "surname": "Llulluy-Nunez",
+                "given-name": "David",
+                "initials": "D."
+            },
+            {
+                "@_fa": "true",
+                "surname": "Llulluy",
+                "given-name": "David",
+                "initials": "D."
+            }
+        ],
+        "document-count": "16",
+        "subject-area": [
+            {
+                "@abbrev": "ENGI",
+                "@frequency": "16",
+                "$": "Engineering (all)"
+            },
+            {
+                "@abbrev": "SOCI",
+                "@frequency": "14",
+                "$": "Social Sciences (all)"
+            },
+            {
+                "@abbrev": "COMP",
+                "@frequency": "9",
+                "$": "Computer Science (all)"
+            }
+        ],
+        "affiliation-current": {
+            "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60171643",
+            "affiliation-id": "60171643",
+            "affiliation-name": "Image Processing Research Laboratory",
+            "affiliation-city": "Los Olivos",
+            "affiliation-country": "Peru"
+        }
+    },
+    {
+        "@_fa": "true",
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
                 "@href": "https://api.elsevier.com/content/author/author_id/57211666738"
             },
             {
@@ -1215,6 +1287,78 @@
             "affiliation-id": "60110778",
             "affiliation-name": "Universidad de Ciencias y Humanidades",
             "affiliation-city": "Los Olivos",
+            "affiliation-country": "Peru"
+        }
+    },
+    {
+        "@_fa": "true",
+        "link": [
+            {
+                "@_fa": "true",
+                "@ref": "self",
+                "@href": "https://api.elsevier.com/content/author/author_id/57930813500"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "search",
+                "@href": "https://api.elsevier.com/content/search/author?query=au-id%2857930813500%29"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "scopus-citedby",
+                "@href": "https://www.scopus.com/author/citedby.uri?partnerID=HzOxMe3b&citedAuthorId=57930813500&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@ref": "scopus-author",
+                "@href": "https://www.scopus.com/authid/detail.uri?partnerID=HzOxMe3b&authorId=57930813500&origin=inward"
+            }
+        ],
+        "prism:url": "https://api.elsevier.com/content/author/author_id/57930813500",
+        "dc:identifier": "AUTHOR_ID:57930813500",
+        "eid": "9-s2.0-57930813500",
+        "preferred-name": {
+            "surname": "Velasquez-Jimenez",
+            "given-name": "Linett",
+            "initials": "L."
+        },
+        "name-variant": [
+            {
+                "@_fa": "true",
+                "surname": "Jimenez",
+                "given-name": "Ang\u00e9lica Linett Velasquez",
+                "initials": "A.L.V."
+            },
+            {
+                "@_fa": "true",
+                "surname": "Jimenez",
+                "given-name": "Linett Ang\u00e9lica Velasquez",
+                "initials": "L.A.V."
+            }
+        ],
+        "document-count": "6",
+        "subject-area": [
+            {
+                "@abbrev": "COMP",
+                "@frequency": "6",
+                "$": "Computer Science (all)"
+            },
+            {
+                "@abbrev": "ENGI",
+                "@frequency": "6",
+                "$": "Engineering (all)"
+            },
+            {
+                "@abbrev": "SOCI",
+                "@frequency": "3",
+                "$": "Social Sciences (all)"
+            }
+        ],
+        "affiliation-current": {
+            "affiliation-url": "https://api.elsevier.com/content/affiliation/affiliation_id/60105112",
+            "affiliation-id": "60105112",
+            "affiliation-name": "Universidad Nacional del Callao",
+            "affiliation-city": "Callao",
             "affiliation-country": "Peru"
         }
     },

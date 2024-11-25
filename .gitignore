@@ -4,16 +4,34 @@ __pycache__/
 
 # Ignorar archivos de log
 app.log
+*.log
 
 # Ignorar archivos JSON generados
 # src/routes/*.json
+*.json
 
 # Ignorar archivos de requisitos
 src/mongo-crud/requirements.txt
+*.txt
 
-# Ignorar otros archivos específicos
-#src/routes/routes-descarga.py
-#src/routes/routes-json.py
-#src/routes/routes-local.py
+# Ignorar entornos virtuales
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-/env
+# Ignorar archivos de configuración de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de pruebas
+*.egg-info/
+dist/
+build/

@@ -1,6 +1,6 @@
 {
     "search-results": {
-        "opensearch:totalResults": "932",
+        "opensearch:totalResults": "927",
         "opensearch:startIndex": "0",
         "opensearch:itemsPerPage": "25",
         "opensearch:Query": {
@@ -12,25 +12,25 @@
             {
                 "@_fa": "true",
                 "@ref": "self",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=128e2766eb81861d19ac543e6ad30c24",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "first",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=128e2766eb81861d19ac543e6ad30c24",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "next",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=128e2766eb81861d19ac543e6ad30c24",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "last",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=907&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=128e2766eb81861d19ac543e6ad30c24",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=902&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
                 "@type": "application/json"
             }
         ],
@@ -434,59 +434,6 @@
                 "subtype": "ar",
                 "subtypeDescription": "Article",
                 "source-id": "21100799500",
-                "openaccess": "1",
-                "openaccessFlag": true
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205325877"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205325877?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85205325877&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85205325877&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85205325877",
-                "dc:identifier": "SCOPUS_ID:85205325877",
-                "eid": "2-s2.0-85205325877",
-                "dc:title": "Can a global score for anxiety and depression be obtained from the Patient Health Questionnaire (PHQ-4) in the Peruvian population that has experienced the death of a loved one? Empirical support for a unidimensional or two-dimensional model",
-                "dc:creator": "Carbajal-Le\u00f3n C.",
-                "prism:publicationName": "Medicina Clinica y Social",
-                "prism:eIssn": "25212281",
-                "prism:volume": "8",
-                "prism:issueIdentifier": "3",
-                "prism:pageRange": "250-262",
-                "prism:coverDate": "2024-09-01",
-                "prism:coverDisplayDate": "SEPTEMBER-DECEMBER 2024",
-                "prism:doi": "10.52379/mcs.v8i3.425",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Universidad de San Mart\u00edn de Porres",
-                        "affiliation-city": "Lima",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21101152597",
                 "openaccess": "1",
                 "openaccessFlag": true
             },
@@ -1584,6 +1531,81 @@
                 "source-id": "21101000284",
                 "openaccess": "0",
                 "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192053753",
+                "dc:identifier": "SCOPUS_ID:85192053753",
+                "eid": "2-s2.0-85192053753",
+                "dc:title": "Correction to: Deciphering the focal role of endostatin in Alzheimer\u2019s disease (Environmental Science and Pollution Research, (2021), 28, 44, (61998-62011), 10.1007/s11356-021-16567-7)",
+                "dc:creator": "Kaur D.",
+                "prism:publicationName": "Environmental Science and Pollution Research",
+                "prism:issn": "09441344",
+                "prism:eIssn": "16147499",
+                "prism:volume": "31",
+                "prism:issueIdentifier": "23",
+                "prism:pageRange": "34758",
+                "prism:coverDate": "2024-05-01",
+                "prism:coverDisplayDate": "May 2024",
+                "prism:doi": "10.1007/s11356-024-33595-1",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Chitkara University, Punjab",
+                        "affiliation-city": "Rajpura",
+                        "affiliation-country": "India"
+                    }
+                ],
+                "pubmed-id": "38705927",
+                "prism:aggregationType": "Journal",
+                "subtype": "er",
+                "subtypeDescription": "Erratum",
+                "source-id": "23918",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherhybridgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Hybrid Gold"
+                        }
+                    ]
+                }
             }
         ]
     }
