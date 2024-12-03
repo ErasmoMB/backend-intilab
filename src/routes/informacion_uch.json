@@ -1,36 +1,36 @@
 {
     "search-results": {
-        "opensearch:totalResults": "927",
+        "opensearch:totalResults": "939",
         "opensearch:startIndex": "0",
         "opensearch:itemsPerPage": "25",
         "opensearch:Query": {
             "@role": "request",
-            "@searchTerms": "AF-ID(60110778) OR AF-ID(60171637) OR AF-ID(60171638) OR AF-ID(60171647) OR AF-ID(60171644) OR AF-ID(60171645) OR AF-ID(60171646) OR AF-ID(60171643)",
+            "@searchTerms": "AF-ID(60110778) OR AF-ID(60171637) OR AF-ID(60171638) OR AF-ID(60171644) OR AF-ID(60171645) OR AF-ID(60171646) OR AF-ID(60171643) OR AF-ID(60171647)",
             "@startPage": "0"
         },
         "link": [
             {
                 "@_fa": "true",
                 "@ref": "self",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29+OR+AF-ID%2860171647%29&apiKey=70c3c7f627b46b8e8d0e843c93ea15b6",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "first",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=0&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29+OR+AF-ID%2860171647%29&apiKey=70c3c7f627b46b8e8d0e843c93ea15b6",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "next",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29+OR+AF-ID%2860171647%29&apiKey=70c3c7f627b46b8e8d0e843c93ea15b6",
                 "@type": "application/json"
             },
             {
                 "@_fa": "true",
                 "@ref": "last",
-                "@href": "https://api.elsevier.com/content/search/scopus?start=902&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171647%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29&apiKey=586c26d9a0fc3f6ab3e9a9f3b0e68eb0",
+                "@href": "https://api.elsevier.com/content/search/scopus?start=914&count=25&query=AF-ID%2860110778%29+OR+AF-ID%2860171637%29+OR+AF-ID%2860171638%29+OR+AF-ID%2860171644%29+OR+AF-ID%2860171645%29+OR+AF-ID%2860171646%29+OR+AF-ID%2860171643%29+OR+AF-ID%2860171647%29&apiKey=70c3c7f627b46b8e8d0e843c93ea15b6",
                 "@type": "application/json"
             }
         ],
@@ -107,6 +107,59 @@
                         }
                     ]
                 }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85209930368"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85209930368?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209930368&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85209930368&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85209930368",
+                "dc:identifier": "SCOPUS_ID:85209930368",
+                "eid": "2-s2.0-85209930368",
+                "dc:title": "Control of an aquaponic system to improve the yield of gray tilapia and lettuce cultivation",
+                "dc:creator": "Gamarra J.H.G.",
+                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+                "prism:issn": "20888708",
+                "prism:volume": "15",
+                "prism:issueIdentifier": "1",
+                "prism:pageRange": "505-519",
+                "prism:coverDate": "2025-02-01",
+                "prism:coverDisplayDate": "February 2025",
+                "prism:doi": "10.11591/ijece.v15i1.pp505-519",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad Nacional del Callao",
+                        "affiliation-city": "Callao",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100373959",
+                "openaccess": "1",
+                "openaccessFlag": true
             },
             {
                 "@_fa": "true",
@@ -260,6 +313,165 @@
                     {
                         "@_fa": "true",
                         "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206120542"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206120542?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206120542&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85206120542&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85206120542",
+                "dc:identifier": "SCOPUS_ID:85206120542",
+                "eid": "2-s2.0-85206120542",
+                "dc:title": "A study of Tobacco use and mortality by data mining",
+                "dc:creator": "Andrade-Arenas L.",
+                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+                "prism:issn": "20888708",
+                "prism:volume": "14",
+                "prism:issueIdentifier": "6",
+                "prism:pageRange": "6846-6860",
+                "prism:coverDate": "2024-12-01",
+                "prism:coverDisplayDate": "December 2024",
+                "prism:doi": "10.11591/ijece.v14i6.pp6861-6873",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad de Ciencias y Humanidades",
+                        "affiliation-city": "Los Olivos",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100373959",
+                "openaccess": "1",
+                "openaccessFlag": true
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206005646"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206005646?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206005646&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85206005646&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85206005646",
+                "dc:identifier": "SCOPUS_ID:85206005646",
+                "eid": "2-s2.0-85206005646",
+                "dc:title": "Preliminary diagnosis of respiratory diseases: an innovative approach using a web expert system",
+                "dc:creator": "Andrade-Arenas L.",
+                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+                "prism:issn": "20888708",
+                "prism:volume": "14",
+                "prism:issueIdentifier": "6",
+                "prism:pageRange": "6600-6611",
+                "prism:coverDate": "2024-12-01",
+                "prism:coverDisplayDate": "December 2024",
+                "prism:doi": "10.11591/ijece.v14i6.pp6600-6611",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad de Ciencias y Humanidades",
+                        "affiliation-city": "Los Olivos",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100373959",
+                "openaccess": "1",
+                "openaccessFlag": true
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205943810"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205943810?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85205943810&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85205943810&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85205943810",
+                "dc:identifier": "SCOPUS_ID:85205943810",
+                "eid": "2-s2.0-85205943810",
+                "dc:title": "Mobile application for the prevention and self-care of varicose veins",
+                "dc:creator": "Andrade-Arenas L.",
+                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
+                "prism:issn": "20888708",
+                "prism:volume": "14",
+                "prism:issueIdentifier": "6",
+                "prism:pageRange": "6560-6571",
+                "prism:coverDate": "2024-12-01",
+                "prism:coverDisplayDate": "December 2024",
+                "prism:doi": "10.11591/ijece.v14i6.pp6560-6571",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad de Ciencias y Humanidades",
+                        "affiliation-city": "Los Olivos",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100373959",
+                "openaccess": "1",
+                "openaccessFlag": true
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
                         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85198650272"
                     },
                     {
@@ -335,6 +547,59 @@
                     {
                         "@_fa": "true",
                         "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85209143473"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85209143473?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209143473&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85209143473&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85209143473",
+                "dc:identifier": "SCOPUS_ID:85209143473",
+                "eid": "2-s2.0-85209143473",
+                "dc:title": "Systematic Review of Medical Devices with Technological Features for Measuring Lung Sounds from 2004 to 2024",
+                "dc:creator": "Huamani-Huaracca A.",
+                "prism:publicationName": "SSRG International Journal of Electronics and Communication Engineering",
+                "prism:eIssn": "23488549",
+                "prism:volume": "11",
+                "prism:issueIdentifier": "10",
+                "prism:pageRange": "109-118",
+                "prism:coverDate": "2024-10-01",
+                "prism:coverDisplayDate": "October 2024",
+                "prism:doi": "10.14445/23488549/IJECE-V11I10P109",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad de Ciencias y Humanidades",
+                        "affiliation-city": "Los Olivos",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "re",
+                "subtypeDescription": "Review",
+                "source-id": "21101150690",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
                         "@href": "https://api.elsevier.com/content/abstract/scopus_id/85200776257"
                     },
                     {
@@ -381,7 +646,27 @@
                 "subtypeDescription": "Article",
                 "source-id": "21100826382",
                 "openaccess": "1",
-                "openaccessFlag": true
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        }
+                    ]
+                }
             },
             {
                 "@_fa": "true",
@@ -434,6 +719,132 @@
                 "subtype": "ar",
                 "subtypeDescription": "Article",
                 "source-id": "21100799500",
+                "openaccess": "1",
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        }
+                    ]
+                }
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206637988"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85206637988?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85206637988&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85206637988&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85206637988",
+                "dc:identifier": "SCOPUS_ID:85206637988",
+                "eid": "2-s2.0-85206637988",
+                "dc:title": "THE RELATIONSHIP ASSESSMENT SCALE REVISED (RAS-R): ADAPTATION AND PSYCHOMETRIC EVALUATION BY CLASSICAL TEST THEORY AND ITEM RESPONSE THEORY",
+                "dc:creator": "Quispilaya-Capcha K.L.",
+                "prism:publicationName": "TPM - Testing, Psychometrics, Methodology in Applied Psychology",
+                "prism:issn": "19726325",
+                "prism:volume": "31",
+                "prism:issueIdentifier": "3",
+                "prism:pageRange": "271-284",
+                "prism:coverDate": "2024-09-01",
+                "prism:coverDisplayDate": "September 2024",
+                "prism:doi": "10.4473/TPM31.3.1",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad Peruana Cayetano Heredia",
+                        "affiliation-city": "Lima",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21100228948",
+                "openaccess": "0",
+                "openaccessFlag": false
+            },
+            {
+                "@_fa": "true",
+                "link": [
+                    {
+                        "@_fa": "true",
+                        "@ref": "self",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205325877"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "author-affiliation",
+                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85205325877?field=author,affiliation"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus",
+                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85205325877&origin=inward"
+                    },
+                    {
+                        "@_fa": "true",
+                        "@ref": "scopus-citedby",
+                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85205325877&origin=inward"
+                    }
+                ],
+                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85205325877",
+                "dc:identifier": "SCOPUS_ID:85205325877",
+                "eid": "2-s2.0-85205325877",
+                "dc:title": "Can a global score for anxiety and depression be obtained from the Patient Health Questionnaire (PHQ-4) in the Peruvian population that has experienced the death of a loved one? Empirical support for a unidimensional or two-dimensional model",
+                "dc:creator": "Carbajal-Le\u00f3n C.",
+                "prism:publicationName": "Medicina Clinica y Social",
+                "prism:eIssn": "25212281",
+                "prism:volume": "8",
+                "prism:issueIdentifier": "3",
+                "prism:pageRange": "250-262",
+                "prism:coverDate": "2024-09-01",
+                "prism:coverDisplayDate": "SEPTEMBER-DECEMBER 2024",
+                "prism:doi": "10.52379/mcs.v8i3.425",
+                "citedby-count": "0",
+                "affiliation": [
+                    {
+                        "@_fa": "true",
+                        "affilname": "Universidad de San Mart\u00edn de Porres",
+                        "affiliation-city": "Lima",
+                        "affiliation-country": "Peru"
+                    }
+                ],
+                "prism:aggregationType": "Journal",
+                "subtype": "ar",
+                "subtypeDescription": "Article",
+                "source-id": "21101152597",
                 "openaccess": "1",
                 "openaccessFlag": true
             },
@@ -543,7 +954,27 @@
                 "subtypeDescription": "Article",
                 "source-id": "21100901206",
                 "openaccess": "1",
-                "openaccessFlag": true
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        }
+                    ]
+                }
             },
             {
                 "@_fa": "true",
@@ -597,7 +1028,27 @@
                 "subtypeDescription": "Article",
                 "source-id": "21100901206",
                 "openaccess": "1",
-                "openaccessFlag": true
+                "openaccessFlag": true,
+                "freetoread": {
+                    "value": [
+                        {
+                            "$": "all"
+                        },
+                        {
+                            "$": "publisherfullgold"
+                        }
+                    ]
+                },
+                "freetoreadLabel": {
+                    "value": [
+                        {
+                            "$": "All Open Access"
+                        },
+                        {
+                            "$": "Gold"
+                        }
+                    ]
+                }
             },
             {
                 "@_fa": "true",
@@ -894,8 +1345,8 @@
                 "subtypeDescription": "Article",
                 "article-number": "e17355",
                 "source-id": "15131",
-                "openaccess": "0",
-                "openaccessFlag": false
+                "openaccess": "1",
+                "openaccessFlag": true
             },
             {
                 "@_fa": "true",
@@ -1147,443 +1598,6 @@
                 "subtype": "ar",
                 "subtypeDescription": "Article",
                 "source-id": "21100373959",
-                "openaccess": "1",
-                "openaccessFlag": true,
-                "freetoread": {
-                    "value": [
-                        {
-                            "$": "all"
-                        },
-                        {
-                            "$": "publisherhybridgold"
-                        }
-                    ]
-                },
-                "freetoreadLabel": {
-                    "value": [
-                        {
-                            "$": "All Open Access"
-                        },
-                        {
-                            "$": "Hybrid Gold"
-                        }
-                    ]
-                }
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191012985"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191012985?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85191012985&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85191012985&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85191012985",
-                "dc:identifier": "SCOPUS_ID:85191012985",
-                "eid": "2-s2.0-85191012985",
-                "dc:title": "Predictive models in Alzheimer's disease: an evaluation based on data mining techniques",
-                "dc:creator": "Andrade-Arenas L.",
-                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
-                "prism:issn": "20888708",
-                "prism:volume": "14",
-                "prism:issueIdentifier": "3",
-                "prism:pageRange": "2988-3002",
-                "prism:coverDate": "2024-06-01",
-                "prism:coverDisplayDate": "June 2024",
-                "prism:doi": "10.11591/ijece.v14i3.pp2988-3002",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Universidad de Ciencias y Humanidades",
-                        "affiliation-city": "Los Olivos",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21100373959",
-                "openaccess": "1",
-                "openaccessFlag": true,
-                "freetoread": {
-                    "value": [
-                        {
-                            "$": "all"
-                        },
-                        {
-                            "$": "publisherhybridgold"
-                        }
-                    ]
-                },
-                "freetoreadLabel": {
-                    "value": [
-                        {
-                            "$": "All Open Access"
-                        },
-                        {
-                            "$": "Hybrid Gold"
-                        }
-                    ]
-                }
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85190950253"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85190950253?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85190950253&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85190950253&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85190950253",
-                "dc:identifier": "SCOPUS_ID:85190950253",
-                "eid": "2-s2.0-85190950253",
-                "dc:title": "A bibliometric analysis of the advance of artificial intelligence in medicine",
-                "dc:creator": "Andrade-Arenas L.",
-                "prism:publicationName": "International Journal of Electrical and Computer Engineering",
-                "prism:issn": "20888708",
-                "prism:volume": "14",
-                "prism:issueIdentifier": "3",
-                "prism:pageRange": "3350-3361",
-                "prism:coverDate": "2024-06-01",
-                "prism:coverDisplayDate": "June 2024",
-                "prism:doi": "10.11591/ijece.v14i3.pp3350-3361",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Universidad de Ciencias y Humanidades",
-                        "affiliation-city": "Los Olivos",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21100373959",
-                "openaccess": "1",
-                "openaccessFlag": true,
-                "freetoread": {
-                    "value": [
-                        {
-                            "$": "all"
-                        },
-                        {
-                            "$": "publisherhybridgold"
-                        }
-                    ]
-                },
-                "freetoreadLabel": {
-                    "value": [
-                        {
-                            "$": "All Open Access"
-                        },
-                        {
-                            "$": "Hybrid Gold"
-                        }
-                    ]
-                }
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195505547"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195505547?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195505547&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195505547&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195505547",
-                "dc:identifier": "SCOPUS_ID:85195505547",
-                "eid": "2-s2.0-85195505547",
-                "dc:title": "Observational Quantitative Study of Factors Associated with Noncompliance in Growth and Development Monitoring in Children Aged 0 to 1 Years at the Laura Rodr\u00edguez Dulanto Duskil Maternal-Infant Center, Comas, Lima, Peru, 2023",
-                "dc:creator": "Olivera C.P.",
-                "prism:publicationName": "International Journal of Engineering Trends and Technology",
-                "prism:issn": "23490918",
-                "prism:eIssn": "22315381",
-                "prism:volume": "72",
-                "prism:issueIdentifier": "5",
-                "prism:pageRange": "355-364",
-                "prism:coverDate": "2024-05-01",
-                "prism:coverDisplayDate": "May 2024",
-                "prism:doi": "10.14445/22315381/IJETT-V72I5P136",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "University of Sciences and Humanities",
-                        "affiliation-city": null,
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21101000284",
-                "openaccess": "0",
-                "openaccessFlag": false
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195490874"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195490874?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195490874&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195490874&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195490874",
-                "dc:identifier": "SCOPUS_ID:85195490874",
-                "eid": "2-s2.0-85195490874",
-                "dc:title": "Comparison of Language Learning Platforms to Choose a Suitable Platform for Korean Language Learning",
-                "dc:creator": "Coquis-Flames J.",
-                "prism:publicationName": "International Journal of Engineering Trends and Technology",
-                "prism:issn": "23490918",
-                "prism:eIssn": "22315381",
-                "prism:volume": "72",
-                "prism:issueIdentifier": "5",
-                "prism:pageRange": "313-320",
-                "prism:coverDate": "2024-05-01",
-                "prism:coverDisplayDate": "May 2024",
-                "prism:doi": "10.14445/22315381/IJETT-V72I5P132",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Image Processing Research Laboratory",
-                        "affiliation-city": "Los Olivos",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21101000284",
-                "openaccess": "0",
-                "openaccessFlag": false
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195476933"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195476933?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195476933&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195476933&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195476933",
-                "dc:identifier": "SCOPUS_ID:85195476933",
-                "eid": "2-s2.0-85195476933",
-                "dc:title": "Comparative and Quantitative Analysis of Vulnerability in Emergency Situations in Schools for Children Under 13 Years of Age Pre and Post-Pandemic In PERU",
-                "dc:creator": "Le\u00f3n-Untiveros G.",
-                "prism:publicationName": "International Journal of Engineering Trends and Technology",
-                "prism:issn": "23490918",
-                "prism:eIssn": "22315381",
-                "prism:volume": "72",
-                "prism:issueIdentifier": "5",
-                "prism:pageRange": "243-251",
-                "prism:coverDate": "2024-05-01",
-                "prism:coverDisplayDate": "May 2024",
-                "prism:doi": "10.14445/22315381/IJETT-V72I5P125",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Universidad Peruana del Centro",
-                        "affiliation-city": "Huancayo",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "ar",
-                "subtypeDescription": "Article",
-                "source-id": "21101000284",
-                "openaccess": "0",
-                "openaccessFlag": false
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195397311"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195397311?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195397311&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195397311&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195397311",
-                "dc:identifier": "SCOPUS_ID:85195397311",
-                "eid": "2-s2.0-85195397311",
-                "dc:title": "Systematic Review on Technological Devices for Anemia Screening from 2003 to 2024",
-                "dc:creator": "Le\u00f3n-Untiveros G.",
-                "prism:publicationName": "International Journal of Engineering Trends and Technology",
-                "prism:issn": "23490918",
-                "prism:eIssn": "22315381",
-                "prism:volume": "72",
-                "prism:issueIdentifier": "5",
-                "prism:pageRange": "203-215",
-                "prism:coverDate": "2024-05-01",
-                "prism:coverDisplayDate": "May 2024",
-                "prism:doi": "10.14445/22315381/IJETT-V72I5P121",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Universidad Peruana del Centro",
-                        "affiliation-city": "Huancayo",
-                        "affiliation-country": "Peru"
-                    }
-                ],
-                "prism:aggregationType": "Journal",
-                "subtype": "re",
-                "subtypeDescription": "Review",
-                "source-id": "21101000284",
-                "openaccess": "0",
-                "openaccessFlag": false
-            },
-            {
-                "@_fa": "true",
-                "link": [
-                    {
-                        "@_fa": "true",
-                        "@ref": "self",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "author-affiliation",
-                        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753?field=author,affiliation"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus",
-                        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
-                    },
-                    {
-                        "@_fa": "true",
-                        "@ref": "scopus-citedby",
-                        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
-                    }
-                ],
-                "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192053753",
-                "dc:identifier": "SCOPUS_ID:85192053753",
-                "eid": "2-s2.0-85192053753",
-                "dc:title": "Correction to: Deciphering the focal role of endostatin in Alzheimer\u2019s disease (Environmental Science and Pollution Research, (2021), 28, 44, (61998-62011), 10.1007/s11356-021-16567-7)",
-                "dc:creator": "Kaur D.",
-                "prism:publicationName": "Environmental Science and Pollution Research",
-                "prism:issn": "09441344",
-                "prism:eIssn": "16147499",
-                "prism:volume": "31",
-                "prism:issueIdentifier": "23",
-                "prism:pageRange": "34758",
-                "prism:coverDate": "2024-05-01",
-                "prism:coverDisplayDate": "May 2024",
-                "prism:doi": "10.1007/s11356-024-33595-1",
-                "citedby-count": "0",
-                "affiliation": [
-                    {
-                        "@_fa": "true",
-                        "affilname": "Chitkara University, Punjab",
-                        "affiliation-city": "Rajpura",
-                        "affiliation-country": "India"
-                    }
-                ],
-                "pubmed-id": "38705927",
-                "prism:aggregationType": "Journal",
-                "subtype": "er",
-                "subtypeDescription": "Erratum",
-                "source-id": "23918",
                 "openaccess": "1",
                 "openaccessFlag": true,
                 "freetoread": {

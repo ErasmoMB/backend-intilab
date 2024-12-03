@@ -2,6 +2,8 @@ from flask import Blueprint, jsonify, request
 import os
 import json
 from config import usuarios_collection
+from src.routes.autores import buscar_autores  # Importa la función que buscará los autores
+
 
 bp = Blueprint('routes', __name__)
 
@@ -21,7 +23,7 @@ def autores_route():
 @bp.route('/autor', methods=['GET'])
 def autor_route():
     try:
-        autores = cargar_datos_localmente('autores.json')
+        autores = cargar_datos_localmente('autor.json')
         return jsonify({"autores": autores})
     except Exception as file_error:
         return jsonify({"error": str(file_error)}), 500
@@ -31,6 +33,30 @@ def get_documentos():
     try:
         documentos = cargar_datos_localmente('documentos.json')
         return jsonify({'documentos': documentos})
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
+
+@bp.route('/e-health', methods=['GET'])
+def get_e_health_documents():
+    try:
+        documentos = cargar_datos_localmente('e_health.json')
+        return jsonify({"documentos": documentos})
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
+
+@bp.route('/ciics', methods=['GET'])
+def get_ciics_documents():
+    try:
+        documentos = cargar_datos_localmente('ciics.json')
+        return jsonify({"documentos": documentos})
+    except Exception as file_error:
+        return jsonify({"error": str(file_error)}), 500
+
+@bp.route('/inti-lab', methods=['GET'])
+def get_inti_lab_documents():
+    try:
+        documentos = cargar_datos_localmente('inti_lab.json')
+        return jsonify({"documentos": documentos})
     except Exception as file_error:
         return jsonify({"error": str(file_error)}), 500
 
