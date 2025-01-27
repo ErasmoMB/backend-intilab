@@ -478,6 +478,10 @@ class ServiceModel:
     def signature_version(self, value):
         self._signature_version = value
 
+    @CachedProperty
+    def is_query_compatible(self):
+        return 'awsQueryCompatible' in self.metadata
+
     def __repr__(self):
         return f'{self.__class__.__name__}({self.service_name})'
 
@@ -619,6 +623,10 @@ class OperationModel:
             if 'contextParam' in shape.metadata
             and 'name' in shape.metadata['contextParam']
         ]
+
+    @CachedProperty
+    def operation_context_parameters(self):
+        return self._operation_model.get('operationContextParams', [])
 
     @CachedProperty
     def request_compression(self):

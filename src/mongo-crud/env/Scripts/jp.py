@@ -1,4 +1,4 @@
-#!C:\Users\Erasmo\Desktop\Scopus\backend-intilab\src\mongo-crud\env\Scripts\python.exe
+#!C:\Users\emb\Desktop\Github\scopus\backend-intilab\src\mongo-crud\env\Scripts\python.exe
 
 import sys
 import json

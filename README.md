@@ -1,21 +1,71 @@
-./
+# ******************** BACKEND *********************
 
-# tengo un error en la pc de mi casa consultando los autores y documentos, tengo la imagen del error que me da y aqui esta la ruta
+## Para Ejecutarlo:
+1. **Crea un entorno virtual:**
+   ```
+   python -m venv env
+   ```
 
-# aqui esta la url: https://api.elsevier.com/content/search/author?query=AF-ID(60110778)&apiKey=b21b68bd3eb1b573af7f883b0c9b70d7
+2. **Ingresa en el entorno virtual:**
+   ```
+   env\Scripts\activate
+   ```
 
-# usar esto para activar el entorno virtual .\venv\Scripts\activate
+3. **Instala las dependencias:**
+   ```
+   pip install -r requirements.txt
+   ```
 
-# mongod para que el mongoose corra 1 terminal
+4. **Ejecuta el backend:**
+   ```
+   python index.py
+   ```
 
-# python src/app.py para ejecutar 2 terminal
+---
 
-# mongosh para acceder al chat interactivo de mongodb 3 terminal
+## Para consumir datos descargados o usar datos en tiempo real:
+En la carpeta `routes`, hay tres archivos principales que controlan cómo se consumen los datos:
 
-# \*show databases
+- **`routes-json.py`:** Contiene datos descargados en formato JSON para trabajar con datos estáticos.
+- **`routes-local.py`:** Configurado para usar datos en tiempo real directamente desde Scopus.
+- **`routes-descarga.py`:** Permite usar datos en tiempo real y descargarlos también en un archivo JSON.
 
-# \*use database
+### Selección del archivo adecuado:
+1. Ingresa al archivo correspondiente según lo que necesites.
+2. Copia todo su contenido.
+3. Pégalo en el archivo `routes.py`, que es el archivo principal con el que funciona el backend.
 
-# \*show collections
+---
 
-# \*db.users.find()
+# ******************** CRUD DE INVESTIGADORES *********************
+
+## Para ingresar al CRUD de los investigadores, sigue estos pasos:
+1. **Accede a la carpeta correspondiente:**
+   ```
+   cd src/mongo-crud/
+   ```
+
+2. **Crea un entorno virtual:**
+   ```
+   python -m venv env
+   ```
+
+3. **Ingresa en el entorno virtual:**
+   ```
+   env\Scripts\activate
+   ```
+
+4. **Instala las dependencias:**
+   ```
+   pip install -r requirements.txt
+   ```
+
+5. **Ejecuta el CRUD:**
+   ```
+   python app.py
+   ```
+
+6. **Accede al CRUD:**
+   Abre la siguiente URL en tu navegador:
+   ```
+   http://127.0.0.1:1000/
