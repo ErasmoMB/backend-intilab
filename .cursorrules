@@ -1,0 +1,5 @@
+- No escribas NINGÚN comentario en el código. El código debe ser totalmente limpio; usa nombres claros y significativos en variables, funciones y componentes para que sea autoexplicativo.
+
+- Evita código duplicado. Si una misma lógica se repite, extrae una función, helper o componente reutilizable en su lugar.
+
+- Prioriza código simple y legible antes que soluciones complicadas. Prefiere estructuras claras, poca anidación y funciones cortas y bien definidas.

@@ -1,29 +1,30 @@
 # Entorno virtual
 env/
 venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Variables de entorno
+.env
 
 # Ignorar archivos de caché de Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
 # Ignorar archivos de log
-app.log
+logs/
 *.log
+app.log
 
 # Ignorar archivos JSON generados
-# src/routes/*.json
-*.json
+# *.json
 
-# Ignorar archivos de requisitos
-src/mongo-crud/requirements.txt
-*.txt
-
-# Ignorar entornos virtuales
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Ignorar caché
+# cache/
 
 # Ignorar archivos de configuración de IDEs
 .idea/
@@ -39,3 +40,9 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules
+node_modules/
