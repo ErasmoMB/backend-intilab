@@ -15,6 +15,8 @@ class Config:
     FLASK_ENV = os.getenv('FLASK_ENV', 'development')
     PORT = int(os.getenv('PORT', 5000))
     SECRET_KEY = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
+    ADMIN_USERNAME = os.getenv('ADMIN_USERNAME', 'admin')
+    ADMIN_PASSWORD_HASH = os.getenv('ADMIN_PASSWORD_HASH')
     ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
     _cors_origins_str = os.getenv('CORS_ORIGINS', 'http://localhost:3000')
     CORS_ORIGINS = _cors_origins_str.split(',') if _cors_origins_str else ['http://localhost:3000']

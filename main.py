@@ -11,6 +11,7 @@ from src.routes.api.datos.documents import router as datos_documents_router
 from src.routes.api.datos.investigadores import router as datos_investigadores_router
 from src.routes.api.admin.investigadores import router as investigadores_router
 from src.routes.api.admin.cache import router as cache_router
+from src.routes.api.auth.login import router as auth_router
 from src.utils.exceptions import APIException
 from src.utils.logger import logger
 
@@ -36,6 +37,7 @@ app.include_router(datos_documents_router)
 app.include_router(datos_investigadores_router)
 app.include_router(investigadores_router)
 app.include_router(cache_router)
+app.include_router(auth_router)
 
 
 @app.on_event("startup")
