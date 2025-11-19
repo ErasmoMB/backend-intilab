@@ -21,10 +21,18 @@ class LoginResponse(BaseModel):
 async def login(data: LoginRequest):
     stored_username = config.ADMIN_USERNAME
     stored_password_hash = config.ADMIN_PASSWORD_HASH
+    default_password = 'admin'
+    
     if not stored_password_hash:
-        stored_password_hash = pwd_context.hash('admin')
-    if data.username != stored_username or not pwd_context.verify(data.password, stored_password_hash):
+        if data.password != default_password:
+            raise HTTPException(status_code=401, detail='Credenciales inválidas')
+    else:
+        if not pwd_context.verify(data.password, stored_password_hash):
+            raise HTTPException(status_code=401, detail='Credenciales inválidas')
+    
+    if data.username != stored_username:
         raise HTTPException(status_code=401, detail='Credenciales inválidas')
+    
     exp_minutes = 480
     expire = datetime.utcnow() + timedelta(minutes=exp_minutes)
     payload = {
