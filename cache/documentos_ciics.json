@@ -1,0 +1,1550 @@
+[
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009857659"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009857659?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009857659&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009857659&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009857659",
+    "dc:identifier": "SCOPUS_ID:105009857659",
+    "eid": "2-s2.0-105009857659",
+    "dc:title": "Systematic Analysis of the Relationship Between Service Quality and Customer Satisfaction in Call Centers: Evidence from the Last Decade",
+    "dc:creator": "Santiago-Rufasto J.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": "439-449",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "June 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I6P135",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007311778"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007311778?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007311778&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007311778&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007311778",
+    "dc:identifier": "SCOPUS_ID:105007311778",
+    "eid": "2-s2.0-105007311778",
+    "dc:title": "Development and Implementation of a Multiplatform Museum in VRChat’s Metaverse to Disseminate University Achievements",
+    "dc:creator": "Perez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "303-309",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I5P126",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007343780"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007343780?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007343780&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007343780&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007343780",
+    "dc:identifier": "SCOPUS_ID:105007343780",
+    "eid": "2-s2.0-105007343780",
+    "dc:title": "Development and Implementation of a Virtual Environment in the Huancavelica-Based Metaverse for the Treatment of Psychoprophylaxis in Pregnant Women",
+    "dc:creator": "Pérez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "296-302",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I5P125",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003906721"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003906721?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003906721&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003906721&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003906721",
+    "dc:identifier": "SCOPUS_ID:105003906721",
+    "eid": "2-s2.0-105003906721",
+    "dc:title": "Digital Generation?: Digital Competencies in Primary School Students in Lima-Norte (Peru)",
+    "dc:creator": "León-Sandobal S.",
+    "prism:publicationName": "Lecture Notes in Networks and Systems",
+    "prism:issn": "23673370",
+    "prism:eIssn": "23673389",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9783031877001]"
+      }
+    ],
+    "prism:volume": "1348 LNNS",
+    "prism:pageRange": "376-387",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.1007/978-3-031-87701-8_27",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Book Series",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21100901469",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003909554"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003909554?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003909554&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003909554&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003909554",
+    "dc:identifier": "SCOPUS_ID:105003909554",
+    "eid": "2-s2.0-105003909554",
+    "dc:title": "Enhancing Inquiry and Scientific Literacy in Second Graders: A Systematization of Experiences",
+    "dc:creator": "Zuñiga-Quispe R.",
+    "prism:publicationName": "Lecture Notes in Networks and Systems",
+    "prism:issn": "23673370",
+    "prism:eIssn": "23673389",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9783031877001]"
+      }
+    ],
+    "prism:volume": "1348 LNNS",
+    "prism:pageRange": "365-375",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.1007/978-3-031-87701-8_26",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Book Series",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21100901469",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003907044"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003907044?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003907044&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003907044&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003907044",
+    "dc:identifier": "SCOPUS_ID:105003907044",
+    "eid": "2-s2.0-105003907044",
+    "dc:title": "Video Game Dependency and Reading Comprehension in Primary School Students in Lima-Norte",
+    "dc:creator": "Mori-Angulo S.",
+    "prism:publicationName": "Lecture Notes in Networks and Systems",
+    "prism:issn": "23673370",
+    "prism:eIssn": "23673389",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9783031877001]"
+      }
+    ],
+    "prism:volume": "1348 LNNS",
+    "prism:pageRange": "388-400",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.1007/978-3-031-87701-8_28",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Book Series",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21100901469",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85198456997"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85198456997?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85198456997&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85198456997&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85198456997",
+    "dc:identifier": "SCOPUS_ID:85198456997",
+    "eid": "2-s2.0-85198456997",
+    "dc:title": "Declining glacier cover drives changes in aquatic macroinvertebrate biodiversity in the Cordillera Blanca, Perú",
+    "dc:creator": "Palacios-Robles E.",
+    "prism:publicationName": "Global Change Biology",
+    "prism:issn": "13541013",
+    "prism:eIssn": "13652486",
+    "prism:volume": "30",
+    "prism:issueIdentifier": "7",
+    "prism:pageRange": null,
+    "prism:coverDate": "2024-07-01",
+    "prism:coverDisplayDate": "July 2024",
+    "prism:doi": "10.1111/gcb.17355",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional Santiago Antúnez de Mayolo",
+        "affiliation-city": "Huaraz",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "pubmed-id": "38993169",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e17355",
+    "source-id": "15131",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85204288093"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85204288093?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85204288093&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85204288093&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85204288093",
+    "dc:identifier": "SCOPUS_ID:85204288093",
+    "eid": "2-s2.0-85204288093",
+    "dc:title": "The kaleidoscope of Sophocles: on Antigone and the Philosophy of Law",
+    "dc:creator": "Trelles J.E.S.",
+    "prism:publicationName": "Doxa Cuadernos De Filosofia Del Derecho",
+    "prism:issn": "02148676",
+    "prism:eIssn": "23864702",
+    "prism:issueIdentifier": "48",
+    "prism:pageRange": "415-436",
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.14198/DOXA2024.48.15",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100975882",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191963150"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85191963150?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85191963150&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85191963150&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85191963150",
+    "dc:identifier": "SCOPUS_ID:85191963150",
+    "eid": "2-s2.0-85191963150",
+    "dc:title": "Academic Self-Efficacy According to the University Selected to Study: A Comparative Study with Aspirants to Engineering Careers",
+    "dc:creator": "Iraola-Arroyo A.",
+    "prism:publicationName": "Edunine 2024 8th IEEE World Engineering Education Conference Empowering Engineering Education Breaking Barriers Through Research and Innovation Proceedings",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350348729]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.1109/EDUNINE60625.2024.10500641",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Tecnológica del Perú",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101219657",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192013518"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192013518?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192013518&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192013518&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192013518",
+    "dc:identifier": "SCOPUS_ID:85192013518",
+    "eid": "2-s2.0-85192013518",
+    "dc:title": "A Psycho-Pedagogical Evaluation of Well-Being Levels: A Study with Aspirants to an Engineering Career",
+    "dc:creator": "Iraola-Arroyo A.",
+    "prism:publicationName": "Edunine 2024 8th IEEE World Engineering Education Conference Empowering Engineering Education Breaking Barriers Through Research and Innovation Proceedings",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350348729]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.1109/EDUNINE60625.2024.10500614",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Tecnológica del Perú",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101219657",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195182924"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195182924?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195182924&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195182924&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195182924",
+    "dc:identifier": "SCOPUS_ID:85195182924",
+    "eid": "2-s2.0-85195182924",
+    "dc:title": "Decreasing Hydraulic Retention Time Affects the Performance of Constructed Anaerobic Wetland for Acid Mine Drainage Remediation",
+    "dc:creator": "Palacios-Robles E.",
+    "prism:publicationName": "World Congress on Civil Structural and Environmental Engineering",
+    "prism:eIssn": "23715294",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781990800351]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.11159/iceptp24.181",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21100856783",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfree2read"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Bronze"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85182976660"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85182976660?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85182976660&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85182976660&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85182976660",
+    "dc:identifier": "SCOPUS_ID:85182976660",
+    "eid": "2-s2.0-85182976660",
+    "dc:title": "Exploring the Perceptions of Primary School Students from Public Schools in Carabayllo (Lima, Peru) Regarding Project-Based Learning (PBL)",
+    "dc:creator": "Sánchez-Espinoza J.",
+    "prism:publicationName": "Proceedings of the 2023 IEEE 3rd International Conference on Advanced Learning Technologies on Education and Research Icalter 2023",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350395471]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "prism:doi": "10.1109/ICALTER61411.2023.10372939",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101197358",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183007120"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183007120?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183007120&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183007120&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183007120",
+    "dc:identifier": "SCOPUS_ID:85183007120",
+    "eid": "2-s2.0-85183007120",
+    "dc:title": "Motivation and Academic Performance in the Communication Course: The Case of Primary School Students in Comas (Lima, Peru)",
+    "dc:creator": "China-Quiroz L.",
+    "prism:publicationName": "Proceedings of the 2023 IEEE 3rd International Conference on Advanced Learning Technologies on Education and Research Icalter 2023",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350395471]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "prism:doi": "10.1109/ICALTER61411.2023.10372916",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101197358",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183002385"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183002385?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183002385&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183002385&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183002385",
+    "dc:identifier": "SCOPUS_ID:85183002385",
+    "eid": "2-s2.0-85183002385",
+    "dc:title": "Exploration of Emotional Characteristics in 2nd Grade Elementary Students from the District of Independencia, Lima (Peru)",
+    "dc:creator": "Ore-Betancur D.",
+    "prism:publicationName": "Proceedings of the 2023 IEEE 3rd International Conference on Advanced Learning Technologies on Education and Research Icalter 2023",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350395471]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "prism:doi": "10.1109/ICALTER61411.2023.10372882",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101197358",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183053312"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183053312?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183053312&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183053312&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183053312",
+    "dc:identifier": "SCOPUS_ID:85183053312",
+    "eid": "2-s2.0-85183053312",
+    "dc:title": "Pedagogical Support and Academic Performance in the Communication Course: A Study among Primary School Students in Los Olivos (Lima, Peru)",
+    "dc:creator": "Briceño-Huamán M.",
+    "prism:publicationName": "Proceedings of the 2023 IEEE 3rd International Conference on Advanced Learning Technologies on Education and Research Icalter 2023",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350395471]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "prism:doi": "10.1109/ICALTER61411.2023.10372948",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101197358",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183024837"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85183024837?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183024837&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85183024837&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85183024837",
+    "dc:identifier": "SCOPUS_ID:85183024837",
+    "eid": "2-s2.0-85183024837",
+    "dc:title": "Panorama of Peruvian Primary Education Teachers Trained in ICT Use before COVID-19 Pandemic",
+    "dc:creator": "Gonzales-Macavilca M.",
+    "prism:publicationName": "Proceedings of the 2023 IEEE 3rd International Conference on Advanced Learning Technologies on Education and Research Icalter 2023",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9798350395471]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "prism:doi": "10.1109/ICALTER61411.2023.10372904",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101197358",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180551484"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180551484?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85180551484&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85180551484&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85180551484",
+    "dc:identifier": "SCOPUS_ID:85180551484",
+    "eid": "2-s2.0-85180551484",
+    "dc:title": "Social Responsibility Actions in Financial Institutions: A Systematic Review",
+    "dc:creator": "Mayuri-Ramos E.",
+    "prism:publicationName": "Proceedings of the European Conference on Management Leadership and Governance",
+    "prism:issn": "20489021",
+    "prism:eIssn": "2048903X",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781914587924]"
+      }
+    ],
+    "prism:volume": "2023-November",
+    "prism:pageRange": "269-277",
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "citedby-count": "7",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101154806",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178103811"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178103811?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85178103811&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85178103811&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85178103811",
+    "dc:identifier": "SCOPUS_ID:85178103811",
+    "eid": "2-s2.0-85178103811",
+    "dc:title": "Innovative Strategies to Maximize Customer Loyalty in the Banking System: A Systematic Review",
+    "dc:creator": "Mayuri-Ramos E.",
+    "prism:publicationName": "Proceedings of the European Conference on Innovation and Entrepreneurship Ecie",
+    "prism:issn": "20491050",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781914587825]"
+      }
+    ],
+    "prism:volume": "1",
+    "prism:pageRange": "587-595",
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "citedby-count": "4",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21100783589",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180556682"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85180556682?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85180556682&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85180556682&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85180556682",
+    "dc:identifier": "SCOPUS_ID:85180556682",
+    "eid": "2-s2.0-85180556682",
+    "dc:title": "Social Responsibility Leadership in the Banking Sector in Times of Pandemic",
+    "dc:creator": "Mayuri-Ramos E.",
+    "prism:publicationName": "Proceedings of the European Conference on Management Leadership and Governance",
+    "prism:issn": "20489021",
+    "prism:eIssn": "2048903X",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781914587924]"
+      }
+    ],
+    "prism:volume": "2023-November",
+    "prism:pageRange": "278-285",
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101154806",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178306483"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178306483?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85178306483&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85178306483&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85178306483",
+    "dc:identifier": "SCOPUS_ID:85178306483",
+    "eid": "2-s2.0-85178306483",
+    "dc:title": "Factors of job Satisfaction That Influence Organisational Behavior: A Correlational Analysis in Event Companies",
+    "dc:creator": "Mayuri-Ramos E.",
+    "prism:publicationName": "Proceedings of the International Conference on Tourism Research",
+    "prism:eIssn": "25163612",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781914587672]"
+      }
+    ],
+    "prism:volume": "2023-June",
+    "prism:pageRange": "186-193",
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101061934",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178304007"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85178304007?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85178304007&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85178304007&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85178304007",
+    "dc:identifier": "SCOPUS_ID:85178304007",
+    "eid": "2-s2.0-85178304007",
+    "dc:title": "Eating at a Peruvian Themed Restaurant: Consumer Profile and Behavior",
+    "dc:creator": "Mayuri-Ramos E.",
+    "prism:publicationName": "Proceedings of the International Conference on Tourism Research",
+    "prism:eIssn": "25163612",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781914587672]"
+      }
+    ],
+    "prism:volume": "2023-June",
+    "prism:pageRange": "194-202",
+    "prism:coverDate": "2023-01-01",
+    "prism:coverDisplayDate": "2023",
+    "citedby-count": "4",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101061934",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143745196"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143745196?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143745196&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143745196&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85143745196",
+    "dc:identifier": "SCOPUS_ID:85143745196",
+    "eid": "2-s2.0-85143745196",
+    "dc:title": "Screening of Schizophrenic Symptoms in Women Students of Engineering Careers: A Psychopedagogical Evaluation",
+    "dc:creator": "Iraola-Real I.",
+    "prism:publicationName": "2022 Congreso Internacional De Innovacion Y Tendencias En Ingenieria Coniiti 2022 Conference Proceedings",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781665465250]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2022-01-01",
+    "prism:coverDisplayDate": "2022",
+    "prism:doi": "10.1109/CONIITI57704.2022.9953604",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101125305",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143708748"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143708748?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143708748&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143708748&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85143708748",
+    "dc:identifier": "SCOPUS_ID:85143708748",
+    "eid": "2-s2.0-85143708748",
+    "dc:title": "Digital Self-Efficacy Predictors in Students from a Private University in Peru: A Diagnostic Study in the Context of Virtual Education",
+    "dc:creator": "Iraola-Real I.",
+    "prism:publicationName": "2022 Congreso Internacional De Innovacion Y Tendencias En Ingenieria Coniiti 2022 Conference Proceedings",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781665465250]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2022-01-01",
+    "prism:coverDisplayDate": "2022",
+    "prism:doi": "10.1109/CONIITI57704.2022.9953652",
+    "citedby-count": "2",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101125305",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143701442"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143701442?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143701442&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143701442&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85143701442",
+    "dc:identifier": "SCOPUS_ID:85143701442",
+    "eid": "2-s2.0-85143701442",
+    "dc:title": "Panorama of Peruvian Kindergarten Education Teachers Trained in ICT Use before COVID-19 Pandemic",
+    "dc:creator": "Aguinaga-Villegas M.",
+    "prism:publicationName": "2022 Congreso Internacional De Innovacion Y Tendencias En Ingenieria Coniiti 2022 Conference Proceedings",
+    "prism:isbn": [
+      {
+        "@_fa": "true",
+        "$": "[9781665465250]"
+      }
+    ],
+    "prism:pageRange": null,
+    "prism:coverDate": "2022-01-01",
+    "prism:coverDisplayDate": "2022",
+    "prism:doi": "10.1109/CONIITI57704.2022.9953711",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Lima",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Conference Proceeding",
+    "subtype": "cp",
+    "subtypeDescription": "Conference Paper",
+    "source-id": "21101125305",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009003708"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009003708?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009003708&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009003708&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009003708",
+    "dc:identifier": "SCOPUS_ID:105009003708",
+    "eid": "2-s2.0-105009003708",
+    "dc:title": "Carbon footprints of forest degradation and deforestation by “basic-needs populations”: a review",
+    "dc:creator": "Francesconi W.",
+    "prism:publicationName": "Carbon Footprints",
+    "prism:eIssn": "2831932X",
+    "prism:volume": "1",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": null,
+    "prism:coverDate": "2022-01-01",
+    "prism:coverDisplayDate": "2022",
+    "prism:doi": "10.20517/cf.2022.10",
+    "citedby-count": "5",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "International Center for Tropical Agriculture (CIAT)",
+        "affiliation-city": "Brasilia",
+        "affiliation-country": "Brazil"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "4",
+    "source-id": "21101303338",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  }
+]

@@ -19,6 +19,9 @@ async def get_autores():
 async def get_autores_uch():
     try:
         datos = load_json_file("autores_uch.json")
+        if isinstance(datos, dict):
+            if "total_autores_institucion" in datos and "total_autores_uch" not in datos:
+                datos["total_autores_uch"] = datos.pop("total_autores_institucion")
         return {"autores_uch": datos, "source": "cache"}
     except HTTPException:
         raise

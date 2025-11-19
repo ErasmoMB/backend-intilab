@@ -137,7 +137,7 @@ class ScopusService:
             autores = data.get("search-results", {}).get("entry", [])
             
             resultados = {
-                'total_autores_institucion': total_resultados,
+                'total_autores_uch': total_resultados,
                 'autores': autores
             }
             

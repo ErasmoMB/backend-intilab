@@ -1,0 +1,1635 @@
+[
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004062226"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004062226?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004062226&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004062226&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004062226",
+    "dc:identifier": "SCOPUS_ID:105004062226",
+    "eid": "2-s2.0-105004062226",
+    "dc:title": "Level of Anxiety and Knowledge About Breastfeeding in First-Time Mothers with Children Under Six Months",
+    "dc:creator": "La Cruz F.V.D.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "30-40",
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160404",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009861803"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009861803?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009861803&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009861803&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009861803",
+    "dc:identifier": "SCOPUS_ID:105009861803",
+    "eid": "2-s2.0-105009861803",
+    "dc:title": "Applications for Vehicle Speed Detection: A Systematic Review from 2013 to 2024",
+    "dc:creator": "Davila-Diaz N.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": "371-381",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "June 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I6P130",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009864716"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009864716?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009864716&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009864716&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009864716",
+    "dc:identifier": "SCOPUS_ID:105009864716",
+    "eid": "2-s2.0-105009864716",
+    "dc:title": "Technological System for the Promotion of Research Production in the Universities of Northern Lima",
+    "dc:creator": "Huamaní E.L.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": "114-122",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "June 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I6P111",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009857659"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009857659?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009857659&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009857659&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009857659",
+    "dc:identifier": "SCOPUS_ID:105009857659",
+    "eid": "2-s2.0-105009857659",
+    "dc:title": "Systematic Analysis of the Relationship Between Service Quality and Customer Satisfaction in Call Centers: Evidence from the Last Decade",
+    "dc:creator": "Santiago-Rufasto J.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": "439-449",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "June 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I6P135",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación Interdisciplinar Ciencia y Sociedad",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010029839"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105010029839?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010029839&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105010029839&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105010029839",
+    "dc:identifier": "SCOPUS_ID:105010029839",
+    "eid": "2-s2.0-105010029839",
+    "dc:title": "Analysis, Comparison and Evaluation of the Microhardness and Elasticity of Thermoformed Polyurethane Sheets Used for Treatment with Aligners in Different Brands",
+    "dc:creator": "Zafra-Ubillus K.",
+    "prism:publicationName": "Ssrg International Journal of Mechanical Engineering",
+    "prism:eIssn": "23488360",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": "52-61",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "June 2025",
+    "prism:doi": "10.14445/23488360/IJME-V12I6P105",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Norbert Wiener",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101169022",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003864726"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003864726?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003864726&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003864726&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003864726",
+    "dc:identifier": "SCOPUS_ID:105003864726",
+    "eid": "2-s2.0-105003864726",
+    "dc:title": "A Proposal for a National Space Program for Developing Countries",
+    "dc:creator": "Roman-Gonzalez A.",
+    "prism:publicationName": "New Space",
+    "prism:issn": "21680256",
+    "prism:eIssn": "21680264",
+    "prism:volume": "13",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "52-58",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "1 June 2025",
+    "prism:doi": "10.1089/space.2024.0037",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Aerospace Science & Health Research Laboratory",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100812137",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003287603"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003287603?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003287603&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003287603&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003287603",
+    "dc:identifier": "SCOPUS_ID:105003287603",
+    "eid": "2-s2.0-105003287603",
+    "dc:title": "Economic Benefits for Developing Countries Through Investment in Space Technology: A Literature Analysis",
+    "dc:creator": "Roman-Gonzalez A.",
+    "prism:publicationName": "New Space",
+    "prism:issn": "21680256",
+    "prism:eIssn": "21680264",
+    "prism:volume": "13",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "45-51",
+    "prism:coverDate": "2025-06-01",
+    "prism:coverDisplayDate": "1 June 2025",
+    "prism:doi": "10.1089/space.2023.0027",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional de Moquegua",
+        "affiliation-city": "Moquegua",
+        "affiliation-country": "Peru"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional Tecnológica De Lima Sur",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100812137",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009923686"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105009923686?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009923686&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105009923686&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105009923686",
+    "dc:identifier": "SCOPUS_ID:105009923686",
+    "eid": "2-s2.0-105009923686",
+    "dc:title": "IoT-Based Vehicle Security System: Real-Time Monitoring and Event Logging",
+    "dc:creator": "Velasquez-Jimenez L.",
+    "prism:publicationName": "International Journal of Safety and Security Engineering",
+    "prism:issn": "20419031",
+    "prism:eIssn": "2041904X",
+    "prism:volume": "15",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "987-996",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.18280/ijsse.150512",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100785501",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007311778"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007311778?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007311778&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007311778&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007311778",
+    "dc:identifier": "SCOPUS_ID:105007311778",
+    "eid": "2-s2.0-105007311778",
+    "dc:title": "Development and Implementation of a Multiplatform Museum in VRChat’s Metaverse to Disseminate University Achievements",
+    "dc:creator": "Perez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "303-309",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I5P126",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007206665"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007206665?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007206665&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007206665&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007206665",
+    "dc:identifier": "SCOPUS_ID:105007206665",
+    "eid": "2-s2.0-105007206665",
+    "dc:title": "Descriptive Analysis of Perineal Length in Women of Childbearing Age in the Jungle of Peru During 2023",
+    "dc:creator": "Gloria C.A.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "1-8",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I5P101",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional de Huancavelica",
+        "affiliation-city": "Huancavelica",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007343780"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007343780?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007343780&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007343780&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007343780",
+    "dc:identifier": "SCOPUS_ID:105007343780",
+    "eid": "2-s2.0-105007343780",
+    "dc:title": "Development and Implementation of a Virtual Environment in the Huancavelica-Based Metaverse for the Treatment of Psychoprophylaxis in Pregnant Women",
+    "dc:creator": "Pérez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "296-302",
+    "prism:coverDate": "2025-05-01",
+    "prism:coverDisplayDate": "May 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I5P125",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195292817"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85195292817?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85195292817&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85195292817&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85195292817",
+    "dc:identifier": "SCOPUS_ID:85195292817",
+    "eid": "2-s2.0-85195292817",
+    "dc:title": "Implementation of an Academic Software for Children from 6 to 8 Years Old for Easy Learning in Basic Mathematics and Reading Comprehension",
+    "dc:creator": "Martinez J.S.G.",
+    "prism:publicationName": "Journal of Advanced Research in Applied Sciences and Engineering Technology",
+    "prism:eIssn": "24621943",
+    "prism:volume": "45",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "38-55",
+    "prism:coverDate": "2025-04-01",
+    "prism:coverDisplayDate": "April 2025",
+    "prism:doi": "10.37934/araset.45.2.3855",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101119543",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005112272"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005112272?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105005112272&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105005112272&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105005112272",
+    "dc:identifier": "SCOPUS_ID:105005112272",
+    "eid": "2-s2.0-105005112272",
+    "dc:title": "Proposal for the Implementation of the Discord Platform in the Educational Sector for University Students between 20 and 39 Years of Age in the Northern Cone of Lima, Peru",
+    "dc:creator": "Pérez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "223-234",
+    "prism:coverDate": "2025-04-01",
+    "prism:coverDisplayDate": "April 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I4P122",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003729585"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105003729585?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003729585&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105003729585&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105003729585",
+    "dc:identifier": "SCOPUS_ID:105003729585",
+    "eid": "2-s2.0-105003729585",
+    "dc:title": "Quantitative-Comparative Analysis of the Microscopic Changes of the Use of Sandblasting with 50 μm and 110 μm Aluminum Oxide Particles at the Base of the Brackets",
+    "dc:creator": "Flores-Osorio L.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "92-103",
+    "prism:coverDate": "2025-04-01",
+    "prism:coverDisplayDate": "April 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I4P109",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Norbert Wiener",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105001928904"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105001928904?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001928904&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105001928904&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105001928904",
+    "dc:identifier": "SCOPUS_ID:105001928904",
+    "eid": "2-s2.0-105001928904",
+    "dc:title": "Chronological Analysis of the Metaverses of Peruvian Universities and their Impact on Education",
+    "dc:creator": "Pérez-Mamani A.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "3",
+    "prism:pageRange": "125-133",
+    "prism:coverDate": "2025-03-01",
+    "prism:coverDisplayDate": "March 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I3P112",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/86000498703"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/86000498703?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=86000498703&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=86000498703&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/86000498703",
+    "dc:identifier": "SCOPUS_ID:86000498703",
+    "eid": "2-s2.0-86000498703",
+    "dc:title": "Evaluation of the Performance of Portable Hemoglobinometers at Measuring Hemoglobin and Detecting Anemia in a Periurban Pediatric Population in Lima, Peru",
+    "dc:creator": "Silverstein Z.",
+    "prism:publicationName": "American Journal of Tropical Medicine and Hygiene",
+    "prism:issn": "00029637",
+    "prism:eIssn": "14761645",
+    "prism:volume": "112",
+    "prism:issueIdentifier": "3",
+    "prism:pageRange": "685-691",
+    "prism:coverDate": "2025-03-01",
+    "prism:coverDisplayDate": "March 2025",
+    "prism:doi": "10.4269/ajtmh.24-0494",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Johns Hopkins Bloomberg School of Public Health",
+        "affiliation-city": "Baltimore",
+        "affiliation-country": "United States"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "The George Washington University School of Medicine and Health Sciences",
+        "affiliation-city": "Washington, D.C.",
+        "affiliation-country": "United States"
+      }
+    ],
+    "pubmed-id": "39657230",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21787",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218774050"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218774050?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218774050&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218774050&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218774050",
+    "dc:identifier": "SCOPUS_ID:85218774050",
+    "eid": "2-s2.0-85218774050",
+    "dc:title": "Design and Implementation of Personal Finance Software for Controlling Financial Efficiency",
+    "dc:creator": "Grados-Espinoza J.",
+    "prism:publicationName": "International Journal of Engineering Trends and Technology",
+    "prism:issn": "23490918",
+    "prism:eIssn": "22315381",
+    "prism:volume": "73",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "107-118",
+    "prism:coverDate": "2025-02-01",
+    "prism:coverDisplayDate": "February 2025",
+    "prism:doi": "10.14445/22315381/IJETT-V73I2P109",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional del Callao",
+        "affiliation-city": "Callao",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101000284",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192800887"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192800887?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192800887&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192800887&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192800887",
+    "dc:identifier": "SCOPUS_ID:85192800887",
+    "eid": "2-s2.0-85192800887",
+    "dc:title": "Hand Joint Position Analysis System for the Care of Patients with Rheumatoid Arthritis",
+    "dc:creator": "Meneses-Claudio B.",
+    "prism:publicationName": "Journal of Advanced Research in Applied Sciences and Engineering Technology",
+    "prism:eIssn": "24621943",
+    "prism:volume": "44",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": "120-133",
+    "prism:coverDate": "2025-02-01",
+    "prism:coverDisplayDate": "February 2025",
+    "prism:doi": "10.37934/araset.44.1.120133",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Científica del Sur",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101119543",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217458213"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85217458213?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217458213&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85217458213&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85217458213",
+    "dc:identifier": "SCOPUS_ID:85217458213",
+    "eid": "2-s2.0-85217458213",
+    "dc:title": "Analysis of Advanced Technologies to Reduce Traffic Accidents in Foggy Conditions",
+    "dc:creator": "Vara-Teodoro M.",
+    "prism:publicationName": "Ssrg International Journal of Electronics and Communication Engineering",
+    "prism:eIssn": "23488549",
+    "prism:volume": "12",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": "83-91",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "January 2025",
+    "prism:doi": "10.14445/23488549/IJECE-V12I1P106",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "21101150690",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007909895"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007909895?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007909895&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007909895&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007909895",
+    "dc:identifier": "SCOPUS_ID:105007909895",
+    "eid": "2-s2.0-105007909895",
+    "dc:title": "Real-Time Emotion Recognition in Psychological Intervention Methods",
+    "dc:creator": "Ramos-Cosi S.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "690-697",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160567",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004017634"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004017634?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004017634&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004017634&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004017634",
+    "dc:identifier": "SCOPUS_ID:105004017634",
+    "eid": "2-s2.0-105004017634",
+    "dc:title": "Applications of Qhali-Bot in Psychological Assistance and Promotion of Well-being: A Systematic Review",
+    "dc:creator": "Ramos-Cosi S.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "19-29",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160403",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012988683"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105012988683?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012988683&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105012988683&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105012988683",
+    "dc:identifier": "SCOPUS_ID:105012988683",
+    "eid": "2-s2.0-105012988683",
+    "dc:title": "Experimental Platform for Validating Nanosatellite Solar Orientation Algorithms",
+    "dc:creator": "Romero-Alva V.",
+    "prism:publicationName": "International Review of Aerospace Engineering",
+    "prism:issn": "19737459",
+    "prism:eIssn": "25332279",
+    "prism:volume": "18",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "83-91",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.15866/irease.v18i2.26019",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100331504",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218952560"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218952560?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218952560&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218952560&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218952560",
+    "dc:identifier": "SCOPUS_ID:85218952560",
+    "eid": "2-s2.0-85218952560",
+    "dc:title": "Student Experiences With a Clinostat for Microgravity Simulation",
+    "dc:creator": "Ramos S.",
+    "prism:publicationName": "IEEE Aerospace and Electronic Systems Magazine",
+    "prism:issn": "08858985",
+    "prism:eIssn": "1557959X",
+    "prism:volume": "40",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "76-80",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.1109/MAES.2025.3546146",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "25993",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192180483"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192180483?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192180483&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192180483&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192180483",
+    "dc:identifier": "SCOPUS_ID:85192180483",
+    "eid": "2-s2.0-85192180483",
+    "dc:title": "Respiratory System Analysis System for Patient Care Against a Possible Risk of Tuberculosis",
+    "dc:creator": "Meneses-Claudio B.",
+    "prism:publicationName": "Journal of Advanced Research in Applied Sciences and Engineering Technology",
+    "prism:eIssn": "24621943",
+    "prism:volume": "43",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "111-123",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "January 2025",
+    "prism:doi": "10.37934/araset.43.2.111123",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Científica del Sur",
+        "affiliation-city": "Lima",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101119543",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85213558184"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85213558184?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85213558184&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85213558184&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85213558184",
+    "dc:identifier": "SCOPUS_ID:85213558184",
+    "eid": "2-s2.0-85213558184",
+    "dc:title": "Implementation of a Prototype of an Electronic Device for Measuring Lead Calculation in Blood",
+    "dc:creator": "Rodriguez-Villarreal K.J.",
+    "prism:publicationName": "International Journal of Online and Biomedical Engineering",
+    "prism:eIssn": "26268493",
+    "prism:volume": "20",
+    "prism:issueIdentifier": "16",
+    "prism:pageRange": "4-14",
+    "prism:coverDate": "2024-12-19",
+    "prism:coverDisplayDate": "19 December 2024",
+    "prism:doi": "10.3991/ijoe.v20i16.52861",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100906923",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  }
+]

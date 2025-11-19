@@ -1,0 +1,1752 @@
+[
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004062226"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004062226?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004062226&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004062226&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004062226",
+    "dc:identifier": "SCOPUS_ID:105004062226",
+    "eid": "2-s2.0-105004062226",
+    "dc:title": "Level of Anxiety and Knowledge About Breastfeeding in First-Time Mothers with Children Under Six Months",
+    "dc:creator": "La Cruz F.V.D.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "30-40",
+    "prism:coverDate": "2025-12-01",
+    "prism:coverDisplayDate": "December 2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160404",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105011640686"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105011640686?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011640686&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105011640686&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0024320525004928"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105011640686",
+    "dc:identifier": "SCOPUS_ID:105011640686",
+    "eid": "2-s2.0-105011640686",
+    "dc:title": "Retraction notice to “Decrypting the potential role of α-lipoic acid in Alzheimer's disease” [Life Sci. 284 (2021) 119899] (Life Sciences (2021) 284, (S0024320521008869), (10.1016/j.lfs.2021.119899))",
+    "dc:creator": "Kaur D.",
+    "prism:publicationName": "Life Sciences",
+    "prism:issn": "00243205",
+    "prism:eIssn": "18790631",
+    "prism:volume": "378",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-10-01",
+    "prism:coverDisplayDate": "1 October 2025",
+    "prism:doi": "10.1016/j.lfs.2025.123857",
+    "pii": "S0024320525004928",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "40707279",
+    "prism:aggregationType": "Journal",
+    "subtype": "er",
+    "subtypeDescription": "Erratum",
+    "article-number": "123857",
+    "source-id": "20473",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105016216978"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105016216978?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016216978&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105016216978&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105016216978",
+    "dc:identifier": "SCOPUS_ID:105016216978",
+    "eid": "2-s2.0-105016216978",
+    "dc:title": "Biogenic ZnO Nanoparticles Synthesized by B. licheniformis: A Selective Cytotoxicity Against NG-108 Glioblastoma Cells",
+    "dc:creator": "Quispe Cohaila A.B.",
+    "prism:publicationName": "Nanomaterials",
+    "prism:eIssn": "20794991",
+    "prism:volume": "15",
+    "prism:issueIdentifier": "17",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-09-01",
+    "prism:coverDisplayDate": "September 2025",
+    "prism:doi": "10.3390/nano15171338",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad Nacional Jorge Basadre Grohmann",
+        "affiliation-city": "Tacna",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "1338",
+    "source-id": "21100253674",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005525291"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105005525291?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105005525291&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105005525291&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105005525291",
+    "dc:identifier": "SCOPUS_ID:105005525291",
+    "eid": "2-s2.0-105005525291",
+    "dc:title": "Research Potential in Nursing Students: Competencies and Influencing Factors",
+    "dc:creator": "Castro V.Y.A.",
+    "prism:publicationName": "Malaysian Journal of Nursing",
+    "prism:issn": "22317007",
+    "prism:eIssn": "2462246X",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "237-246",
+    "prism:coverDate": "2025-04-01",
+    "prism:coverDisplayDate": "April 2025",
+    "prism:doi": "10.31674/mjn.2025.v16i04.023",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación E-Health",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101145518",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007414925"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007414925?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007414925&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007414925&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007414925",
+    "dc:identifier": "SCOPUS_ID:105007414925",
+    "eid": "2-s2.0-105007414925",
+    "dc:title": "Excess Body Weight and Physical Activity among Healthcare Workers: An Observational Study in the Primary Healthcare",
+    "dc:creator": "Chavez-Mazuelos M.I.d.L.A.",
+    "prism:publicationName": "Open Public Health Journal",
+    "prism:eIssn": "18749445",
+    "prism:volume": "18",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.2174/0118749445382959250226071312",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e18749445382959",
+    "source-id": "19700201625",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85215437668"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85215437668?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85215437668&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85215437668&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85215437668",
+    "dc:identifier": "SCOPUS_ID:85215437668",
+    "eid": "2-s2.0-85215437668",
+    "dc:title": "Assessing e-Health Literacy and Digital Competence among Peruvian Primary Health Care Patients",
+    "dc:creator": "Palomino A.X.",
+    "prism:publicationName": "Universal Journal of Public Health",
+    "prism:issn": "23318880",
+    "prism:eIssn": "23318945",
+    "prism:volume": "13",
+    "prism:issueIdentifier": "1",
+    "prism:pageRange": "152-159",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "January 2025",
+    "prism:doi": "10.13189/ujph.2025.130115",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Facultad de Ciencias de la Salud",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21101039168",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013751847"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105013751847?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013751847&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105013751847&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105013751847",
+    "dc:identifier": "SCOPUS_ID:105013751847",
+    "eid": "2-s2.0-105013751847",
+    "dc:title": "Assessment of eHealth Literacy in Healthcare Service Users: Construction and Validation of a Measurement Instrument",
+    "dc:creator": "Morales J.",
+    "prism:publicationName": "Clinical Practice and Epidemiology in Mental Health",
+    "prism:eIssn": "17450179",
+    "prism:volume": "21",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.2174/0117450179393541250722062947",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Centro de Investigación E-Health",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e17450179393541",
+    "source-id": "4400151523",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218823116"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85218823116?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218823116&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85218823116&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85218823116",
+    "dc:identifier": "SCOPUS_ID:85218823116",
+    "eid": "2-s2.0-85218823116",
+    "dc:title": "Nomophobia and Self-esteem: The Influence of Digital Media on the Leisure Activities of Peruvian Adolescents",
+    "dc:creator": "Agüero-Espinoza F.A.",
+    "prism:publicationName": "Open Public Health Journal",
+    "prism:eIssn": "18749445",
+    "prism:volume": "18",
+    "prism:pageRange": null,
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.2174/0118749445360319241226120427",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Universidad de Ciencias y Humanidades",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "19700201625",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004017634"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105004017634?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004017634&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105004017634&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105004017634",
+    "dc:identifier": "SCOPUS_ID:105004017634",
+    "eid": "2-s2.0-105004017634",
+    "dc:title": "Applications of Qhali-Bot in Psychological Assistance and Promotion of Well-being: A Systematic Review",
+    "dc:creator": "Ramos-Cosi S.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "19-29",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160403",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007909895"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/105007909895?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007909895&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=105007909895&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/105007909895",
+    "dc:identifier": "SCOPUS_ID:105007909895",
+    "eid": "2-s2.0-105007909895",
+    "dc:title": "Real-Time Emotion Recognition in Psychological Intervention Methods",
+    "dc:creator": "Ramos-Cosi S.",
+    "prism:publicationName": "International Journal of Advanced Computer Science and Applications",
+    "prism:issn": "2158107X",
+    "prism:eIssn": "21565570",
+    "prism:volume": "16",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "690-697",
+    "prism:coverDate": "2025-01-01",
+    "prism:coverDisplayDate": "2025",
+    "prism:doi": "10.14569/IJACSA.2025.0160567",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Laboratorio de Investigacion en Tratamiento de imagenes",
+        "affiliation-city": "Los Olivos",
+        "affiliation-country": "Peru"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "21100867241",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192053753?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192053753&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192053753",
+    "dc:identifier": "SCOPUS_ID:85192053753",
+    "eid": "2-s2.0-85192053753",
+    "dc:title": "Correction to: Deciphering the focal role of endostatin in Alzheimer’s disease (Environmental Science and Pollution Research, (2021), 28, 44, (61998-62011), 10.1007/s11356-021-16567-7)",
+    "dc:creator": "Kaur D.",
+    "prism:publicationName": "Environmental Science and Pollution Research",
+    "prism:issn": "09441344",
+    "prism:eIssn": "16147499",
+    "prism:volume": "31",
+    "prism:issueIdentifier": "23",
+    "prism:pageRange": "34758",
+    "prism:coverDate": "2024-05-01",
+    "prism:coverDisplayDate": "May 2024",
+    "prism:doi": "10.1007/s11356-024-33595-1",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "38705927",
+    "prism:aggregationType": "Journal",
+    "subtype": "er",
+    "subtypeDescription": "Erratum",
+    "source-id": "23918",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfree2read"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Bronze"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192028582"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85192028582?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192028582&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85192028582&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0008421224000119"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85192028582",
+    "dc:identifier": "SCOPUS_ID:85192028582",
+    "eid": "2-s2.0-85192028582",
+    "dc:title": "Targeting the vivid facets of apolipoproteins as a cardiovascular risk factor in rheumatoid arthritis",
+    "dc:creator": "Sharma A.",
+    "prism:publicationName": "Canadian Journal of Physiology and Pharmacology",
+    "prism:issn": "00084212",
+    "prism:eIssn": "12057541",
+    "prism:volume": "102",
+    "prism:issueIdentifier": "5",
+    "prism:pageRange": "305-317",
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.1139/cjpp-2023-0259",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Shoolini University",
+        "affiliation-city": "Solan",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "38334084",
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "23363",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherhybridgold"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Hybrid Gold"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85189617130"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85189617130?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85189617130&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85189617130&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85189617130",
+    "dc:identifier": "SCOPUS_ID:85189617130",
+    "eid": "2-s2.0-85189617130",
+    "dc:title": "Harnessing the Potential of Natural Products in Cancer Treatment: A Comprehensive Review",
+    "dc:creator": "Siddique F.",
+    "prism:publicationName": "Journal of Biological Regulators and Homeostatic Agents",
+    "prism:issn": "0393974X",
+    "prism:eIssn": "17246083",
+    "prism:volume": "38",
+    "prism:issueIdentifier": "2",
+    "prism:pageRange": "873-897",
+    "prism:coverDate": "2024-01-01",
+    "prism:coverDisplayDate": "2024",
+    "prism:doi": "10.23812/j.biol.regul.homeost.agents.20243802.72",
+    "citedby-count": "5",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Bahauddin Zakariya University",
+        "affiliation-city": "Multan",
+        "affiliation-country": "Pakistan"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "29572",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170642619"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85170642619?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85170642619&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85170642619&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0141813023034918"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85170642619",
+    "dc:identifier": "SCOPUS_ID:85170642619",
+    "eid": "2-s2.0-85170642619",
+    "dc:title": "Understanding the mechanistic pathways and clinical aspects associated with protein and gene based biomarkers in breast cancer",
+    "dc:creator": "Behl T.",
+    "prism:publicationName": "International Journal of Biological Macromolecules",
+    "prism:issn": "01418130",
+    "prism:eIssn": "18790003",
+    "prism:volume": "253",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-12-31",
+    "prism:coverDisplayDate": "31 December 2023",
+    "prism:doi": "10.1016/j.ijbiomac.2023.126595",
+    "pii": "S0141813023034918",
+    "citedby-count": "15",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "University of Petroleum and Energy Studies",
+        "affiliation-city": "Dehradun",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "37648139",
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "article-number": "126595",
+    "source-id": "17544",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172987930"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85172987930?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85172987930&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85172987930&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85172987930",
+    "dc:identifier": "SCOPUS_ID:85172987930",
+    "eid": "2-s2.0-85172987930",
+    "dc:title": "Traversing the Vivid Pharmacological and Nanotechnological Facets of Genistein: Insights into the Past, Present and Future Trends",
+    "dc:creator": "Sharma N.",
+    "prism:publicationName": "Bionanoscience",
+    "prism:issn": "21911630",
+    "prism:eIssn": "21911649",
+    "prism:volume": "13",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "1470-1500",
+    "prism:coverDate": "2023-12-01",
+    "prism:coverDisplayDate": "December 2023",
+    "prism:doi": "10.1007/s12668-023-01201-2",
+    "citedby-count": "0",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+        "affiliation-city": "Ambala",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "21100204924",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85176089032"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85176089032?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85176089032&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85176089032&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S2405844023092605"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85176089032",
+    "dc:identifier": "SCOPUS_ID:85176089032",
+    "eid": "2-s2.0-85176089032",
+    "dc:title": "Chrysin restores the cardioprotective effect of ischemic preconditioning in diabetes-challenged rat heart",
+    "dc:creator": "Singh G.",
+    "prism:publicationName": "Heliyon",
+    "prism:issn": "24058440",
+    "prism:volume": "9",
+    "prism:issueIdentifier": "11",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-11-01",
+    "prism:coverDisplayDate": "November 2023",
+    "prism:doi": "10.1016/j.heliyon.2023.e22052",
+    "pii": "S2405844023092605",
+    "citedby-count": "2",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "GLA University, Mathura",
+        "affiliation-city": "Mathura",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e22052",
+    "source-id": "21100411756",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85175547724"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85175547724?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175547724&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85175547724&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S2405844023086334"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85175547724",
+    "dc:identifier": "SCOPUS_ID:85175547724",
+    "eid": "2-s2.0-85175547724",
+    "dc:title": "Understanding the promising role of antibody drug conjugates in breast and ovarian cancer",
+    "dc:creator": "Babbar R.",
+    "prism:publicationName": "Heliyon",
+    "prism:issn": "24058440",
+    "prism:volume": "9",
+    "prism:issueIdentifier": "11",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-11-01",
+    "prism:coverDisplayDate": "November 2023",
+    "prism:doi": "10.1016/j.heliyon.2023.e21425",
+    "pii": "S2405844023086334",
+    "citedby-count": "1",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e21425",
+    "source-id": "21100411756",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164966358"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164966358?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164966358&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85164966358&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85164966358",
+    "dc:identifier": "SCOPUS_ID:85164966358",
+    "eid": "2-s2.0-85164966358",
+    "dc:title": "Administration of α-lipoic acid and silymarin attenuates aggression by modulating endocrine, oxidative stress and inflammatory pathways in mice",
+    "dc:creator": "Karim A.",
+    "prism:publicationName": "Metabolic Brain Disease",
+    "prism:issn": "08857490",
+    "prism:eIssn": "15737365",
+    "prism:volume": "38",
+    "prism:issueIdentifier": "7",
+    "prism:pageRange": "2255-2267",
+    "prism:coverDate": "2023-10-01",
+    "prism:coverDisplayDate": "October 2023",
+    "prism:doi": "10.1007/s11011-023-01258-8",
+    "citedby-count": "5",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Riphah International University",
+        "affiliation-city": "Islamabad",
+        "affiliation-country": "Pakistan"
+      }
+    ],
+    "pubmed-id": "37458892",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "19015",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85165281023"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85165281023?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85165281023&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85165281023&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85165281023",
+    "dc:identifier": "SCOPUS_ID:85165281023",
+    "eid": "2-s2.0-85165281023",
+    "dc:title": "Benzimidazol-1-yl-1-phenylpropanone Analogs as Potent Antimicrobial Agents: Rational Design and Synthesis",
+    "dc:creator": "Babbar R.",
+    "prism:publicationName": "Chemistry and Biodiversity",
+    "prism:issn": "16121872",
+    "prism:eIssn": "16121880",
+    "prism:volume": "20",
+    "prism:issueIdentifier": "8",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-08-01",
+    "prism:coverDisplayDate": "August 2023",
+    "prism:doi": "10.1002/cbdv.202300379",
+    "citedby-count": "2",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      }
+    ],
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "e202300379",
+    "source-id": "130069",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85162247188"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85162247188?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85162247188&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85162247188&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85162247188",
+    "dc:identifier": "SCOPUS_ID:85162247188",
+    "eid": "2-s2.0-85162247188",
+    "dc:title": "Current trends in epigenetic, cellular and molecular pathways in management of rheumatoid arthritis",
+    "dc:creator": "Makkar R.",
+    "prism:publicationName": "Inflammopharmacology",
+    "prism:issn": "09254692",
+    "prism:eIssn": "15685608",
+    "prism:volume": "31",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": "1577-1588",
+    "prism:coverDate": "2023-08-01",
+    "prism:coverDisplayDate": "August 2023",
+    "prism:doi": "10.1007/s10787-023-01262-5",
+    "citedby-count": "19",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "37335368",
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "source-id": "22411",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164309175"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85164309175?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164309175&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85164309175&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85164309175",
+    "dc:identifier": "SCOPUS_ID:85164309175",
+    "eid": "2-s2.0-85164309175",
+    "dc:title": "Design and synthesis of neoteric benzylidene amino-benzimidazole scaffolds for antioxidant and anti-inflammatory activity",
+    "dc:creator": "Swikriti ",
+    "prism:publicationName": "Future Medicinal Chemistry",
+    "prism:issn": "17568919",
+    "prism:eIssn": "17568927",
+    "prism:volume": "15",
+    "prism:issueIdentifier": "10",
+    "prism:pageRange": "813-828",
+    "prism:coverDate": "2023-05-01",
+    "prism:coverDisplayDate": "1 May 2023",
+    "prism:doi": "10.4155/fmc-2023-0058",
+    "citedby-count": "5",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Chitkara University, Punjab",
+        "affiliation-city": "Rajpura",
+        "affiliation-country": "India"
+      },
+      {
+        "@_fa": "true",
+        "affilname": "Akal College of Pharmacy and Technical Education",
+        "affiliation-city": "Sangrur",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "37350114",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "19700174974",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85142716703"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85142716703?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142716703&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85142716703&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85142716703",
+    "dc:identifier": "SCOPUS_ID:85142716703",
+    "eid": "2-s2.0-85142716703",
+    "dc:title": "The curative and mechanistic acumen of curcuminoids formulations against haloperidol induced Parkinson’s disease animal model",
+    "dc:creator": "Saleem U.",
+    "prism:publicationName": "Metabolic Brain Disease",
+    "prism:issn": "08857490",
+    "prism:eIssn": "15737365",
+    "prism:volume": "38",
+    "prism:issueIdentifier": "3",
+    "prism:pageRange": "1051-1066",
+    "prism:coverDate": "2023-03-01",
+    "prism:coverDisplayDate": "March 2023",
+    "prism:doi": "10.1007/s11011-022-01122-1",
+    "citedby-count": "11",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Government College University Faisalabad",
+        "affiliation-city": "Faisalabad",
+        "affiliation-country": "Pakistan"
+      }
+    ],
+    "pubmed-id": "36437394",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "source-id": "19015",
+    "openaccess": "0",
+    "openaccessFlag": false
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151108606"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85151108606?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151108606&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85151108606&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85151108606",
+    "dc:identifier": "SCOPUS_ID:85151108606",
+    "eid": "2-s2.0-85151108606",
+    "dc:title": "Understanding the Potential Role of Nanotechnology in Liver Fibrosis: A Paradigm in Therapeutics",
+    "dc:creator": "Singh S.",
+    "prism:publicationName": "Molecules",
+    "prism:eIssn": "14203049",
+    "prism:volume": "28",
+    "prism:issueIdentifier": "6",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-03-01",
+    "prism:coverDisplayDate": "March 2023",
+    "prism:doi": "10.3390/molecules28062811",
+    "citedby-count": "25",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+        "affiliation-city": "Ambala",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "36985782",
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "article-number": "2811",
+    "source-id": "26370",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryam"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149054373"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85149054373?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149054373&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85149054373&origin=inward"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85149054373",
+    "dc:identifier": "SCOPUS_ID:85149054373",
+    "eid": "2-s2.0-85149054373",
+    "dc:title": "Unveiling the Pharmacological and Nanotechnological Facets of Daidzein: Present State-of-the-Art and Future Perspectives",
+    "dc:creator": "Singh S.",
+    "prism:publicationName": "Molecules",
+    "prism:eIssn": "14203049",
+    "prism:volume": "28",
+    "prism:issueIdentifier": "4",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-02-01",
+    "prism:coverDisplayDate": "February 2023",
+    "prism:doi": "10.3390/molecules28041765",
+    "citedby-count": "37",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+        "affiliation-city": "Ambala",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "36838751",
+    "prism:aggregationType": "Journal",
+    "subtype": "re",
+    "subtypeDescription": "Review",
+    "article-number": "1765",
+    "source-id": "26370",
+    "openaccess": "1",
+    "openaccessFlag": true,
+    "freetoread": {
+      "value": [
+        {
+          "$": "all"
+        },
+        {
+          "$": "publisherfullgold"
+        },
+        {
+          "$": "repository"
+        },
+        {
+          "$": "repositoryvor"
+        }
+      ]
+    },
+    "freetoreadLabel": {
+      "value": [
+        {
+          "$": "All Open Access"
+        },
+        {
+          "$": "Gold"
+        },
+        {
+          "$": "Green"
+        }
+      ]
+    }
+  },
+  {
+    "@_fa": "true",
+    "link": [
+      {
+        "@_fa": "true",
+        "@ref": "self",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143864887"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "author-affiliation",
+        "@href": "https://api.elsevier.com/content/abstract/scopus_id/85143864887?field=author,affiliation"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus",
+        "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85143864887&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "scopus-citedby",
+        "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85143864887&origin=inward"
+      },
+      {
+        "@_fa": "true",
+        "@ref": "full-text",
+        "@href": "https://api.elsevier.com/content/article/eid/1-s2.0-S0898656822003011"
+      }
+    ],
+    "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85143864887",
+    "dc:identifier": "SCOPUS_ID:85143864887",
+    "eid": "2-s2.0-85143864887",
+    "dc:title": "Postulating the possible cellular signalling mechanisms of antibody drug conjugates in Alzheimer's disease",
+    "dc:creator": "Punyakoti P.",
+    "prism:publicationName": "Cellular Signalling",
+    "prism:issn": "08986568",
+    "prism:eIssn": "18733913",
+    "prism:volume": "102",
+    "prism:pageRange": null,
+    "prism:coverDate": "2023-02-01",
+    "prism:coverDisplayDate": "February 2023",
+    "prism:doi": "10.1016/j.cellsig.2022.110539",
+    "pii": "S0898656822003011",
+    "citedby-count": "15",
+    "affiliation": [
+      {
+        "@_fa": "true",
+        "affilname": "University of Petroleum and Energy Studies",
+        "affiliation-city": "Dehradun",
+        "affiliation-country": "India"
+      }
+    ],
+    "pubmed-id": "36455831",
+    "prism:aggregationType": "Journal",
+    "subtype": "ar",
+    "subtypeDescription": "Article",
+    "article-number": "110539",
+    "source-id": "18487",
+    "openaccess": "0",
+    "openaccessFlag": false
+  }
+]
