@@ -22,7 +22,6 @@ async def login(data: LoginRequest):
     stored_username = config.ADMIN_USERNAME
     stored_password_hash = config.ADMIN_PASSWORD_HASH
     if not stored_password_hash:
-        # Fallback ONLY for development; advises to set proper hash
         stored_password_hash = pwd_context.hash('admin')
     if data.username != stored_username or not pwd_context.verify(data.password, stored_password_hash):
         raise HTTPException(status_code=401, detail='Credenciales inválidas')

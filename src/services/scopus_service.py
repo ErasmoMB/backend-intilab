@@ -105,7 +105,16 @@ class ScopusService:
         return autores
 
     def buscar_autores_uch(self, use_cache: bool = True) -> Dict[str, Any]:
-        cache_key = "autores_uch"
+        try:
+            from src.services.institucion_service import institucion_service
+            from src.models.institucion import DEFAULT_UCH_CONFIG
+            afiliacion_ids = institucion_service.obtener_ids_afiliacion()
+            primary_af_id = afiliacion_ids[0] if afiliacion_ids else DEFAULT_UCH_CONFIG['afiliacion_ids'][0]
+        except Exception:
+            from src.models.institucion import DEFAULT_UCH_CONFIG
+            primary_af_id = DEFAULT_UCH_CONFIG['afiliacion_ids'][0]
+        
+        cache_key = f"autores_institucion_{primary_af_id}"
         
         if use_cache:
             cached_data = load_from_cache(cache_key)
@@ -116,7 +125,7 @@ class ScopusService:
             url = f"{self.BASE_URL}/content/search/author"
             params = {
                 'apiKey': config.SCOPUS_API_KEY,
-                'query': 'AF-ID(60110778)',
+                'query': f'AF-ID({primary_af_id})',
                 'count': 100
             }
             
@@ -128,7 +137,7 @@ class ScopusService:
             autores = data.get("search-results", {}).get("entry", [])
             
             resultados = {
-                'total_autores_uch': total_resultados,
+                'total_autores_institucion': total_resultados,
                 'autores': autores
             }
             
@@ -138,7 +147,7 @@ class ScopusService:
             return resultados
         except requests.exceptions.RequestException as e:
             logger.error(f"Error en buscar_autores_uch: {e}")
-            raise APIException(f"Error al buscar autores UCH: {str(e)}")
+            raise APIException(f"Error al buscar autores de la institución: {str(e)}")
 
     def buscar_documentos(self, au_id: str, use_cache: bool = True) -> List[Dict[str, Any]]:
         cache_key = f"documentos_{au_id}"
