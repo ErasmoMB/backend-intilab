@@ -21,12 +21,21 @@ class Settings:
     ALLOWED_EXTENSIONS: Set[str] = {"png", "jpg", "jpeg", "gif"}
     
     def __init__(self):
-        cors_origins_str = os.getenv("CORS_ORIGINS", "http://localhost:3000")
-        self.CORS_ORIGINS: List[str] = [
-            origin.strip() 
-            for origin in cors_origins_str.split(",") 
-            if origin.strip()
+        default_origins = [
+            "http://localhost:3000",
+            "http://localhost:3001",
+            "https://frontend-intilab.onrender.com",
         ]
+        cors_origins_str = os.getenv("CORS_ORIGINS", "")
+        if cors_origins_str:
+            env_origins = [
+                origin.strip() 
+                for origin in cors_origins_str.split(",") 
+                if origin.strip()
+            ]
+            self.CORS_ORIGINS: List[str] = list(set(env_origins + default_origins))
+        else:
+            self.CORS_ORIGINS: List[str] = default_origins
 
     @property
     def mongodb_uri_or_none(self) -> str | None:

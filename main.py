@@ -10,6 +10,7 @@ from src.routes.api.scopus.documents import router as scopus_documents_router
 from src.routes.api.datos.authors import router as datos_authors_router
 from src.routes.api.datos.documents import router as datos_documents_router
 from src.routes.api.datos.investigadores import router as datos_investigadores_router
+from src.routes.api.datos.datos import router as datos_router
 from src.routes.api.public.institucion import router as public_institucion_router
 from src.routes.api.admin.investigadores import router as investigadores_router
 from src.routes.api.admin.institucion import router as institucion_router
@@ -20,6 +21,7 @@ ROUTERS = [
     routes_router,
     scopus_authors_router,
     scopus_documents_router,
+    datos_router,
     datos_authors_router,
     datos_documents_router,
     datos_investigadores_router,
