@@ -1,46 +1,55 @@
-# Backend - Slider Scopus
+# INTI-LAB Backend
 
-Backend escalable con FastAPI para la gestión de investigadores y datos de Scopus.
+Backend escalable con FastAPI para la gestión de investigadores y datos de Scopus. Proporciona una API REST completa para administrar perfiles de investigadores, integración con Scopus API y almacenamiento en AWS S3.
 
 ## Estructura del Proyecto
 
 ```
-backend/
+backend-intilab/
 ├── .env                    # Variables de entorno (NO en git)
 ├── .env.example            # Template de variables
-├── config.py               # Configuración legacy (compatibilidad)
-├── main.py                 # Punto de entrada
-├── requirements.txt
+├── config.py               # Re-exportación de configuración
+├── main.py                 # Punto de entrada de la aplicación
+├── requirements.txt        # Dependencias Python
+├── Procfile               # Configuración para Render
+├── start.sh               # Script de inicio
+├── cache/                 # Caché de datos locales
+├── logs/                  # Logs de aplicación
 ├── src/
 │   ├── config/
-│   │   ├── settings.py      # Configuración centralizada
-│   │   ├── database.py      # MongoDB compartido
-│   │   └── s3.py           # S3 compartido
+│   │   ├── settings.py      # Configuración centralizada (variables .env)
+│   │   ├── database.py      # Conexión MongoDB
+│   │   └── s3.py           # Configuración AWS S3
 │   ├── models/
-│   │   ├── author.py
-│   │   ├── document.py
-│   │   └── investigador.py
+│   │   ├── author.py        # Modelo de Autor
+│   │   ├── document.py      # Modelo de Documento
+│   │   └── investigador.py  # Modelo de Investigador
 │   ├── services/
-│   │   ├── scopus_service.py
-│   │   ├── s3_service.py
-│   │   └── investigador_service.py
+│   │   ├── scopus_service.py      # Integración con Scopus API
+│   │   ├── s3_service.py          # Servicio de almacenamiento S3
+│   │   ├── investigador_service.py # Lógica de investigadores
+│   │   └── institucion_service.py # Configuración institucional
 │   ├── routes/
 │   │   ├── routes.py
 │   │   └── api/
-│   │       ├── public/      # Rutas públicas
-│   │       │   ├── authors.py
-│   │       │   └── documents.py
-│   │       └── admin/        # Rutas protegidas
-│   │           └── investigadores.py
+│   │       ├── datos/             # Rutas de datos de BD
+│   │       ├── scopus/            # Integración Scopus
+│   │       ├── public/            # Rutas públicas
+│   │       ├── admin/             # Rutas protegidas (admin)
+│   │       └── auth/              # Autenticación y login
 │   ├── middleware/
-│   │   └── auth.py          # Autenticación
+│   │   └── auth.py          # Middleware de autenticación JWT
 │   ├── utils/
-│   │   ├── exceptions.py
-│   │   ├── validators.py
-│   │   └── logger.py
+│   │   ├── exceptions.py    # Excepciones personalizadas
+│   │   ├── validators.py    # Validadores de datos
+│   │   ├── logger.py        # Logging
+│   │   ├── cache.py         # Gestión de caché
+│   │   ├── serializers.py   # Serializadores
+│   │   └── file_loader.py   # Cargador de archivos
 │   └── test/
 │       ├── test_routes.py
-│       └── test_services.py
+│       ├── test_services.py
+│       └── conftest.py
 ```
 
 ## Configuración Inicial
