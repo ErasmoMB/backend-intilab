@@ -3,7 +3,7 @@ from src.services.scopus_service import scopus_service
 from src.services.institucion_service import institucion_service
 from src.utils.exceptions import APIException
 from src.utils.logger import logger
-from src.utils.file_loader import save_json_file
+from src.utils.file_loader import save_json_file, load_json_file
 
 router = APIRouter(prefix='/api/scopus/documents', tags=['Scopus'])
 
@@ -12,15 +12,19 @@ async def fetch_documentos_from_scopus(au_id: str = Query(default=None)):
     try:
         if au_id:
             documentos = scopus_service.buscar_documentos(au_id, use_cache=False)
-            documentos_dict = {au_id: documentos}
-            save_json_file("documentos.json", documentos_dict)
-            return {'documentos': documentos_dict, "source": "scopus"}
+            try:
+                existing = load_json_file("documentos.json")
+            except Exception:
+                existing = {}
+            existing[au_id] = documentos
+            save_json_file("documentos.json", existing)
+            return {'documentos': existing, "source": "scopus"}
         
         investigador_ids = institucion_service.obtener_ids_investigadores()
         documentos = {}
         for au_id_item in investigador_ids:
             documentos[au_id_item] = scopus_service.buscar_documentos(au_id_item, use_cache=False)
-        save_json_file("documentos.json", documentos)
+            save_json_file("documentos.json", documentos)
         return {'documentos': documentos, "source": "scopus"}
     except APIException as e:
         raise e

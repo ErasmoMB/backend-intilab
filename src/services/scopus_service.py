@@ -1,7 +1,6 @@
 import requests
-import time
-import xmltodict
 import certifi
+import hashlib
 from typing import List, Dict, Any, Optional
 from src.config.settings import config
 from src.utils.logger import logger
@@ -16,10 +15,15 @@ class ScopusService:
     def _get_headers(self):
         return {"X-ELS-APIKey": config.SCOPUS_API_KEY}
 
-    def _get_params(self, query):
-        return {"apiKey": config.SCOPUS_API_KEY, "query": query}
+    def _fix_encoding(self, text: str) -> str:
+        if not text or not isinstance(text, str):
+            return text or ""
+        try:
+            return text.encode("latin-1").decode("utf-8")
+        except Exception:
+            return text
 
-    def buscar_autores(self, author_ids: List[str], use_cache: bool = True) -> List[Dict[str, Any]]:
+    def buscar_autores(self, author_ids: List[str], use_cache: bool = True, names_map: Optional[Dict[str, Dict[str, str]]] = None) -> List[Dict[str, Any]]:
         cache_key = f"autores_{'_'.join(sorted(author_ids))}"
         
         if use_cache:
@@ -28,15 +32,35 @@ class ScopusService:
                 return cached_data
         
         try:
-            url = f"{self.BASE_URL}/content/search/author"
-            query_ids = " OR ".join([f"au-id({id})" for id in author_ids])
-            params = self._get_params(query_ids)
+            headers = self._get_headers()
+            resultados = []
             
-            response = requests.get(url, params=params, verify=True)
-            response.raise_for_status()
-            data = response.json()
-            
-            resultados = data.get("search-results", {}).get("entry", [])
+            for author_id in author_ids:
+                url = f"{self.BASE_URL}/content/search/scopus"
+                params = {"query": f"AU-ID({author_id})", "count": 1}
+                response = requests.get(url, headers=headers, params=params)
+                response.raise_for_status()
+                data = response.json()
+                
+                sr = data.get("search-results", {})
+                entry = sr.get("entry", []) or []
+                first_entry = entry[0] if isinstance(entry, list) and entry else {}
+                total_docs = int(first_entry.get("document-count", sr.get("opensearch:totalResults", 0)) or 0)
+                subject_area = first_entry.get("subject-area", []) or []
+
+                surname = ""
+                given_name = ""
+                if names_map and author_id in names_map:
+                    surname = self._fix_encoding(names_map[author_id].get("surname", ""))
+                    given_name = self._fix_encoding(names_map[author_id].get("given-name", ""))
+                
+                resultados.append({
+                    "dc:identifier": f"AUTHOR_ID:{author_id}",
+                    "preferred-name": {"surname": surname, "given-name": given_name},
+                    "document-count": str(total_docs),
+                    "cited-by-count": "0",
+                    "subject-area": subject_area,
+                })
             
             if use_cache:
                 save_to_cache(cache_key, resultados)
@@ -46,58 +70,41 @@ class ScopusService:
             logger.error(f"Error en buscar_autores: {e}")
             raise APIException(f"Error al buscar autores: {str(e)}")
 
-    def buscar_autores_por_ids(self, author_ids: List[str], use_cache: bool = True) -> Dict[str, Dict[str, str]]:
+    def buscar_autores_por_ids(self, author_ids: List[str], use_cache: bool = True, names_map: Optional[Dict[str, Dict[str, str]]] = None) -> Dict[str, Dict[str, str]]:
         cache_key = f"autores_ids_{'_'.join(sorted(author_ids))}"
         
         if use_cache:
             cached_data = load_from_cache(cache_key)
             if cached_data is not None:
                 return cached_data
+        
         headers = self._get_headers()
         autores = {}
         
         for author_id in author_ids:
-            url = f"{self.BASE_URL}/content/author/author_id/{author_id}"
-            retries = 0
-            
-            while retries < self.MAX_RETRIES:
-                try:
-                    response = requests.get(url, headers=headers)
-                    
-                    if response.status_code == 200:
-                        data = xmltodict.parse(response.content)
-                        profile = data.get('author-retrieval-response', {}).get('author-profile', {})
-                        preferred_name = profile.get('preferred-name', {})
-                        given_name = preferred_name.get('given-name', '')
-                        surname = preferred_name.get('surname', '')
-                        full_name = f"{given_name} {surname}".strip()
-                        autores[author_id] = {"name": full_name}
-                        break
-                    
-                    elif response.status_code == 429:
-                        logger.warning(f"429 Too Many Requests para el autor {author_id}. Reintentando...")
-                        retries += 1
-                        wait_time = self.BASE_WAIT_TIME * (2 ** (retries - 1))
-                        time.sleep(wait_time)
-                        continue
-                    
-                    else:
-                        autores[author_id] = {
-                            "error": f"La API devolvió un error con el código de estado {response.status_code}"
-                        }
-                        break
+            try:
+                name = ""
+                if names_map and author_id in names_map:
+                    g = self._fix_encoding(names_map[author_id].get("given-name", ""))
+                    s = self._fix_encoding(names_map[author_id].get("surname", ""))
+                    name = f"{g} {s}".strip()
+                else:
+                    url = f"{self.BASE_URL}/content/search/scopus"
+                    params = {"query": f"AU-ID({author_id})", "count": 1}
+                    response = requests.get(url, headers=headers, params=params)
+                    response.raise_for_status()
+                    data = response.json()
+                    entries = data.get("search-results", {}).get("entry", [])
+                    for entry in entries:
+                        creator = entry.get("dc:creator", "")
+                        if creator:
+                            name = creator.rstrip(".").strip()
+                            break
                 
-                except requests.exceptions.RequestException as e:
-                    logger.error(f"RequestException en buscar_autores_por_ids para el autor {author_id}: {e}")
-                    autores[author_id] = {"error": str(e)}
-                    break
-                except Exception as e:
-                    logger.error(f"Error inesperado en buscar_autores_por_ids para el autor {author_id}: {e}")
-                    autores[author_id] = {"error": str(e)}
-                    break
-            
-            if retries == self.MAX_RETRIES:
-                autores[author_id] = {"error": "Se alcanzó el número máximo de reintentos para este autor."}
+                autores[author_id] = {"name": name}
+            except requests.exceptions.RequestException as e:
+                logger.error(f"Error en buscar_autores_por_ids para {author_id}: {e}")
+                autores[author_id] = {"error": str(e)}
         
         if use_cache:
             save_to_cache(cache_key, autores)
@@ -122,23 +129,52 @@ class ScopusService:
                 return cached_data
         
         try:
-            url = f"{self.BASE_URL}/content/search/author"
-            params = {
-                'apiKey': config.SCOPUS_API_KEY,
-                'query': f'AF-ID({primary_af_id})',
-                'count': 100
-            }
+            headers = self._get_headers()
+            autores_map = {}
+            offset = 0
+            count = 25
             
-            response = requests.get(url, params=params)
-            response.raise_for_status()
-            data = response.json()
+            url_total = f"{self.BASE_URL}/content/search/scopus?query=AF-ID({primary_af_id})&count=0"
+            response_total = requests.get(url_total, headers=headers)
+            response_total.raise_for_status()
+            total_docs = int(response_total.json().get("search-results", {}).get("opensearch:totalResults", 0))
             
-            total_resultados = int(data.get("search-results", {}).get("opensearch:totalResults", 0))
-            autores = data.get("search-results", {}).get("entry", [])
+            while offset < min(total_docs, 200):
+                url = f"{self.BASE_URL}/content/search/scopus?query=AF-ID({primary_af_id})&count={count}&start={offset}"
+                response = requests.get(url, headers=headers)
+                response.raise_for_status()
+                data = response.json()
+                entries = data.get("search-results", {}).get("entry", [])
+                
+                for entry in entries:
+                    creator = entry.get("dc:creator", "")
+                    if creator:
+                        name_key = creator.rstrip(".").strip()
+                        if name_key not in autores_map:
+                            parts = name_key.split(", ", 1)
+                            if len(parts) == 2:
+                                surname = parts[0]
+                                given_name = parts[1]
+                            else:
+                                surname = ""
+                                given_name = name_key
+                            fake_id = hashlib.md5(name_key.encode()).hexdigest()[:11]
+                            autores_map[name_key] = {
+                                "dc:identifier": f"AUTHOR_ID:{fake_id}",
+                                "preferred-name": {"surname": surname, "given-name": given_name},
+                                "document-count": "0",
+                                "cited-by-count": "0",
+                                "subject-area": []
+                            }
+                        autores_map[name_key]["document-count"] = str(int(autores_map[name_key]["document-count"]) + 1)
+                        cited = int(entry.get("citedby-count", 0) or 0)
+                        autores_map[name_key]["cited-by-count"] = str(int(autores_map[name_key]["cited-by-count"]) + cited)
+                
+                offset += count
             
             resultados = {
-                'total_autores_uch': total_resultados,
-                'autores': autores
+                'total_autores_uch': len(autores_map),
+                'autores': list(autores_map.values())
             }
             
             if use_cache:
@@ -158,7 +194,7 @@ class ScopusService:
                 return cached_data
         headers = self._get_headers()
         documentos = []
-        count = 100
+        count = 25
         offset = 0
         
         try:
@@ -208,8 +244,9 @@ class ScopusService:
                 return cached_data, 200
         
         try:
-            url = f"{self.BASE_URL}/content/search/scopus?query=AF-ID({af_id})&APIKey={config.SCOPUS_API_KEY}"
-            response = requests.get(url)
+            headers = self._get_headers()
+            url = f"{self.BASE_URL}/content/search/scopus?query=AF-ID({af_id})"
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             
             data = response.json()
@@ -233,7 +270,7 @@ class ScopusService:
         
         try:
             afid_query = " OR ".join([f"AF-ID({afid})" for afid in institucion_ids])
-            url = f"{self.BASE_URL}/content/search/scopus?query={afid_query}&apiKey={config.SCOPUS_API_KEY}"
+            url = f"{self.BASE_URL}/content/search/scopus?query={afid_query}"
             
             headers = self._get_headers()
             response = requests.get(url, headers=headers, verify=certifi.where())
